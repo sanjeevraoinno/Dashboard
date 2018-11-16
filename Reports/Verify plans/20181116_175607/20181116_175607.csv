@@ -1,0 +1,83 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Verify plans,Firefox 62.0,,2018-11-16 17:56:12,2018-11-16 17:57:26,1m - 13.073s,INCOMPLETE
+,,,,,,
+Test Cases/Dashboard_Lenovo/Dashboard_login,Firefox 62.0,,2018-11-16 17:56:14,2018-11-16 17:56:42,28.611s,PASSED
+openBrowser,Firefox 62.0,,2018-11-16 17:56:15,2018-11-16 17:56:25,10.003s,PASSED
+navigateToUrl,Firefox 62.0,,2018-11-16 17:56:25,2018-11-16 17:56:32,7.008s,PASSED
+maximizeWindow,Firefox 62.0,,2018-11-16 17:56:32,2018-11-16 17:56:35,3.585s,PASSED
+delay,Firefox 62.0,,2018-11-16 17:56:35,2018-11-16 17:56:38,3.072s,PASSED
+setText,Firefox 62.0,,2018-11-16 17:56:38,2018-11-16 17:56:39,0.304s,PASSED
+delay,Firefox 62.0,,2018-11-16 17:56:39,2018-11-16 17:56:42,3.019s,PASSED
+setText,Firefox 62.0,,2018-11-16 17:56:42,2018-11-16 17:56:42,0.253s,PASSED
+click,Firefox 62.0,,2018-11-16 17:56:42,2018-11-16 17:56:42,0.357s,PASSED
+,,,,,,
+Test Cases/Dashboard_Lenovo/Dashboard_Plans,Firefox 62.0,,2018-11-16 17:56:42,2018-11-16 17:56:59,16.700s,PASSED
+click,Firefox 62.0,,2018-11-16 17:56:43,2018-11-16 17:56:48,5.417s,PASSED
+delay,Firefox 62.0,,2018-11-16 17:56:48,2018-11-16 17:56:51,3.002s,PASSED
+click,Firefox 62.0,,2018-11-16 17:56:51,2018-11-16 17:56:52,0.297s,PASSED
+setText,Firefox 62.0,,2018-11-16 17:56:52,2018-11-16 17:56:52,0.297s,PASSED
+delay,Firefox 62.0,,2018-11-16 17:56:52,2018-11-16 17:56:55,3.003s,PASSED
+click,Firefox 62.0,,2018-11-16 17:56:55,2018-11-16 17:56:55,0.349s,PASSED
+delay,Firefox 62.0,,2018-11-16 17:56:55,2018-11-16 17:56:58,3.002s,PASSED
+click,Firefox 62.0,,2018-11-16 17:56:58,2018-11-16 17:56:59,0.575s,PASSED
+,,,,,,
+Test Cases/Dashboard_Lenovo/Dashboard_Plans,Firefox 62.0,,2018-11-16 17:56:59,2018-11-16 17:57:24,25.187s,FAILED
+click,Firefox 62.0,,2018-11-16 17:56:59,2018-11-16 17:56:59,0.261s,PASSED
+delay,Firefox 62.0,,2018-11-16 17:56:59,2018-11-16 17:57:02,3.002s,PASSED
+click,Firefox 62.0,,2018-11-16 17:57:02,2018-11-16 17:57:02,0.285s,PASSED
+setText,Firefox 62.0,,2018-11-16 17:57:02,2018-11-16 17:57:03,0.436s,PASSED
+delay,Firefox 62.0,,2018-11-16 17:57:03,2018-11-16 17:57:06,3.002s,PASSED
+click,Firefox 62.0,,2018-11-16 17:57:06,2018-11-16 17:57:06,0.330s,PASSED
+delay,Firefox 62.0,,2018-11-16 17:57:06,2018-11-16 17:57:09,3.002s,PASSED
+click,Firefox 62.0,,2018-11-16 17:57:09,2018-11-16 17:57:24,14.833s,FAILED
+,,,,,,
+Test Cases/Dashboard_Lenovo/Dashboard_Plans,Firefox 62.0,,2018-11-16 17:57:24,2018-11-16 17:57:24,0.140s,FAILED
+click,Firefox 62.0,,2018-11-16 17:57:24,2018-11-16 17:57:24,0.047s,FAILED
+,,,,,,
+Test Cases/Dashboard_Lenovo/Dashboard_Plans,Firefox 62.0,,2018-11-16 17:57:24,2018-11-16 17:57:24,0.045s,FAILED
+click,Firefox 62.0,,2018-11-16 17:57:24,2018-11-16 17:57:24,0.029s,FAILED
+,,,,,,
+Test Cases/Dashboard_Lenovo/Dashboard_Plans,Firefox 62.0,,2018-11-16 17:57:24,2018-11-16 17:57:24,0.031s,FAILED
+click,Firefox 62.0,,2018-11-16 17:57:24,2018-11-16 17:57:24,0.031s,FAILED
+,,,,,,
+Test Cases/Dashboard_Lenovo/Dashboard_Plans,Firefox 62.0,,2018-11-16 17:57:24,2018-11-16 17:57:24,0.032s,FAILED
+click,Firefox 62.0,,2018-11-16 17:57:24,2018-11-16 17:57:24,0.016s,FAILED
+,,,,,,
+Test Cases/Dashboard_Lenovo/Dashboard_Plans,Firefox 62.0,,2018-11-16 17:57:24,2018-11-16 17:57:24,0.031s,FAILED
+click,Firefox 62.0,,2018-11-16 17:57:24,2018-11-16 17:57:24,0.015s,FAILED
+,,,,,,
+Test Cases/Dashboard_Lenovo/Dashboard_Plans,Firefox 62.0,,2018-11-16 17:57:24,2018-11-16 17:57:24,0.079s,FAILED
+click,Firefox 62.0,,2018-11-16 17:57:24,2018-11-16 17:57:24,0.047s,FAILED
+,,,,,,
+Test Cases/Dashboard_Lenovo/Dashboard_Plans,Firefox 62.0,,2018-11-16 17:57:25,2018-11-16 17:57:25,0.031s,FAILED
+click,Firefox 62.0,,2018-11-16 17:57:25,2018-11-16 17:57:25,0.015s,FAILED
+,,,,,,
+Test Cases/Dashboard_Lenovo/Dashboard_Plans,Firefox 62.0,,2018-11-16 17:57:25,2018-11-16 17:57:25,0.063s,FAILED
+click,Firefox 62.0,,2018-11-16 17:57:25,2018-11-16 17:57:25,0.032s,FAILED
+,,,,,,
+Test Cases/Dashboard_Lenovo/Dashboard_Plans,Firefox 62.0,,2018-11-16 17:57:25,2018-11-16 17:57:25,0.078s,FAILED
+click,Firefox 62.0,,2018-11-16 17:57:25,2018-11-16 17:57:25,0.047s,FAILED
+,,,,,,
+Test Cases/Dashboard_Lenovo/Dashboard_Plans,Firefox 62.0,,2018-11-16 17:57:25,2018-11-16 17:57:25,0.063s,FAILED
+click,Firefox 62.0,,2018-11-16 17:57:25,2018-11-16 17:57:25,0.047s,FAILED
+,,,,,,
+Test Cases/Dashboard_Lenovo/Dashboard_Plans,Firefox 62.0,,2018-11-16 17:57:25,2018-11-16 17:57:25,0.094s,FAILED
+click,Firefox 62.0,,2018-11-16 17:57:25,2018-11-16 17:57:25,0.047s,FAILED
+,,,,,,
+Test Cases/Dashboard_Lenovo/Dashboard_Plans,Firefox 62.0,,2018-11-16 17:57:25,2018-11-16 17:57:25,0.327s,FAILED
+click,Firefox 62.0,,2018-11-16 17:57:25,2018-11-16 17:57:25,0.313s,FAILED
+,,,,,,
+Test Cases/Dashboard_Lenovo/Dashboard_Plans,Firefox 62.0,,2018-11-16 17:57:25,2018-11-16 17:57:25,0.140s,FAILED
+click,Firefox 62.0,,2018-11-16 17:57:25,2018-11-16 17:57:25,0.047s,FAILED
+,,,,,,
+Test Cases/Dashboard_Lenovo/Dashboard_Plans,Firefox 62.0,,2018-11-16 17:57:25,2018-11-16 17:57:25,0.062s,FAILED
+click,Firefox 62.0,,2018-11-16 17:57:25,2018-11-16 17:57:25,0.062s,FAILED
+,,,,,,
+Test Cases/Dashboard_Lenovo/Dashboard_Plans,Firefox 62.0,,2018-11-16 17:57:25,2018-11-16 17:57:25,0.031s,FAILED
+click,Firefox 62.0,,2018-11-16 17:57:25,2018-11-16 17:57:25,0.015s,FAILED
+,,,,,,
+Test Cases/Dashboard_Lenovo/Dashboard_Plans,Firefox 62.0,,2018-11-16 17:57:25,2018-11-16 17:57:26,0.031s,FAILED
+click,Firefox 62.0,,2018-11-16 17:57:25,2018-11-16 17:57:26,0.031s,FAILED
+,,,,,,
+Test Cases/Dashboard_Lenovo/Dashboard_Plans,Firefox 62.0,,2018-11-16 17:57:26,2018-11-16 17:57:26,0.031s,FAILED
+click,Firefox 62.0,,2018-11-16 17:57:26,2018-11-16 17:57:26,0.015s,FAILED

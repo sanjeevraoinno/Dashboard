@@ -1,0 +1,1409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Verify plans" time="215" tests="16" failures="4" errors="0">
+   <testsuite name="Verify plans" tests="16" failures="4" errors="0" time="215" timestamp="2018-11-16 17:58:10" hostname="rkulkarn - 41XHMV1-E6330.callidussoftware.com" id="Test Suites/Verify plans">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\rkulkarn\\Katalon Studio\\Dashboard_Lenovo\\Reports\\Verify plans\\20181116_175806"/>
+         <property name="logFiles" value="C:\\Users\\rkulkarn\\Katalon Studio\\Dashboard_Lenovo\\Reports\\Verify plans\\20181116_175806\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\rkulkarn\\Katalon Studio\\Dashboard_Lenovo\\Reports\\Verify plans\\20181116_175806\\1542371373183.png, C:\\Users\\rkulkarn\\Katalon Studio\\Dashboard_Lenovo\\Reports\\Verify plans\\20181116_175806\\1542371390259.png, C:\\Users\\rkulkarn\\Katalon Studio\\Dashboard_Lenovo\\Reports\\Verify plans\\20181116_175806\\1542371407389.png, C:\\Users\\rkulkarn\\Katalon Studio\\Dashboard_Lenovo\\Reports\\Verify plans\\20181116_175806\\1542371495554.png"/>
+         <property name="hostName" value="rkulkarn - 41XHMV1-E6330.callidussoftware.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.7.0.1"/>
+         <property name="browser" value="Firefox 62.0"/>
+         <property name="hostAddress" value="192.168.245.23"/>
+         <property name="sessionId" value="7308dad4-231b-4676-89d8-44023ff33d31"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Dashboard_Lenovo/Dashboard_login" classname="Test Cases/Dashboard_Lenovo/Dashboard_login" status="PASSED">
+         <system-out><![CDATA[2018-11-16 17:58:11 - [TEST_CASE][PASSED] - Test Cases/Dashboard_Lenovo/Dashboard_login: Test Cases/Dashboard_Lenovo/Dashboard_login
+
+2018-11-16 17:58:12 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-16 17:58:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-16 17:58:21 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://lnvo-muat.callidusondemand.com/SalesPortal/#!/' successfully
+
+2018-11-16 17:58:28 - [MESSAGE][PASSED] - Navigate to 'https://lnvo-muat.callidusondemand.com/SalesPortal/#!/' successfully
+
+2018-11-16 17:58:28 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-11-16 17:58:32 - [MESSAGE][PASSED] - Current window maximized
+
+2018-11-16 17:58:32 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 17:58:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 17:58:35 - [TEST_STEP][PASSED] - setText: Text 'sapattna' is set on object 'Object Repository/Dashboard_login/input_username'
+
+2018-11-16 17:58:35 - [MESSAGE][PASSED] - Text 'sapattna' is set on object 'Object Repository/Dashboard_login/input_username'
+
+2018-11-16 17:58:35 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 17:58:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 17:58:38 - [TEST_STEP][PASSED] - setText: Text 'Callidus123' is set on object 'Object Repository/Dashboard_login/input_password'
+
+2018-11-16 17:58:39 - [MESSAGE][PASSED] - Text 'Callidus123' is set on object 'Object Repository/Dashboard_login/input_password'
+
+2018-11-16 17:58:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard_login/button_Login' is clicked on
+
+2018-11-16 17:58:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard_login/button_Login' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dashboard_Lenovo/Dashboard_Plans" classname="Test Cases/Dashboard_Lenovo/Dashboard_Plans" status="PASSED">
+         <system-out><![CDATA[2018-11-16 17:58:39 - [TEST_CASE][PASSED] - Test Cases/Dashboard_Lenovo/Dashboard_Plans: Test Cases/Dashboard_Lenovo/Dashboard_Plans
+
+2018-11-16 17:58:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard_Plan/a_Dashboards' is clicked on
+
+2018-11-16 17:58:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard_Plan/a_Dashboards' is clicked on
+
+2018-11-16 17:58:45 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 17:58:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 17:58:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard_Plan/input_Search_form-control ng-p' is clicked on
+
+2018-11-16 17:58:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard_Plan/input_Search_form-control ng-p' is clicked on
+
+2018-11-16 17:58:48 - [TEST_STEP][PASSED] - setText: Text 'AP Guarantee plan-1 Element' is set on object 'Object Repository/Dashboard_Plan/input_Search_form-control ng-p'
+
+2018-11-16 17:58:48 - [MESSAGE][PASSED] - Text 'AP Guarantee plan-1 Element' is set on object 'Object Repository/Dashboard_Plan/input_Search_form-control ng-p'
+
+2018-11-16 17:58:48 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 17:58:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 17:58:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard_Plan/i_Actions_fa fa-chevron-right' is clicked on
+
+2018-11-16 17:58:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard_Plan/i_Actions_fa fa-chevron-right' is clicked on
+
+2018-11-16 17:58:51 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 17:58:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 17:58:54 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-11-16 17:58:54 - [MESSAGE][NOT_RUN] - NOT_RUN: click]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dashboard_Lenovo/Dashboard_Plans" classname="Test Cases/Dashboard_Lenovo/Dashboard_Plans" status="PASSED">
+         <system-out><![CDATA[2018-11-16 17:58:54 - [TEST_CASE][PASSED] - Test Cases/Dashboard_Lenovo/Dashboard_Plans: Test Cases/Dashboard_Lenovo/Dashboard_Plans
+
+2018-11-16 17:58:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard_Plan/a_Dashboards' is clicked on
+
+2018-11-16 17:58:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard_Plan/a_Dashboards' is clicked on
+
+2018-11-16 17:58:55 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 17:58:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 17:58:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard_Plan/input_Search_form-control ng-p' is clicked on
+
+2018-11-16 17:58:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard_Plan/input_Search_form-control ng-p' is clicked on
+
+2018-11-16 17:58:58 - [TEST_STEP][PASSED] - setText: Text 'Quarterly EMEA Leverage Plan - 2 Elements+2 Gate plus new gate logic' is set on object 'Object Repository/Dashboard_Plan/input_Search_form-control ng-p'
+
+2018-11-16 17:58:59 - [MESSAGE][PASSED] - Text 'Quarterly EMEA Leverage Plan - 2 Elements+2 Gate plus new gate logic' is set on object 'Object Repository/Dashboard_Plan/input_Search_form-control ng-p'
+
+2018-11-16 17:58:59 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 17:59:02 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 17:59:02 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard_Plan/i_Actions_fa fa-chevron-right' is clicked on
+
+2018-11-16 17:59:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard_Plan/i_Actions_fa fa-chevron-right' is clicked on
+
+2018-11-16 17:59:02 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 17:59:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 17:59:05 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-11-16 17:59:05 - [MESSAGE][NOT_RUN] - NOT_RUN: click]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dashboard_Lenovo/Dashboard_Plans" classname="Test Cases/Dashboard_Lenovo/Dashboard_Plans" status="PASSED">
+         <system-out><![CDATA[2018-11-16 17:59:05 - [TEST_CASE][PASSED] - Test Cases/Dashboard_Lenovo/Dashboard_Plans: Test Cases/Dashboard_Lenovo/Dashboard_Plans
+
+2018-11-16 17:59:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard_Plan/a_Dashboards' is clicked on
+
+2018-11-16 17:59:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard_Plan/a_Dashboards' is clicked on
+
+2018-11-16 17:59:05 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 17:59:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 17:59:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard_Plan/input_Search_form-control ng-p' is clicked on
+
+2018-11-16 17:59:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard_Plan/input_Search_form-control ng-p' is clicked on
+
+2018-11-16 17:59:09 - [TEST_STEP][PASSED] - setText: Text 'Quarterly EMEA Leverage Plan - 3 Elements+2 Gate plus new gate logic' is set on object 'Object Repository/Dashboard_Plan/input_Search_form-control ng-p'
+
+2018-11-16 17:59:09 - [MESSAGE][PASSED] - Text 'Quarterly EMEA Leverage Plan - 3 Elements+2 Gate plus new gate logic' is set on object 'Object Repository/Dashboard_Plan/input_Search_form-control ng-p'
+
+2018-11-16 17:59:09 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 17:59:12 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 17:59:12 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard_Plan/i_Actions_fa fa-chevron-right' is clicked on
+
+2018-11-16 17:59:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard_Plan/i_Actions_fa fa-chevron-right' is clicked on
+
+2018-11-16 17:59:12 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 17:59:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 17:59:15 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-11-16 17:59:15 - [MESSAGE][NOT_RUN] - NOT_RUN: click]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dashboard_Lenovo/Dashboard_Plans" classname="Test Cases/Dashboard_Lenovo/Dashboard_Plans" status="PASSED">
+         <system-out><![CDATA[2018-11-16 17:59:15 - [TEST_CASE][PASSED] - Test Cases/Dashboard_Lenovo/Dashboard_Plans: Test Cases/Dashboard_Lenovo/Dashboard_Plans
+
+2018-11-16 17:59:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard_Plan/a_Dashboards' is clicked on
+
+2018-11-16 17:59:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard_Plan/a_Dashboards' is clicked on
+
+2018-11-16 17:59:16 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 17:59:19 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 17:59:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard_Plan/input_Search_form-control ng-p' is clicked on
+
+2018-11-16 17:59:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard_Plan/input_Search_form-control ng-p' is clicked on
+
+2018-11-16 17:59:19 - [TEST_STEP][PASSED] - setText: Text 'Quarterly Leverage Plan-1 Element-CPS' is set on object 'Object Repository/Dashboard_Plan/input_Search_form-control ng-p'
+
+2018-11-16 17:59:19 - [MESSAGE][PASSED] - Text 'Quarterly Leverage Plan-1 Element-CPS' is set on object 'Object Repository/Dashboard_Plan/input_Search_form-control ng-p'
+
+2018-11-16 17:59:19 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 17:59:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 17:59:22 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard_Plan/i_Actions_fa fa-chevron-right' is clicked on
+
+2018-11-16 17:59:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard_Plan/i_Actions_fa fa-chevron-right' is clicked on
+
+2018-11-16 17:59:23 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 17:59:26 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 17:59:26 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-11-16 17:59:26 - [MESSAGE][NOT_RUN] - NOT_RUN: click]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dashboard_Lenovo/Dashboard_Plans" classname="Test Cases/Dashboard_Lenovo/Dashboard_Plans" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Dashboard_Plan/i_Actions_fa fa-chevron-right' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element &lt;i class=&quot;fa&quot;> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: '41XHMV1-E6330', ip: '192.168.245.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 62.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 15996, moz:profile: C:\Users\rkulkarn\AppData\L..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 7308dad4-231b-4676-89d8-44023ff33d31)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1542351227584.run(Script1542351227584.groovy:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542371286058.run(TempTestSuite1542371286058.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-11-16 17:59:26 - [TEST_CASE][FAILED] - Test Cases/Dashboard_Lenovo/Dashboard_Plans: Test Cases/Dashboard_Lenovo/Dashboard_Plans FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Dashboard_Plan/i_Actions_fa fa-chevron-right' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <i class="fa"> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: '41XHMV1-E6330', ip: '192.168.245.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 62.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 15996, moz:profile: C:\Users\rkulkarn\AppData\L..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 7308dad4-231b-4676-89d8-44023ff33d31)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1542351227584.run(Script1542351227584.groovy:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542371286058.run(TempTestSuite1542371286058.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-11-16 17:59:26 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard_Plan/a_Dashboards' is clicked on
+
+2018-11-16 17:59:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard_Plan/a_Dashboards' is clicked on
+
+2018-11-16 17:59:26 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 17:59:29 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 17:59:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard_Plan/input_Search_form-control ng-p' is clicked on
+
+2018-11-16 17:59:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard_Plan/input_Search_form-control ng-p' is clicked on
+
+2018-11-16 17:59:29 - [TEST_STEP][PASSED] - setText: Text 'Quarterly Leverage Plan-2 Elements-CPS 
+' is set on object 'Object Repository/Dashboard_Plan/input_Search_form-control ng-p'
+
+2018-11-16 17:59:30 - [MESSAGE][PASSED] - Text 'Quarterly Leverage Plan-2 Elements-CPS 
+' is set on object 'Object Repository/Dashboard_Plan/input_Search_form-control ng-p'
+
+2018-11-16 17:59:30 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 17:59:33 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 17:59:33 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Dashboard_Plan/i_Actions_fa fa-chevron-right' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <i class="fa"> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: '41XHMV1-E6330', ip: '192.168.245.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 62.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 15996, moz:profile: C:\Users\rkulkarn\AppData\L..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 7308dad4-231b-4676-89d8-44023ff33d31)
+
+2018-11-16 17:59:33 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Dashboard_Plan/i_Actions_fa fa-chevron-right' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <i class="fa"> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: '41XHMV1-E6330', ip: '192.168.245.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 62.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 15996, moz:profile: C:\Users\rkulkarn\AppData\L..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 7308dad4-231b-4676-89d8-44023ff33d31)
+[[ATTACHMENT|C:\\Users\\rkulkarn\\Katalon Studio\\Dashboard_Lenovo\\Reports\\Verify plans\\20181116_175806\\1542371373183.png]]]]></system-out>
+         <system-err><![CDATA[2018-11-16 17:59:26 - [TEST_CASE][FAILED] - Test Cases/Dashboard_Lenovo/Dashboard_Plans: Test Cases/Dashboard_Lenovo/Dashboard_Plans FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Dashboard_Plan/i_Actions_fa fa-chevron-right' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <i class="fa"> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: '41XHMV1-E6330', ip: '192.168.245.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 62.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 15996, moz:profile: C:\Users\rkulkarn\AppData\L..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 7308dad4-231b-4676-89d8-44023ff33d31)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1542351227584.run(Script1542351227584.groovy:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542371286058.run(TempTestSuite1542371286058.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dashboard_Lenovo/Dashboard_Plans" classname="Test Cases/Dashboard_Lenovo/Dashboard_Plans" status="PASSED">
+         <system-out><![CDATA[2018-11-16 17:59:33 - [TEST_CASE][PASSED] - Test Cases/Dashboard_Lenovo/Dashboard_Plans: Test Cases/Dashboard_Lenovo/Dashboard_Plans
+
+2018-11-16 17:59:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard_Plan/a_Dashboards' is clicked on
+
+2018-11-16 17:59:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard_Plan/a_Dashboards' is clicked on
+
+2018-11-16 17:59:33 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 17:59:36 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 17:59:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard_Plan/input_Search_form-control ng-p' is clicked on
+
+2018-11-16 17:59:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard_Plan/input_Search_form-control ng-p' is clicked on
+
+2018-11-16 17:59:36 - [TEST_STEP][PASSED] - setText: Text 'Quarterly Leverage Plan-2 Elements-CPS-NA' is set on object 'Object Repository/Dashboard_Plan/input_Search_form-control ng-p'
+
+2018-11-16 17:59:37 - [MESSAGE][PASSED] - Text 'Quarterly Leverage Plan-2 Elements-CPS-NA' is set on object 'Object Repository/Dashboard_Plan/input_Search_form-control ng-p'
+
+2018-11-16 17:59:37 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 17:59:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 17:59:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard_Plan/i_Actions_fa fa-chevron-right' is clicked on
+
+2018-11-16 17:59:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard_Plan/i_Actions_fa fa-chevron-right' is clicked on
+
+2018-11-16 17:59:40 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 17:59:43 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 17:59:43 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-11-16 17:59:43 - [MESSAGE][NOT_RUN] - NOT_RUN: click]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dashboard_Lenovo/Dashboard_Plans" classname="Test Cases/Dashboard_Lenovo/Dashboard_Plans" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Dashboard_Plan/i_Actions_fa fa-chevron-right' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element &lt;i class=&quot;fa&quot;> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: '41XHMV1-E6330', ip: '192.168.245.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 62.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 15996, moz:profile: C:\Users\rkulkarn\AppData\L..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 7308dad4-231b-4676-89d8-44023ff33d31)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1542351227584.run(Script1542351227584.groovy:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542371286058.run(TempTestSuite1542371286058.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-11-16 17:59:43 - [TEST_CASE][FAILED] - Test Cases/Dashboard_Lenovo/Dashboard_Plans: Test Cases/Dashboard_Lenovo/Dashboard_Plans FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Dashboard_Plan/i_Actions_fa fa-chevron-right' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <i class="fa"> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: '41XHMV1-E6330', ip: '192.168.245.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 62.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 15996, moz:profile: C:\Users\rkulkarn\AppData\L..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 7308dad4-231b-4676-89d8-44023ff33d31)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1542351227584.run(Script1542351227584.groovy:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542371286058.run(TempTestSuite1542371286058.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-11-16 17:59:43 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard_Plan/a_Dashboards' is clicked on
+
+2018-11-16 17:59:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard_Plan/a_Dashboards' is clicked on
+
+2018-11-16 17:59:43 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 17:59:46 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 17:59:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard_Plan/input_Search_form-control ng-p' is clicked on
+
+2018-11-16 17:59:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard_Plan/input_Search_form-control ng-p' is clicked on
+
+2018-11-16 17:59:46 - [TEST_STEP][PASSED] - setText: Text 'Quarterly Leverage Plan-3 Elements-CPS' is set on object 'Object Repository/Dashboard_Plan/input_Search_form-control ng-p'
+
+2018-11-16 17:59:47 - [MESSAGE][PASSED] - Text 'Quarterly Leverage Plan-3 Elements-CPS' is set on object 'Object Repository/Dashboard_Plan/input_Search_form-control ng-p'
+
+2018-11-16 17:59:47 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 17:59:50 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 17:59:50 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Dashboard_Plan/i_Actions_fa fa-chevron-right' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <i class="fa"> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: '41XHMV1-E6330', ip: '192.168.245.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 62.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 15996, moz:profile: C:\Users\rkulkarn\AppData\L..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 7308dad4-231b-4676-89d8-44023ff33d31)
+
+2018-11-16 17:59:50 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Dashboard_Plan/i_Actions_fa fa-chevron-right' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <i class="fa"> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: '41XHMV1-E6330', ip: '192.168.245.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 62.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 15996, moz:profile: C:\Users\rkulkarn\AppData\L..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 7308dad4-231b-4676-89d8-44023ff33d31)
+[[ATTACHMENT|C:\\Users\\rkulkarn\\Katalon Studio\\Dashboard_Lenovo\\Reports\\Verify plans\\20181116_175806\\1542371390259.png]]]]></system-out>
+         <system-err><![CDATA[2018-11-16 17:59:43 - [TEST_CASE][FAILED] - Test Cases/Dashboard_Lenovo/Dashboard_Plans: Test Cases/Dashboard_Lenovo/Dashboard_Plans FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Dashboard_Plan/i_Actions_fa fa-chevron-right' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <i class="fa"> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: '41XHMV1-E6330', ip: '192.168.245.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 62.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 15996, moz:profile: C:\Users\rkulkarn\AppData\L..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 7308dad4-231b-4676-89d8-44023ff33d31)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1542351227584.run(Script1542351227584.groovy:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542371286058.run(TempTestSuite1542371286058.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dashboard_Lenovo/Dashboard_Plans" classname="Test Cases/Dashboard_Lenovo/Dashboard_Plans" status="PASSED">
+         <system-out><![CDATA[2018-11-16 17:59:50 - [TEST_CASE][PASSED] - Test Cases/Dashboard_Lenovo/Dashboard_Plans: Test Cases/Dashboard_Lenovo/Dashboard_Plans
+
+2018-11-16 17:59:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard_Plan/a_Dashboards' is clicked on
+
+2018-11-16 17:59:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard_Plan/a_Dashboards' is clicked on
+
+2018-11-16 17:59:50 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 17:59:53 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 17:59:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard_Plan/input_Search_form-control ng-p' is clicked on
+
+2018-11-16 17:59:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard_Plan/input_Search_form-control ng-p' is clicked on
+
+2018-11-16 17:59:53 - [TEST_STEP][PASSED] - setText: Text 'Quarterly Leverage Plan-3 Elements-CPS-NA' is set on object 'Object Repository/Dashboard_Plan/input_Search_form-control ng-p'
+
+2018-11-16 17:59:54 - [MESSAGE][PASSED] - Text 'Quarterly Leverage Plan-3 Elements-CPS-NA' is set on object 'Object Repository/Dashboard_Plan/input_Search_form-control ng-p'
+
+2018-11-16 17:59:54 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 17:59:57 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 17:59:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard_Plan/i_Actions_fa fa-chevron-right' is clicked on
+
+2018-11-16 17:59:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard_Plan/i_Actions_fa fa-chevron-right' is clicked on
+
+2018-11-16 17:59:57 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 18:00:00 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 18:00:00 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-11-16 18:00:00 - [MESSAGE][NOT_RUN] - NOT_RUN: click]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dashboard_Lenovo/Dashboard_Plans" classname="Test Cases/Dashboard_Lenovo/Dashboard_Plans" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Dashboard_Plan/i_Actions_fa fa-chevron-right' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element &lt;i class=&quot;fa&quot;> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: '41XHMV1-E6330', ip: '192.168.245.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 62.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 15996, moz:profile: C:\Users\rkulkarn\AppData\L..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 7308dad4-231b-4676-89d8-44023ff33d31)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1542351227584.run(Script1542351227584.groovy:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542371286058.run(TempTestSuite1542371286058.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-11-16 18:00:00 - [TEST_CASE][FAILED] - Test Cases/Dashboard_Lenovo/Dashboard_Plans: Test Cases/Dashboard_Lenovo/Dashboard_Plans FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Dashboard_Plan/i_Actions_fa fa-chevron-right' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <i class="fa"> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: '41XHMV1-E6330', ip: '192.168.245.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 62.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 15996, moz:profile: C:\Users\rkulkarn\AppData\L..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 7308dad4-231b-4676-89d8-44023ff33d31)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1542351227584.run(Script1542351227584.groovy:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542371286058.run(TempTestSuite1542371286058.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-11-16 18:00:00 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard_Plan/a_Dashboards' is clicked on
+
+2018-11-16 18:00:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard_Plan/a_Dashboards' is clicked on
+
+2018-11-16 18:00:00 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 18:00:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 18:00:03 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard_Plan/input_Search_form-control ng-p' is clicked on
+
+2018-11-16 18:00:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard_Plan/input_Search_form-control ng-p' is clicked on
+
+2018-11-16 18:00:04 - [TEST_STEP][PASSED] - setText: Text 'Quarterly Leverage Plan-4 Elements-CPS 
+
+' is set on object 'Object Repository/Dashboard_Plan/input_Search_form-control ng-p'
+
+2018-11-16 18:00:04 - [MESSAGE][PASSED] - Text 'Quarterly Leverage Plan-4 Elements-CPS 
+
+' is set on object 'Object Repository/Dashboard_Plan/input_Search_form-control ng-p'
+
+2018-11-16 18:00:04 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 18:00:07 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 18:00:07 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Dashboard_Plan/i_Actions_fa fa-chevron-right' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <i class="fa"> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: '41XHMV1-E6330', ip: '192.168.245.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 62.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 15996, moz:profile: C:\Users\rkulkarn\AppData\L..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 7308dad4-231b-4676-89d8-44023ff33d31)
+
+2018-11-16 18:00:07 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Dashboard_Plan/i_Actions_fa fa-chevron-right' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <i class="fa"> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: '41XHMV1-E6330', ip: '192.168.245.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 62.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 15996, moz:profile: C:\Users\rkulkarn\AppData\L..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 7308dad4-231b-4676-89d8-44023ff33d31)
+[[ATTACHMENT|C:\\Users\\rkulkarn\\Katalon Studio\\Dashboard_Lenovo\\Reports\\Verify plans\\20181116_175806\\1542371407389.png]]]]></system-out>
+         <system-err><![CDATA[2018-11-16 18:00:00 - [TEST_CASE][FAILED] - Test Cases/Dashboard_Lenovo/Dashboard_Plans: Test Cases/Dashboard_Lenovo/Dashboard_Plans FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Dashboard_Plan/i_Actions_fa fa-chevron-right' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <i class="fa"> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: '41XHMV1-E6330', ip: '192.168.245.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 62.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 15996, moz:profile: C:\Users\rkulkarn\AppData\L..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 7308dad4-231b-4676-89d8-44023ff33d31)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1542351227584.run(Script1542351227584.groovy:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542371286058.run(TempTestSuite1542371286058.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dashboard_Lenovo/Dashboard_Plans" classname="Test Cases/Dashboard_Lenovo/Dashboard_Plans" status="PASSED">
+         <system-out><![CDATA[2018-11-16 18:00:07 - [TEST_CASE][PASSED] - Test Cases/Dashboard_Lenovo/Dashboard_Plans: Test Cases/Dashboard_Lenovo/Dashboard_Plans
+
+2018-11-16 18:00:07 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard_Plan/a_Dashboards' is clicked on
+
+2018-11-16 18:00:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard_Plan/a_Dashboards' is clicked on
+
+2018-11-16 18:00:07 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 18:00:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 18:00:10 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard_Plan/input_Search_form-control ng-p' is clicked on
+
+2018-11-16 18:00:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard_Plan/input_Search_form-control ng-p' is clicked on
+
+2018-11-16 18:00:11 - [TEST_STEP][PASSED] - setText: Text 'Quarterly Leverage Plan-4 Elements-CPS-Element 1 and Element 2 Cap 
+' is set on object 'Object Repository/Dashboard_Plan/input_Search_form-control ng-p'
+
+2018-11-16 18:00:11 - [MESSAGE][PASSED] - Text 'Quarterly Leverage Plan-4 Elements-CPS-Element 1 and Element 2 Cap 
+' is set on object 'Object Repository/Dashboard_Plan/input_Search_form-control ng-p'
+
+2018-11-16 18:00:11 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 18:00:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 18:00:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard_Plan/i_Actions_fa fa-chevron-right' is clicked on
+
+2018-11-16 18:00:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard_Plan/i_Actions_fa fa-chevron-right' is clicked on
+
+2018-11-16 18:00:14 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 18:00:17 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 18:00:17 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-11-16 18:00:17 - [MESSAGE][NOT_RUN] - NOT_RUN: click]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dashboard_Lenovo/Dashboard_Plans" classname="Test Cases/Dashboard_Lenovo/Dashboard_Plans" status="PASSED">
+         <system-out><![CDATA[2018-11-16 18:00:17 - [TEST_CASE][PASSED] - Test Cases/Dashboard_Lenovo/Dashboard_Plans: Test Cases/Dashboard_Lenovo/Dashboard_Plans
+
+2018-11-16 18:00:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard_Plan/a_Dashboards' is clicked on
+
+2018-11-16 18:00:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard_Plan/a_Dashboards' is clicked on
+
+2018-11-16 18:00:17 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 18:00:20 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 18:00:20 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard_Plan/input_Search_form-control ng-p' is clicked on
+
+2018-11-16 18:00:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard_Plan/input_Search_form-control ng-p' is clicked on
+
+2018-11-16 18:00:21 - [TEST_STEP][PASSED] - setText: Text 'Quarterly NA Inbound Plan Sales Rep - 2 Elements - Element 1 Payout Trigger' is set on object 'Object Repository/Dashboard_Plan/input_Search_form-control ng-p'
+
+2018-11-16 18:00:21 - [MESSAGE][PASSED] - Text 'Quarterly NA Inbound Plan Sales Rep - 2 Elements - Element 1 Payout Trigger' is set on object 'Object Repository/Dashboard_Plan/input_Search_form-control ng-p'
+
+2018-11-16 18:00:21 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 18:00:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 18:00:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard_Plan/i_Actions_fa fa-chevron-right' is clicked on
+
+2018-11-16 18:00:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard_Plan/i_Actions_fa fa-chevron-right' is clicked on
+
+2018-11-16 18:00:24 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 18:00:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 18:00:27 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-11-16 18:00:27 - [MESSAGE][NOT_RUN] - NOT_RUN: click]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dashboard_Lenovo/Dashboard_Plans" classname="Test Cases/Dashboard_Lenovo/Dashboard_Plans" status="PASSED">
+         <system-out><![CDATA[2018-11-16 18:00:27 - [TEST_CASE][PASSED] - Test Cases/Dashboard_Lenovo/Dashboard_Plans: Test Cases/Dashboard_Lenovo/Dashboard_Plans
+
+2018-11-16 18:00:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard_Plan/a_Dashboards' is clicked on
+
+2018-11-16 18:00:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard_Plan/a_Dashboards' is clicked on
+
+2018-11-16 18:00:28 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 18:00:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 18:00:31 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard_Plan/input_Search_form-control ng-p' is clicked on
+
+2018-11-16 18:00:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard_Plan/input_Search_form-control ng-p' is clicked on
+
+2018-11-16 18:00:31 - [TEST_STEP][PASSED] - setText: Text 'Quarterly WW Leverage Plan - 2 Elements - Element 1 PC+ Cap with 2 Gate 
+
+
+' is set on object 'Object Repository/Dashboard_Plan/input_Search_form-control ng-p'
+
+2018-11-16 18:00:31 - [MESSAGE][PASSED] - Text 'Quarterly WW Leverage Plan - 2 Elements - Element 1 PC+ Cap with 2 Gate 
+
+
+' is set on object 'Object Repository/Dashboard_Plan/input_Search_form-control ng-p'
+
+2018-11-16 18:00:31 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 18:00:34 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 18:00:34 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard_Plan/i_Actions_fa fa-chevron-right' is clicked on
+
+2018-11-16 18:00:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard_Plan/i_Actions_fa fa-chevron-right' is clicked on
+
+2018-11-16 18:00:35 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 18:00:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 18:00:38 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-11-16 18:00:38 - [MESSAGE][NOT_RUN] - NOT_RUN: click]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dashboard_Lenovo/Dashboard_Plans" classname="Test Cases/Dashboard_Lenovo/Dashboard_Plans" status="PASSED">
+         <system-out><![CDATA[2018-11-16 18:00:38 - [TEST_CASE][PASSED] - Test Cases/Dashboard_Lenovo/Dashboard_Plans: Test Cases/Dashboard_Lenovo/Dashboard_Plans
+
+2018-11-16 18:00:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard_Plan/a_Dashboards' is clicked on
+
+2018-11-16 18:00:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard_Plan/a_Dashboards' is clicked on
+
+2018-11-16 18:00:38 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 18:00:41 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 18:00:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard_Plan/input_Search_form-control ng-p' is clicked on
+
+2018-11-16 18:00:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard_Plan/input_Search_form-control ng-p' is clicked on
+
+2018-11-16 18:00:41 - [TEST_STEP][PASSED] - setText: Text 'Quarterly WW Leverage Plan - 3 Elements - Element 1 PC+ Cap with 2 Gate 
+
+' is set on object 'Object Repository/Dashboard_Plan/input_Search_form-control ng-p'
+
+2018-11-16 18:00:41 - [MESSAGE][PASSED] - Text 'Quarterly WW Leverage Plan - 3 Elements - Element 1 PC+ Cap with 2 Gate 
+
+' is set on object 'Object Repository/Dashboard_Plan/input_Search_form-control ng-p'
+
+2018-11-16 18:00:41 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 18:00:44 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 18:00:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard_Plan/i_Actions_fa fa-chevron-right' is clicked on
+
+2018-11-16 18:00:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard_Plan/i_Actions_fa fa-chevron-right' is clicked on
+
+2018-11-16 18:00:45 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 18:00:48 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 18:00:48 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-11-16 18:00:48 - [MESSAGE][NOT_RUN] - NOT_RUN: click]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dashboard_Lenovo/Dashboard_Plans" classname="Test Cases/Dashboard_Lenovo/Dashboard_Plans" status="PASSED">
+         <system-out><![CDATA[2018-11-16 18:00:48 - [TEST_CASE][PASSED] - Test Cases/Dashboard_Lenovo/Dashboard_Plans: Test Cases/Dashboard_Lenovo/Dashboard_Plans
+
+2018-11-16 18:00:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard_Plan/a_Dashboards' is clicked on
+
+2018-11-16 18:00:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard_Plan/a_Dashboards' is clicked on
+
+2018-11-16 18:00:48 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 18:00:51 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 18:00:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard_Plan/input_Search_form-control ng-p' is clicked on
+
+2018-11-16 18:00:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard_Plan/input_Search_form-control ng-p' is clicked on
+
+2018-11-16 18:00:51 - [TEST_STEP][PASSED] - setText: Text 'Quarterly WW Leverage Plan - 3 Elements+2 Gate plus new gate logic' is set on object 'Object Repository/Dashboard_Plan/input_Search_form-control ng-p'
+
+2018-11-16 18:00:52 - [MESSAGE][PASSED] - Text 'Quarterly WW Leverage Plan - 3 Elements+2 Gate plus new gate logic' is set on object 'Object Repository/Dashboard_Plan/input_Search_form-control ng-p'
+
+2018-11-16 18:00:52 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 18:00:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 18:00:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard_Plan/i_Actions_fa fa-chevron-right' is clicked on
+
+2018-11-16 18:00:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard_Plan/i_Actions_fa fa-chevron-right' is clicked on
+
+2018-11-16 18:00:55 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 18:00:58 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 18:00:58 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-11-16 18:00:58 - [MESSAGE][NOT_RUN] - NOT_RUN: click]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dashboard_Lenovo/Dashboard_Plans" classname="Test Cases/Dashboard_Lenovo/Dashboard_Plans" status="PASSED">
+         <system-out><![CDATA[2018-11-16 18:00:58 - [TEST_CASE][PASSED] - Test Cases/Dashboard_Lenovo/Dashboard_Plans: Test Cases/Dashboard_Lenovo/Dashboard_Plans
+
+2018-11-16 18:00:58 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard_Plan/a_Dashboards' is clicked on
+
+2018-11-16 18:00:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard_Plan/a_Dashboards' is clicked on
+
+2018-11-16 18:00:58 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 18:01:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 18:01:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard_Plan/input_Search_form-control ng-p' is clicked on
+
+2018-11-16 18:01:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard_Plan/input_Search_form-control ng-p' is clicked on
+
+2018-11-16 18:01:01 - [TEST_STEP][PASSED] - setText: Text 'Semiannual Leverage Plan-1 Element-CPS' is set on object 'Object Repository/Dashboard_Plan/input_Search_form-control ng-p'
+
+2018-11-16 18:01:02 - [MESSAGE][PASSED] - Text 'Semiannual Leverage Plan-1 Element-CPS' is set on object 'Object Repository/Dashboard_Plan/input_Search_form-control ng-p'
+
+2018-11-16 18:01:02 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 18:01:05 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 18:01:05 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard_Plan/i_Actions_fa fa-chevron-right' is clicked on
+
+2018-11-16 18:01:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard_Plan/i_Actions_fa fa-chevron-right' is clicked on
+
+2018-11-16 18:01:05 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 18:01:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 18:01:08 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-11-16 18:01:08 - [MESSAGE][NOT_RUN] - NOT_RUN: click]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dashboard_Lenovo/Dashboard_Plans" classname="Test Cases/Dashboard_Lenovo/Dashboard_Plans" status="PASSED">
+         <system-out><![CDATA[2018-11-16 18:01:08 - [TEST_CASE][PASSED] - Test Cases/Dashboard_Lenovo/Dashboard_Plans: Test Cases/Dashboard_Lenovo/Dashboard_Plans
+
+2018-11-16 18:01:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard_Plan/a_Dashboards' is clicked on
+
+2018-11-16 18:01:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard_Plan/a_Dashboards' is clicked on
+
+2018-11-16 18:01:08 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 18:01:11 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 18:01:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard_Plan/input_Search_form-control ng-p' is clicked on
+
+2018-11-16 18:01:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard_Plan/input_Search_form-control ng-p' is clicked on
+
+2018-11-16 18:01:12 - [TEST_STEP][PASSED] - setText: Text 'Semiannual Leverage Plan-2 Elements-CPS 
+' is set on object 'Object Repository/Dashboard_Plan/input_Search_form-control ng-p'
+
+2018-11-16 18:01:12 - [MESSAGE][PASSED] - Text 'Semiannual Leverage Plan-2 Elements-CPS 
+' is set on object 'Object Repository/Dashboard_Plan/input_Search_form-control ng-p'
+
+2018-11-16 18:01:12 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 18:01:15 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 18:01:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard_Plan/i_Actions_fa fa-chevron-right' is clicked on
+
+2018-11-16 18:01:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard_Plan/i_Actions_fa fa-chevron-right' is clicked on
+
+2018-11-16 18:01:15 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 18:01:18 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 18:01:18 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-11-16 18:01:18 - [MESSAGE][NOT_RUN] - NOT_RUN: click]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dashboard_Lenovo/Dashboard_Plans" classname="Test Cases/Dashboard_Lenovo/Dashboard_Plans" status="PASSED">
+         <system-out><![CDATA[2018-11-16 18:01:18 - [TEST_CASE][PASSED] - Test Cases/Dashboard_Lenovo/Dashboard_Plans: Test Cases/Dashboard_Lenovo/Dashboard_Plans
+
+2018-11-16 18:01:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard_Plan/a_Dashboards' is clicked on
+
+2018-11-16 18:01:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard_Plan/a_Dashboards' is clicked on
+
+2018-11-16 18:01:18 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 18:01:21 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 18:01:21 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard_Plan/input_Search_form-control ng-p' is clicked on
+
+2018-11-16 18:01:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard_Plan/input_Search_form-control ng-p' is clicked on
+
+2018-11-16 18:01:22 - [TEST_STEP][PASSED] - setText: Text 'Semiannual Leverage Plan-2 Elements-CPS-NA' is set on object 'Object Repository/Dashboard_Plan/input_Search_form-control ng-p'
+
+2018-11-16 18:01:22 - [MESSAGE][PASSED] - Text 'Semiannual Leverage Plan-2 Elements-CPS-NA' is set on object 'Object Repository/Dashboard_Plan/input_Search_form-control ng-p'
+
+2018-11-16 18:01:22 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 18:01:25 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 18:01:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard_Plan/i_Actions_fa fa-chevron-right' is clicked on
+
+2018-11-16 18:01:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard_Plan/i_Actions_fa fa-chevron-right' is clicked on
+
+2018-11-16 18:01:25 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 18:01:28 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 18:01:28 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-11-16 18:01:28 - [MESSAGE][NOT_RUN] - NOT_RUN: click]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dashboard_Lenovo/Dashboard_Plans" classname="Test Cases/Dashboard_Lenovo/Dashboard_Plans" status="FAILED">
+         <failure type="FAILED" message="(Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Dashboard_Plan/i_Actions_fa fa-chevron-right' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element &lt;i class=&quot;fa&quot;> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: '41XHMV1-E6330', ip: '192.168.245.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 62.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 15996, moz:profile: C:\Users\rkulkarn\AppData\L..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 7308dad4-231b-4676-89d8-44023ff33d31)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1542351227584.run(Script1542351227584.groovy:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542371286058.run(TempTestSuite1542371286058.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)"/>
+         <system-out><![CDATA[2018-11-16 18:01:28 - [TEST_CASE][FAILED] - Test Cases/Dashboard_Lenovo/Dashboard_Plans: Test Cases/Dashboard_Lenovo/Dashboard_Plans FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Dashboard_Plan/i_Actions_fa fa-chevron-right' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <i class="fa"> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: '41XHMV1-E6330', ip: '192.168.245.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 62.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 15996, moz:profile: C:\Users\rkulkarn\AppData\L..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 7308dad4-231b-4676-89d8-44023ff33d31)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1542351227584.run(Script1542351227584.groovy:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542371286058.run(TempTestSuite1542371286058.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)
+
+2018-11-16 18:01:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard_Plan/a_Dashboards' is clicked on
+
+2018-11-16 18:01:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard_Plan/a_Dashboards' is clicked on
+
+2018-11-16 18:01:29 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 18:01:32 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 18:01:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard_Plan/input_Search_form-control ng-p' is clicked on
+
+2018-11-16 18:01:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard_Plan/input_Search_form-control ng-p' is clicked on
+
+2018-11-16 18:01:32 - [TEST_STEP][PASSED] - setText: Text 'Semiannual Leverage Plan-3 Elements-CPS' is set on object 'Object Repository/Dashboard_Plan/input_Search_form-control ng-p'
+
+2018-11-16 18:01:32 - [MESSAGE][PASSED] - Text 'Semiannual Leverage Plan-3 Elements-CPS' is set on object 'Object Repository/Dashboard_Plan/input_Search_form-control ng-p'
+
+2018-11-16 18:01:32 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 18:01:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 18:01:35 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/Dashboard_Plan/i_Actions_fa fa-chevron-right' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <i class="fa"> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: '41XHMV1-E6330', ip: '192.168.245.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 62.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 15996, moz:profile: C:\Users\rkulkarn\AppData\L..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 7308dad4-231b-4676-89d8-44023ff33d31)
+
+2018-11-16 18:01:35 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Dashboard_Plan/i_Actions_fa fa-chevron-right' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <i class="fa"> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: '41XHMV1-E6330', ip: '192.168.245.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 62.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 15996, moz:profile: C:\Users\rkulkarn\AppData\L..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 7308dad4-231b-4676-89d8-44023ff33d31)
+[[ATTACHMENT|C:\\Users\\rkulkarn\\Katalon Studio\\Dashboard_Lenovo\\Reports\\Verify plans\\20181116_175806\\1542371495554.png]]]]></system-out>
+         <system-err><![CDATA[2018-11-16 18:01:28 - [TEST_CASE][FAILED] - Test Cases/Dashboard_Lenovo/Dashboard_Plans: Test Cases/Dashboard_Lenovo/Dashboard_Plans FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Dashboard_Plan/i_Actions_fa fa-chevron-right' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <i class="fa"> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: '41XHMV1-E6330', ip: '192.168.245.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 62.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 15996, moz:profile: C:\Users\rkulkarn\AppData\L..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 7308dad4-231b-4676-89d8-44023ff33d31)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1542351227584.run(Script1542351227584.groovy:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542371286058.run(TempTestSuite1542371286058.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dashboard_Lenovo/Dashboard_Plans" classname="Test Cases/Dashboard_Lenovo/Dashboard_Plans" status="PASSED">
+         <system-out><![CDATA[2018-11-16 18:01:35 - [TEST_CASE][PASSED] - Test Cases/Dashboard_Lenovo/Dashboard_Plans: Test Cases/Dashboard_Lenovo/Dashboard_Plans
+
+2018-11-16 18:01:35 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard_Plan/a_Dashboards' is clicked on
+
+2018-11-16 18:01:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard_Plan/a_Dashboards' is clicked on
+
+2018-11-16 18:01:35 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 18:01:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 18:01:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard_Plan/input_Search_form-control ng-p' is clicked on
+
+2018-11-16 18:01:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard_Plan/input_Search_form-control ng-p' is clicked on
+
+2018-11-16 18:01:39 - [TEST_STEP][PASSED] - setText: Text 'Semiannual Leverage Plan-3 Elements-CPS-NA' is set on object 'Object Repository/Dashboard_Plan/input_Search_form-control ng-p'
+
+2018-11-16 18:01:39 - [MESSAGE][PASSED] - Text 'Semiannual Leverage Plan-3 Elements-CPS-NA' is set on object 'Object Repository/Dashboard_Plan/input_Search_form-control ng-p'
+
+2018-11-16 18:01:39 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 18:01:42 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 18:01:42 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Dashboard_Plan/i_Actions_fa fa-chevron-right' is clicked on
+
+2018-11-16 18:01:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard_Plan/i_Actions_fa fa-chevron-right' is clicked on
+
+2018-11-16 18:01:42 - [TEST_STEP][PASSED] - delay: Delayed 3 second(s)
+
+2018-11-16 18:01:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2018-11-16 18:01:45 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-11-16 18:01:45 - [MESSAGE][NOT_RUN] - NOT_RUN: click]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-16 17:58:10 - [TEST_SUITE][FAILED] - Verify plans: Test Cases/Dashboard_Lenovo/Dashboard_Plans FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Dashboard_Plan/i_Actions_fa fa-chevron-right' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <i class="fa"> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: '41XHMV1-E6330', ip: '192.168.245.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 62.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 15996, moz:profile: C:\Users\rkulkarn\AppData\L..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 7308dad4-231b-4676-89d8-44023ff33d31)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1542351227584.run(Script1542351227584.groovy:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542371286058.run(TempTestSuite1542371286058.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-out>
+      <system-err><![CDATA[2018-11-16 17:58:10 - [TEST_SUITE][FAILED] - Verify plans: Test Cases/Dashboard_Lenovo/Dashboard_Plans FAILED because (of) (Stack trace: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Dashboard_Plan/i_Actions_fa fa-chevron-right' (Root cause: org.openqa.selenium.ElementNotInteractableException: Element <i class="fa"> could not be scrolled into view
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: '41XHMV1-E6330', ip: '192.168.245.23', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 62.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 15996, moz:profile: C:\Users\rkulkarn\AppData\L..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 7308dad4-231b-4676-89d8-44023ff33d31)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:36)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:65)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:53)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1542351227584.run(Script1542351227584.groovy:28)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:183)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:108)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:294)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:264)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:256)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:200)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:129)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:112)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:81)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:142)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+	at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:141)
+	at TempTestSuite1542371286058.run(TempTestSuite1542371286058.groovy:36)
+	at groovy.lang.GroovyShell.runScriptOrMainOrTestOrRunnable(GroovyShell.java:263)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:518)
+	at groovy.lang.GroovyShell.run(GroovyShell.java:507)
+	at groovy.ui.GroovyMain.processOnce(GroovyMain.java:653)
+	at groovy.ui.GroovyMain.run(GroovyMain.java:384)
+	at groovy.ui.GroovyMain.process(GroovyMain.java:370)
+	at groovy.ui.GroovyMain.processArgs(GroovyMain.java:129)
+	at groovy.ui.GroovyMain.main(GroovyMain.java:109)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.codehaus.groovy.tools.GroovyStarter.rootLoader(GroovyStarter.java:109)
+	at org.codehaus.groovy.tools.GroovyStarter.main(GroovyStarter.java:131)
+)]]></system-err>
+   </testsuite>
+</testsuites>

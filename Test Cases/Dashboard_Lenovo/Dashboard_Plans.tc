@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Dashboard_Plans</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>71a50d08-5238-47ab-bd94-c7204ecdcb60</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>84fe46c6-4454-45a0-830c-be3610f9b5dc</id>
+      <masked>false</masked>
+      <name>Plans</name>
+   </variable>
+</TestCaseEntity>
