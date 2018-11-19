@@ -6,11 +6,15 @@
    <elementGuidId>0c207820-60c6-4d13-bd67-cfefd9e1cb24</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>/html[@class=&quot;ng-scope&quot;]/body[1]/div[@class=&quot;ng-scope&quot;]/payee-home[@class=&quot;ng-scope ng-isolate-scope&quot;]/div[@class=&quot;payee-content&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12 payee-main-content ng-scope&quot;]/dashboard-list[@class=&quot;ng-scope ng-isolate-scope&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;row voffset&quot;]/div[@class=&quot;col-sm-12&quot;]/div[@class=&quot;ibox&quot;]/div[@class=&quot;ibox-content&quot;]/div[@class=&quot;ng-scope&quot;]/plan-dashboard-list[@class=&quot;ng-isolate-scope&quot;]/table[@class=&quot;table table-responsive voffset&quot;]/tbody[@class=&quot;ng-scope&quot;]/tr[@class=&quot;ng-scope&quot;]/td[@class=&quot;col-sm-2 text-center&quot;]/a[1]/i[@class=&quot;padding-left icon-play4&quot;]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='AP Guarantee plan-1 Element'])[2]/following::i[1]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[@class=&quot;ng-scope&quot;]/body[1]/div[@class=&quot;ng-scope&quot;]/payee-home[@class=&quot;ng-scope ng-isolate-scope&quot;]/div[@class=&quot;payee-content&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12 payee-main-content ng-scope&quot;]/dashboard-list[@class=&quot;ng-scope ng-isolate-scope&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;row voffset&quot;]/div[@class=&quot;col-sm-12&quot;]/div[@class=&quot;ibox&quot;]/div[@class=&quot;ibox-content&quot;]/div[@class=&quot;ng-scope&quot;]/plan-dashboard-list[@class=&quot;ng-isolate-scope&quot;]/table[@class=&quot;table table-responsive voffset&quot;]/tbody[@class=&quot;ng-scope&quot;]/tr[@class=&quot;ng-scope&quot;]/td[@class=&quot;col-sm-2 text-center&quot;]/a[1]/i[@class=&quot;padding-left icon-play4&quot;]</value>
+      <value>//tbody[@ng-repeat='plan in vm.ruleElementOwners']/tr[@ng-repeat='dashboard in plan.dashboards']//following-sibling::a</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

@@ -15,21 +15,17 @@ import internal.GlobalVariable as GlobalVariable
 import java.awt.Robot as Robot
 import java.awt.event.KeyEvent as KeyEvent
 
-WebUI.click(findTestObject('Dashboard_Plan/a_Dashboards'))
+WebUI.click(findTestObject('Dashboard_Date/span_Please enter at least 3 c'))
 
-WebUI.delay(3)
+WebUI.setText(findTestObject('Dashboard_Date/input_Please enter at least 3'), ParticipantName)
 
-WebUI.click(findTestObject('Dashboard_Plan/input_Search_form-control ng-p'))
+WebUI.delay(10)
 
-WebUI.setText(findTestObject('Dashboard_Plan/input_Search_form-control ng-p'), Plans)
+Robot robot = new Robot()
 
-CustomKeywords.'globalkeywords.record.RecordNotFound'()
+robot.keyPress(KeyEvent.VK_ENTER)
 
-WebUI.delay(3)
+Thread.sleep(2000)
 
-WebUI.click(findTestObject('Dashboard_Plan/i_Actions_fa fa-chevron-right'))
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Dashboard_Plan/i_AP Guarantee plan-1 Element_'))
+robot.keyRelease(KeyEvent.VK_ENTER)
 

@@ -4,7 +4,17 @@
    <name>span_My Profile</name>
    <tag></tag>
    <elementGuidId>995c0476-cc95-4c37-9227-68d095b1c732</elementGuidId>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = 'My Profile' or . = 'My Profile')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='widgetGrid']/ul/li[2]/widget/div/div/profile-widget/widget-container/div/div/div/div/div/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

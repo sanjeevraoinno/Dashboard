@@ -15,21 +15,31 @@ import internal.GlobalVariable as GlobalVariable
 import java.awt.Robot as Robot
 import java.awt.event.KeyEvent as KeyEvent
 
-WebUI.click(findTestObject('Dashboard_Plan/a_Dashboards'))
+WebUI.switchToWindowIndex(1)
 
-WebUI.delay(3)
+WebUI.waitForElementVisible(findTestObject('Dashboard_Date/span_Please enter at least 3 c'), 10)
 
-WebUI.click(findTestObject('Dashboard_Plan/input_Search_form-control ng-p'))
+WebUI.click(findTestObject('Dashboard_Date/span_Please enter at least 3 c'))
 
-WebUI.setText(findTestObject('Dashboard_Plan/input_Search_form-control ng-p'), Plans)
+WebUI.delay(10)
 
-CustomKeywords.'globalkeywords.record.RecordNotFound'()
+WebUI.click(findTestObject('Dashboard_Date/span_Select period'))
 
-WebUI.delay(3)
+WebUI.delay(10)
 
-WebUI.click(findTestObject('Dashboard_Plan/i_Actions_fa fa-chevron-right'))
+WebUI.click(findTestObject('Dashboard_Date/input_March 2019_form-control'))
 
-WebUI.delay(3)
+WebUI.delay(10)
 
-WebUI.click(findTestObject('Dashboard_Plan/i_AP Guarantee plan-1 Element_'))
+WebUI.setText(findTestObject('Dashboard_Date/input_March 2019_form-control'), parDate)
+
+Robot robot = new Robot()
+
+robot.keyPress(KeyEvent.VK_ENTER)
+
+Thread.sleep(2000)
+
+robot.keyRelease(KeyEvent.VK_ENTER)
+
+not_run: WebUI.click(findTestObject('demo/a_June 2018'))
 

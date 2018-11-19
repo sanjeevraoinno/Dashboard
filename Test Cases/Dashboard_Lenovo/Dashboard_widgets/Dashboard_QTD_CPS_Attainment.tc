@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Dashboard_widets</name>
+   <name>Dashboard_QTD_CPS_Attainment</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>b4f69c73-5ec5-4218-8f2d-1bfe017fae5b</testCaseGuid>
-   <variable>
-      <defaultValue>'june 2018'</defaultValue>
-      <description></description>
-      <id>9ad6da60-3288-4916-8e5f-e4b459c933d4</id>
-      <masked>false</masked>
-      <name>partDate</name>
-   </variable>
    <variable>
       <defaultValue>'QTD CPS Attainment'</defaultValue>
       <description></description>
@@ -27,7 +20,7 @@
       <name>Widget2</name>
    </variable>
    <variable>
-      <defaultValue>'1.01%'</defaultValue>
+      <defaultValue>'0.00%'</defaultValue>
       <description></description>
       <id>579a4207-a3dc-4904-a5e6-d3e9d042e3ad</id>
       <masked>false</masked>

@@ -6,11 +6,15 @@
    <elementGuidId>1646ac02-1ce6-4b38-93ff-5a7c8e9906ce</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>/html[@class=&quot;ng-scope&quot;]/body[1]/div[@class=&quot;ng-scope&quot;]/payee-home[@class=&quot;ng-scope ng-isolate-scope&quot;]/div[@class=&quot;payee-content&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12 payee-main-content ng-scope&quot;]/dashboard-list[@class=&quot;ng-scope ng-isolate-scope&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;row voffset&quot;]/div[@class=&quot;col-sm-12&quot;]/div[@class=&quot;ibox&quot;]/div[@class=&quot;ibox-content&quot;]/div[@class=&quot;ng-scope&quot;]/plan-dashboard-list[@class=&quot;ng-isolate-scope&quot;]/table[@class=&quot;table table-responsive voffset&quot;]/tbody[@class=&quot;ng-scope&quot;]/tr[1]/td[@class=&quot;col-sm-3&quot;]/i[@class=&quot;fa fa-chevron-right&quot;]</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Actions'])[1]/following::i[1]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

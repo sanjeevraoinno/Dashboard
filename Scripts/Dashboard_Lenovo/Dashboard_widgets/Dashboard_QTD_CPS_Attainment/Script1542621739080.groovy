@@ -19,31 +19,15 @@ WebUI.callTestCase(findTestCase('Dashboard_Lenovo/Dashboard_login'), [:], Failur
 
 WebUI.callTestCase(findTestCase('Dashboard_Lenovo/Dashboard_Plans'), [('Plans') : 'AP Guarantee plan-1 Element'], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.switchToWindowIndex(1)
+WebUI.callTestCase(findTestCase('Dashboard_Lenovo/Dashboard_date'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementVisible(findTestObject('Dashboard_Widgets/span_Please enter at least 3 c'), 10)
+WebUI.callTestCase(findTestCase('Dashboard_Lenovo/Dashboard_Participant'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Dashboard_Widgets/span_Please enter at least 3 c'))
+WebUI.mouseOver(findTestObject('Dashboard_Widgets/Dashboard_QTD_CPS_Attainment/span_QTD CPS Attainment'))
 
-WebUI.click(findTestObject('Dashboard_Widgets/span_Select period'))
+WebUI.verifyElementText(findTestObject('Dashboard_Widgets/Dashboard_QTD_CPS_Attainment/span_QTD CPS Attainment'), Widget1)
 
-WebUI.click(findTestObject('Dashboard_Widgets/input_March 2019_form-control'))
+WebUI.verifyEqual(WebUI.getText(findTestObject('Dashboard_Widgets/Dashboard_QTD_CPS_Attainment/div_0.00')), wid_Values)
 
-WebUI.delay(10)
-
-WebUI.setText(findTestObject('Dashboard_Widgets/input_March 2019_form-control'), partDate)
-
-WebUI.click(findTestObject('Dashboard_Widgets/a_June 2018'))
-
-WebUI.click(findTestObject('Dashboard_Widgets/span_Please enter at least 3 c'))
-
-WebUI.setText(findTestObject('Dashboard_Widgets/input_Please enter at least 3'), 'Ayush')
-
-WebUI.click(findTestObject('Dashboard_Widgets/a_Ayushmaan Agarwal (00690005)'))
-
-WebUI.mouseOver(findTestObject('Dashboard_Widgets/span_QTD CPS Attainment'))
-
-WebUI.verifyElementText(findTestObject('Dashboard_Widgets/span_QTD CPS Attainment'), Widget1)
-
-WebUI.verifyEqual(WebUI.getText(findTestObject('Dashboard_Widgets/div_0.00')), wid_Values)
+WebUI.callTestCase(findTestCase('Dashboard_Lenovo/Dashboard_widgets/Dashboard_Myprofile'), [:], FailureHandling.STOP_ON_FAILURE)
 

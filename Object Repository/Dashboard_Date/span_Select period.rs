@@ -7,15 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//span[(text() = 'Select period 
-        
-          March 2019
-        
-          ' or . = 'Select period 
-        
-          March 2019
-        
-          ')]</value>
+         <value>//label[text()='Period']/following-sibling::treasure-overlay-spinner//strong</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -25,7 +17,7 @@
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -81,7 +73,7 @@
       <value>false</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -92,11 +84,11 @@
           </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[@class=&quot;ng-scope&quot;]/body[1]/div[@class=&quot;ng-scope&quot;]/payee-home[@class=&quot;ng-scope ng-isolate-scope&quot;]/div[@class=&quot;payee-content&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12 payee-main-content ng-scope&quot;]/dashboard-preview-route[@class=&quot;ng-scope ng-isolate-scope&quot;]/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;voffset ng-scope&quot;]/dashboard-preview[@class=&quot;ng-isolate-scope&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-3 col-sm-offset-1&quot;]/treasure-overlay-spinner[@class=&quot;ng-isolate-scope&quot;]/div[@class=&quot;treasure-overlay-spinner-content&quot;]/ng-transclude[1]/period-select[@class=&quot;ng-scope ng-isolate-scope&quot;]/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;input-group period-input-group hidden-xs&quot;]/div[@class=&quot;cald-overflow-ui-select ui-select-container ui-select-bootstrap dropdown ng-pristine ng-valid ng-scope ng-not-empty ng-touched&quot;]/div[@class=&quot;ui-select-match ng-scope btn-default-focus&quot;]/span[@class=&quot;btn btn-default form-control ui-select-toggle&quot;]</value>
+      <value>//label[text()='Period']/following-sibling::treasure-overlay-spinner//strong</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

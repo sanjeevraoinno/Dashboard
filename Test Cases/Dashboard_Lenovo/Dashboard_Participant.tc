@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Dashboard_Participant</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4c0a22c9-423f-41d7-a616-939b8a337f04</testCaseGuid>
+   <variable>
+      <defaultValue>'Ayush'</defaultValue>
+      <description></description>
+      <id>7e941333-c891-43f4-a18d-d08f7acbf3f1</id>
+      <masked>false</masked>
+      <name>ParticipantName</name>
+   </variable>
+</TestCaseEntity>
