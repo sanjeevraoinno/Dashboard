@@ -13,13 +13,6 @@
       <name>Widget1</name>
    </variable>
    <variable>
-      <defaultValue>'My Profile'</defaultValue>
-      <description></description>
-      <id>0043d22c-90de-42df-b7ab-e2978c1b1a81</id>
-      <masked>false</masked>
-      <name>Widget2</name>
-   </variable>
-   <variable>
       <defaultValue>'0.00%'</defaultValue>
       <description></description>
       <id>579a4207-a3dc-4904-a5e6-d3e9d042e3ad</id>

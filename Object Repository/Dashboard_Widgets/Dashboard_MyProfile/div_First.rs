@@ -8,142 +8,12 @@
       <entry>
          <key>BASIC</key>
          <value>//div[(text() = '
-                  
-  
-    
-      
-      
-    
-
-    
-      
-
-        
           First
           :
-        
-        
-          
-             Ayushmaan 
-          
-        
-      
-
-        
-          Last
-          :
-        
-        
-          
-             Agarwal 
-          
-        
-      
-
-        
-          Job Desc
-          :
-        
-        
-          
-             Associate Manager - Sales 
-          
-        
-      
-
-        
-          Manager
-          :
-        
-        
-          
-             Hiral Somaiya 
-          
-        
-      
-
-        
-          PDT
-          :
-        
-        
-          
-             APGUAR-IN 
-          
-        
-      
-    
-  
-
-              ' or . = '
-                  
-  
-    
-      
-      
-    
-
-    
-      
-
-        
+        ' or . = '
           First
           :
-        
-        
-          
-             Ayushmaan 
-          
-        
-      
-
-        
-          Last
-          :
-        
-        
-          
-             Agarwal 
-          
-        
-      
-
-        
-          Job Desc
-          :
-        
-        
-          
-             Associate Manager - Sales 
-          
-        
-      
-
-        
-          Manager
-          :
-        
-        
-          
-             Hiral Somaiya 
-          
-        
-      
-
-        
-          PDT
-          :
-        
-        
-          
-             APGUAR-IN 
-          
-        
-      
-    
-  
-
-              ')]</value>
+        ')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -162,16 +32,9 @@
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>ng-if</name>
-      <type>Main</type>
-      <value>!vm.isWidgetLevelDrillable()</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>chart-container ng-scope</value>
+      <value>col-sm-5 no-padding-right</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -179,84 +42,50 @@
       <name>text</name>
       <type>Main</type>
       <value>
-                  
-  
-    
-      
-      
-    
-
-    
-      
-
-        
           First
           :
-        
-        
-          
-             Ayushmaan 
-          
-        
-      
-
-        
-          Last
-          :
-        
-        
-          
-             Agarwal 
-          
-        
-      
-
-        
-          Job Desc
-          :
-        
-        
-          
-             Associate Manager - Sales 
-          
-        
-      
-
-        
-          Manager
-          :
-        
-        
-          
-             Hiral Somaiya 
-          
-        
-      
-
-        
-          PDT
-          :
-        
-        
-          
-             APGUAR-IN 
-          
-        
-      
-    
-  
-
-              </value>
+        </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;widgetGrid&quot;)/ul[1]/li[@class=&quot;gridster-item ng-scope&quot;]/widget[@class=&quot;ng-isolate-scope&quot;]/div[1]/div[@class=&quot;ng-scope&quot;]/profile-widget[@class=&quot;ng-isolate-scope&quot;]/widget-container[@class=&quot;ng-isolate-scope&quot;]/div[@class=&quot;widget-container chart-container&quot;]/div[@class=&quot;container-fluid chart-container&quot;]/div[@class=&quot;row chart-container&quot;]/div[@class=&quot;col-sm-12 no-padding&quot;]/div[@class=&quot;cald-widget-content auto-height-child ibox-content-no-padding wrapper-content chart-container&quot;]/div[@class=&quot;chart-container ng-scope&quot;]/div[@class=&quot;chart-container ng-scope&quot;]</value>
+      <value>id(&quot;widgetGrid&quot;)/ul[1]/li[@class=&quot;gridster-item ng-scope&quot;]/widget[@class=&quot;ng-isolate-scope&quot;]/div[1]/div[@class=&quot;ng-scope&quot;]/profile-widget[@class=&quot;ng-isolate-scope&quot;]/widget-container[@class=&quot;ng-isolate-scope&quot;]/div[@class=&quot;widget-container chart-container&quot;]/div[@class=&quot;container-fluid chart-container&quot;]/div[@class=&quot;row chart-container&quot;]/div[@class=&quot;col-sm-12 no-padding&quot;]/div[@class=&quot;cald-widget-content auto-height-child ibox-content-no-padding wrapper-content chart-container&quot;]/div[@class=&quot;chart-container ng-scope&quot;]/div[@class=&quot;chart-container ng-scope&quot;]/ng-transclude[1]/div[@class=&quot;row ng-scope&quot;]/div[@class=&quot;col-sm-6&quot;]/div[@class=&quot;row ng-scope&quot;]/div[@class=&quot;col-sm-5 no-padding-right&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-if</name>
+      <type>Main</type>
+      <value>!vm.isWidgetLevelDrillable()</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <value>//div[@id='widgetGrid']/ul/li[2]/widget/div/div/profile-widget/widget-container/div/div/div[2]/div/div/div/div/ng-transclude/div/div[2]/div/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='My Profile'])[1]/following::div[10]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='QTD CPS Attainment'])[1]/following::div[24]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <value>//ng-transclude/div/div[2]/div/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <value>//div[@id='widgetGrid']/ul/li[2]/widget/div/div/profile-widget/widget-container/div/div/div[2]/div/div/div/div</value>
