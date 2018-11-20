@@ -12,22 +12,16 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import java.awt.Robot as Robot
-import java.awt.event.KeyEvent as KeyEvent
 
-WebUI.click(findTestObject('Dashboard_Date/span_Please enter at least 3 c'))
+WebUI.mouseOver(findTestObject('Dashboard_Widgets/Dashboard_Percent_of_TI/span_Percent of TI'))
 
-WebUI.setText(findTestObject('Dashboard_Date/input_Please enter at least 3'), ParticipantName)
+WebUI.verifyElementText(findTestObject('Dashboard_Widgets/Dashboard_Percent_of_TI/span_Percent of TI'), 'Percent of TI')
 
-CustomKeywords.'globalkeywords.record.RecordNotFound'()
+WebUI.verifyEqual(WebUI.getText(findTestObject('Dashboard_Widgets/Dashboard_Percent_of_TI/div_0.00')), Percent_Val)
 
-WebUI.delay(10)
+WebUI.verifyEqual(WebUI.getText(findTestObject('Dashboard_Widgets/Dashboard_Percent_of_TI/Target_value')), Percent_Target)
 
-Robot robot = new Robot()
+WebUI.getText(findTestObject('Dashboard_Widgets/Dashboard_Percent_of_TI/Achivement_val'))
 
-robot.keyPress(KeyEvent.VK_ENTER)
-
-Thread.sleep(2000)
-
-robot.keyRelease(KeyEvent.VK_ENTER)
+WebUI.verifyEqual(WebUI.getText(findTestObject('Dashboard_Widgets/Dashboard_Percent_of_TI/Achivement_val')), Percent_Achievment)
 

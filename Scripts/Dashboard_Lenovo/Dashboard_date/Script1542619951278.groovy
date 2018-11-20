@@ -33,6 +33,8 @@ WebUI.delay(10)
 
 WebUI.setText(findTestObject('Dashboard_Date/input_March 2019_form-control'), parDate)
 
+CustomKeywords.'globalkeywords.record.RecordNotFound'()
+
 Robot robot = new Robot()
 
 robot.keyPress(KeyEvent.VK_ENTER)

@@ -28,8 +28,7 @@ public class record {
 
 
 		try {
-			boolean norecord = WebUI.waitForElementPresent(findTestObject('Page_Callidus Cloud Commissions Man/NoRecordsFound'),
-					10)
+			boolean norecord = WebUI.waitForElementPresent(findTestObject('No_Results_Found/span_No results found.'),10)
 
 			if (norecord) {
 				'The Record you are searching Not Found.  Test-Case Failed'
@@ -38,6 +37,8 @@ public class record {
 				KeywordLogger logger = new KeywordLogger()
 
 				logger.logInfo('Record Not found')
+				
+				println ("No Record found.")
 			}
 		}
 		catch (Exception e) {

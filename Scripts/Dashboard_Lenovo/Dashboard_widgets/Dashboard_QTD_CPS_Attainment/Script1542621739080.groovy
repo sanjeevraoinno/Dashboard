@@ -31,3 +31,9 @@ WebUI.verifyEqual(WebUI.getText(findTestObject('Dashboard_Widgets/Dashboard_QTD_
 
 WebUI.callTestCase(findTestCase('Dashboard_Lenovo/Dashboard_widgets/Dashboard_Myprofile'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.callTestCase(findTestCase('Dashboard_Lenovo/Dashboard_widgets/Dashboard_Percent_of_TI'), [('Percent_Val') : '0.00%'], 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Dashboard_Lenovo/Dashboard_widgets/Dashboard_Element_1_Attainment'), [('Element1_val') : '0.00%'], 
+    FailureHandling.STOP_ON_FAILURE)
+

@@ -12,22 +12,14 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import java.awt.Robot as Robot
-import java.awt.event.KeyEvent as KeyEvent
 
-WebUI.click(findTestObject('Dashboard_Date/span_Please enter at least 3 c'))
+WebUI.mouseOver(findTestObject('Dashboard_Widgets/Dashboard_Element_1_Attainment/span_Element 1 Attainment'))
 
-WebUI.setText(findTestObject('Dashboard_Date/input_Please enter at least 3'), ParticipantName)
+WebUI.verifyElementText(findTestObject('Dashboard_Widgets/Dashboard_Element_1_Attainment/span_Element 1 Attainment'), 'Element 1 Attainment')
 
-CustomKeywords.'globalkeywords.record.RecordNotFound'()
+WebUI.verifyEqual(WebUI.getText(findTestObject('Dashboard_Widgets/Dashboard_Element_1_Attainment/Element1_val')), Element1_val)
 
-WebUI.delay(10)
+WebUI.verifyEqual(WebUI.getText(findTestObject('Dashboard_Widgets/Dashboard_Element_1_Attainment/Quota_val')), Element_quota)
 
-Robot robot = new Robot()
-
-robot.keyPress(KeyEvent.VK_ENTER)
-
-Thread.sleep(2000)
-
-robot.keyRelease(KeyEvent.VK_ENTER)
+WebUI.verifyEqual(WebUI.getText(findTestObject('Dashboard_Widgets/Dashboard_Element_1_Attainment/Attainment_val')), Element_attainment)
 
