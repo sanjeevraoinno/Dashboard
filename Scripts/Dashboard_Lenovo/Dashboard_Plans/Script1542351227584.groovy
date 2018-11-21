@@ -15,8 +15,6 @@ import internal.GlobalVariable as GlobalVariable
 import java.awt.Robot as Robot
 import java.awt.event.KeyEvent as KeyEvent
 
-WebUI.callTestCase(findTestCase('Dashboard_Lenovo/Dashboard_login'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.click(findTestObject('Dashboard_Plan/a_Dashboards'))
 
 WebUI.delay(3)

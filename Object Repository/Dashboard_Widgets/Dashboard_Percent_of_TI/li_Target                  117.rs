@@ -4,6 +4,24 @@
    <name>li_Target                  117</name>
    <tag></tag>
    <elementGuidId>7ac2b0ad-dbce-4d05-8678-c27d1ab34e13</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//li[(text() = 'Target
+        
+          117,472.75
+        
+        ' or . = 'Target
+        
+          117,472.75
+        
+        ')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='widgetGrid']/ul/li[3]/widget/div/div/attainment-widget/widget-container/div/div/div[2]/div/div/div/div/ng-transclude/div[2]/div[2]/ul/li</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

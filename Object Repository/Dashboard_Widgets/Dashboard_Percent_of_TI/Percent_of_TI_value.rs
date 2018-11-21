@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_0.00</name>
+   <name>Percent_of_TI_value</name>
    <tag></tag>
    <elementGuidId>7bfb8a83-c008-4ae5-8c0c-4bbe32dddadc</elementGuidId>
    <selectorCollection>

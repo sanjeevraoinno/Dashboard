@@ -27,11 +27,11 @@ WebUI.click(findTestObject('Dashboard_Date/span_Select period'))
 
 WebUI.delay(10)
 
-WebUI.click(findTestObject('Dashboard_Date/input_March 2019_form-control'))
+WebUI.click(findTestObject('Dashboard_Date/Input_of_date'))
 
 WebUI.delay(10)
 
-WebUI.setText(findTestObject('Dashboard_Date/input_March 2019_form-control'), parDate)
+WebUI.setText(findTestObject('Dashboard_Date/Input_of_date'), parDate)
 
 CustomKeywords.'globalkeywords.record.RecordNotFound'()
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_0.00</name>
+   <name>QTD_CPS_attainment_value</name>
    <tag></tag>
    <elementGuidId>e7ba4e4b-e98e-47e6-81db-8babc6e276fb</elementGuidId>
    <selectorCollection>
