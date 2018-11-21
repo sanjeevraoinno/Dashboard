@@ -33,4 +33,11 @@
       <masked>false</masked>
       <name>Percentageofelementone</name>
    </variable>
+   <variable>
+      <defaultValue>'0.00%'</defaultValue>
+      <description></description>
+      <id>2dc4ef96-a118-4388-ab77-7aa1e01b517f</id>
+      <masked>false</masked>
+      <name>QTDCPS</name>
+   </variable>
 </TestCaseEntity>

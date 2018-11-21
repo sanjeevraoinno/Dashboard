@@ -42,7 +42,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[@id='widgetGrid']/ul/li[2]/widget/div/div/profile-widget/widget-container/div/div/div[2]/div/div/div/div/ng-transclude/div/div[2]/div[5]/div[2]/strong/field-label/div</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=':'])[5]/following::div[2]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

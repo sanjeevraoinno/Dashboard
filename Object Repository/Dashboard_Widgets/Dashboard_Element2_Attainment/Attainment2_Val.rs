@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Attainment2_Val</name>
+   <tag></tag>
+   <elementGuidId>70de61b5-3215-4d7e-b5a9-aa803f9a68c7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@id='widgetGrid']/ul/li[5]/widget/div/div/attainment-widget/widget-container/div/div/div[2]/div/div/div/div/ng-transclude/div[2]/div[2]/ul/li[2]/span/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//div[@id='widgetGrid']/ul/li[5]/widget/div/div/attainment-widget/widget-container/div/div/div[2]/div/div/div/div/ng-transclude/div[2]/div[2]/ul/li[2]/span/span</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>//div[@ng-if='vm.fields.length > 0']/div[@class=&quot;row ng-scope&quot;]//strong/field-label/div</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -42,7 +42,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[@ng-if='vm.fields.length > 0']/div[@class=&quot;row ng-scope&quot;]//strong/field-label/div</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=':'])[1]/following::div[2]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Dashboard_Percent_of_TI</name>
+   <name>Dashboard_Element_2_attainment</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>55238dbf-7612-4017-917d-19d8f06f189c</testCaseGuid>
+   <testCaseGuid>955c6f2d-525c-486a-88f4-74237a36cac4</testCaseGuid>
    <variable>
       <defaultValue>'0.00%'</defaultValue>
       <description></description>
-      <id>96b86d4c-ac35-4323-a92f-75ec71650a20</id>
+      <id>6ae00954-43d9-47aa-841b-96d31d685e33</id>
       <masked>false</masked>
-      <name>Percent_Val</name>
+      <name>valElement2</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>e84abb14-0e13-4aba-b9f6-f016650ce659</id>
+      <id>23f03d92-bb60-451b-972a-8846cc0edf4b</id>
       <masked>false</masked>
-      <name>Percent_Target</name>
+      <name>Quota2</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>9478d7a4-90c5-44d1-bd71-4c0ea0f50e13</id>
+      <id>85a9daed-a0d5-43db-8659-55567e39425a</id>
       <masked>false</masked>
-      <name>Percent_Achievment</name>
+      <name>Attainment2</name>
    </variable>
 </TestCaseEntity>

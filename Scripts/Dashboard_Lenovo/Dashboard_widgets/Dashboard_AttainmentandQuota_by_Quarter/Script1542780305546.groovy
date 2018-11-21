@@ -21,11 +21,26 @@ WebUI.verifyElementText(findTestObject('Dashboard_Widgets/Dashboard_Attainment_a
 WebUI.verifyEqual(WebUI.getText(findTestObject('Dashboard_Widgets/Dashboard_Attainment_and_quota_by _Quarter/YearlyPeriods')), 
     QuarterPeriods)
 
+WebUI.verifyEqual(WebUI.getText(findTestObject('Dashboard_Widgets/Dashboard_Attainment_and_quota_by _Quarter/td_QTD CPS')), 
+    'QTD CPS')
+
+WebUI.verifyEqual(WebUI.getText(findTestObject('Dashboard_Widgets/Dashboard_Attainment_and_quota_by _Quarter/Qtd cps')), 
+    QTDCPS)
+
+WebUI.verifyEqual(WebUI.getText(findTestObject('Dashboard_Widgets/Dashboard_Attainment_and_quota_by _Quarter/td_Element 1 Quota')), 
+    'Element 1 Quota')
+
 WebUI.verifyEqual(WebUI.getText(findTestObject('Dashboard_Widgets/Dashboard_Attainment_and_quota_by _Quarter/Element Quota')), 
     Quota1)
 
+WebUI.verifyEqual(WebUI.getText(findTestObject('Dashboard_Widgets/Dashboard_Attainment_and_quota_by _Quarter/td_Element 1 Attainment')), 
+    'Element 1 Attainment')
+
 WebUI.verifyEqual(WebUI.getText(findTestObject('Dashboard_Widgets/Dashboard_Attainment_and_quota_by _Quarter/Element1 Attainment')), 
     Element1attainment)
+
+WebUI.verifyEqual(WebUI.getText(findTestObject('Dashboard_Widgets/Dashboard_Attainment_and_quota_by _Quarter/td_Element 1 AttainmentPercentage')), 
+    'Element 1 Attainment %')
 
 WebUI.verifyEqual(WebUI.getText(findTestObject('Dashboard_Widgets/Dashboard_Attainment_and_quota_by _Quarter/Percentage of Element1 attainment')), 
     Percentageofelementone)

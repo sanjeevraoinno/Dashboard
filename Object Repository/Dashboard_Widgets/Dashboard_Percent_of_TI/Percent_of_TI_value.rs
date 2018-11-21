@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[@id='widgetGrid']/ul/li[3]/widget/div/div/attainment-widget/widget-container/div/div/div[2]/div/div/div/div/ng-transclude/div[2]/div/div</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Percent of TI'])[1]/following::div[11]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -54,7 +54,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[@id='widgetGrid']/ul/li[3]/widget/div/div/attainment-widget/widget-container/div/div/div[2]/div/div/div/div/ng-transclude/div[2]/div/div</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Percent of TI'])[1]/following::div[11]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

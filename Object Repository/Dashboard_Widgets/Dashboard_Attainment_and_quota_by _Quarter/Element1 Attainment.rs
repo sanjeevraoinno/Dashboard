@@ -14,7 +14,7 @@
          <value>//div[@id='widgetGrid']/ul/li[5]/widget/div/div/single-kpi-mp-widget/widget-container/div/div/div[2]/div/div/div/div/ng-transclude/div/table/tbody/tr[3]/td[2]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
