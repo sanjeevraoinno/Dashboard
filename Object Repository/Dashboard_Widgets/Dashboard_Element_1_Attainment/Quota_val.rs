@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//div[@id='widgetGrid']/ul/li[4]/widget/div/div/attainment-widget/widget-container/div/div/div[2]/div/div/div/div/ng-transclude/div[2]/div[2]/ul/li[1]/span/span</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Element 1 Attainment'])[1]/following::span[3]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -21,6 +20,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//div[@id='widgetGrid']/ul/li[4]/widget/div/div/attainment-widget/widget-container/div/div/div[2]/div/div/div/div/ng-transclude/div[2]/div[2]/ul/li[1]/span/span</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Element 1 Attainment'])[1]/following::span[3]</value>
    </webElementProperties>
 </WebElementEntity>

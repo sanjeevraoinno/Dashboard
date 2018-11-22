@@ -4,7 +4,73 @@
    <name>Element2val</name>
    <tag></tag>
    <elementGuidId>052b50c0-44dd-48f7-aed2-65e688c17395</elementGuidId>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Element 2 Attainment'])[1]/following::div[10][count(. | //div[(text() = '
+      
+        
+          0.00%
+          
+
+
+
+
+
+    
+          
+        
+      
+    ' or . = '
+      
+        
+          0.00%
+          
+
+
+
+
+
+    
+          
+        
+      
+    ')]) = count(//div[(text() = '
+      
+        
+          0.00%
+          
+
+
+
+
+
+    
+          
+        
+      
+    ' or . = '
+      
+        
+          0.00%
+          
+
+
+
+
+
+    
+          
+        
+      
+    ')])]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='widgetGrid']/ul/li[5]/widget/div/div/attainment-widget/widget-container/div/div/div[2]/div/div/div/div/ng-transclude/div[2]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,11 +115,11 @@
     </value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;widgetGrid&quot;)/ul[1]/li[@class=&quot;gridster-item ng-scope&quot;]/widget[@class=&quot;ng-isolate-scope&quot;]/div[1]/div[@class=&quot;ng-scope&quot;]/attainment-widget[@class=&quot;ng-isolate-scope&quot;]/widget-container[@class=&quot;ng-isolate-scope&quot;]/div[@class=&quot;widget-container chart-container&quot;]/div[@class=&quot;container-fluid chart-container&quot;]/div[@class=&quot;row chart-container&quot;]/div[@class=&quot;col-sm-12 no-padding&quot;]/div[@class=&quot;cald-widget-content auto-height-child ibox-content-no-padding wrapper-content chart-container&quot;]/div[@class=&quot;chart-container ng-scope&quot;]/div[@class=&quot;chart-container ng-scope&quot;]/ng-transclude[1]/div[@class=&quot;row voffset ng-scope&quot;]/div[@class=&quot;col-xs-12 col-sm-6&quot;]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Element 2 Attainment'])[1]/following::div[10]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

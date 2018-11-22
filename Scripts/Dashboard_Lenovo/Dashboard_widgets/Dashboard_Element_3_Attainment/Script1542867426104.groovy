@@ -12,14 +12,14 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import java.awt.Robot as Robot
-import java.awt.event.KeyEvent as KeyEvent
-import org.stringtemplate.v4.compiler.STParser.ifstat_return as ifstat_return
 
-WebUI.mouseOver(findTestObject('Dashboard_Widgets/Dashboard_QTD_CPS_Attainment/span_QTD CPS Attainment'))
+WebUI.mouseOver(findTestObject('Dashboard_Widgets/Dashboard_Element_3_Attainment/span_Element 3 Attainment'))
 
-WebUI.verifyElementText(findTestObject('Dashboard_Widgets/Dashboard_QTD_CPS_Attainment/span_QTD CPS Attainment'), Widget1)
+WebUI.verifyElementText(findTestObject('Dashboard_Widgets/Dashboard_Element_3_Attainment/span_Element 3 Attainment'), 'Element 3 Attainment')
 
-WebUI.verifyEqual(WebUI.getText(findTestObject('Dashboard_Widgets/Dashboard_QTD_CPS_Attainment/QTD_CPS_attainment_value')), 
-    wid_Values)
+WebUI.verifyEqual(WebUI.getText(findTestObject('Dashboard_Widgets/Dashboard_Element_3_Attainment/Element3val')), ValElement3)
+
+WebUI.verifyEqual(WebUI.getText(findTestObject('Dashboard_Widgets/Dashboard_Element_3_Attainment/Quota3_val')), Quota3)
+
+WebUI.verifyEqual(WebUI.getText(findTestObject('Dashboard_Widgets/Dashboard_Element_3_Attainment/Attainment3_val')), Attainment3)
 
