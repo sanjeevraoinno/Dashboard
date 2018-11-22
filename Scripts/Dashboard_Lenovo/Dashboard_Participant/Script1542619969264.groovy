@@ -21,8 +21,6 @@ WebUI.click(findTestObject('Dashboard_Date/span_Please enter at least 3 c'))
 
 WebUI.setText(findTestObject('Dashboard_Date/input_Please enter at least 3'), ParticipantName)
 
-CustomKeywords.'globalkeywords.record.RecordNotFound'()
-
 WebUI.delay(10)
 
 Robot robot = new Robot()
@@ -32,6 +30,7 @@ robot.keyPress(KeyEvent.VK_ENTER)
 Thread.sleep(2000)
 
 robot.keyRelease(KeyEvent.VK_ENTER)
+
 boolean part
 
 try{

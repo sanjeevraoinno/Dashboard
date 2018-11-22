@@ -15,5 +15,5 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.mouseOver(findTestObject('Dashboard_Widgets/Dashbaoard_currentyearpayments/Current_YearPayments'))
 
-WebUI.verifyElementText(findTestObject('Dashboard_Widgets/Dashbaoard_currentyearpayments/Current_YearPayments'), 'Current Year Payments')
+WebUI.verifyElementText(findTestObject('Dashboard_Widgets/Dashbaoard_currentyearpayments/Current_YearPayments'), widget7)
 

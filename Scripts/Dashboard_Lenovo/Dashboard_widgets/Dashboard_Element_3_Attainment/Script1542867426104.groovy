@@ -15,7 +15,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.mouseOver(findTestObject('Dashboard_Widgets/Dashboard_Element_3_Attainment/span_Element 3 Attainment'))
 
-WebUI.verifyElementText(findTestObject('Dashboard_Widgets/Dashboard_Element_3_Attainment/span_Element 3 Attainment'), 'Element 3 Attainment')
+WebUI.verifyElementText(findTestObject('Dashboard_Widgets/Dashboard_Element_3_Attainment/span_Element 3 Attainment'), widget8)
 
 WebUI.verifyEqual(WebUI.getText(findTestObject('Dashboard_Widgets/Dashboard_Element_3_Attainment/Element3val')), ValElement3)
 

@@ -6,7 +6,7 @@
    <comment></comment>
    <testCaseGuid>50215fc5-151c-40bf-a9b4-e4634ceea82d</testCaseGuid>
    <variable>
-      <defaultValue>'0.00%'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>c8d945f2-6f2d-4682-abcd-cbc2142f9373</id>
       <masked>false</masked>
@@ -25,5 +25,12 @@
       <id>36dd0e26-f946-469c-97b9-e9ae0420819e</id>
       <masked>false</masked>
       <name>Element_attainment</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d733f406-8047-425f-a167-8ea22822b52e</id>
+      <masked>false</masked>
+      <name>Widget4</name>
    </variable>
 </TestCaseEntity>

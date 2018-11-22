@@ -33,3 +33,9 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('Dashboard_Plan/i_AP Guarantee plan-1 Element_'))
 
+WebUI.switchToWindowIndex(1)
+
+WebUI.waitForElementVisible(findTestObject('Dashboard_Date/span_Please enter at least 3 c'), 10)
+
+WebUI.click(findTestObject('Dashboard_Date/span_Please enter at least 3 c'))
+

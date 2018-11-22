@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//span[(text() = 'My Profile' or . = 'My Profile')]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='QTD CPS Attainment'])[1]/following::span[2]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -17,7 +17,7 @@
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -38,18 +38,18 @@
       <value>vm.widgetTitleStyle</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>My Profile</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;widgetGrid&quot;)/ul[1]/li[@class=&quot;gridster-item ng-scope&quot;]/widget[@class=&quot;ng-isolate-scope&quot;]/div[1]/div[@class=&quot;ng-scope&quot;]/profile-widget[@class=&quot;ng-isolate-scope&quot;]/widget-container[@class=&quot;ng-isolate-scope&quot;]/div[@class=&quot;widget-container chart-container&quot;]/div[@class=&quot;container-fluid chart-container&quot;]/div[@class=&quot;row chart-container&quot;]/div[@class=&quot;col-sm-12 no-padding&quot;]/div[@class=&quot;cald-widget__header&quot;]/span[@class=&quot;widget-title ng-binding&quot;]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='QTD CPS Attainment'])[1]/following::span[2]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

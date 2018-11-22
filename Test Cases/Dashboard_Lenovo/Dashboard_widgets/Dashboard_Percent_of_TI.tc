@@ -6,7 +6,7 @@
    <comment></comment>
    <testCaseGuid>55238dbf-7612-4017-917d-19d8f06f189c</testCaseGuid>
    <variable>
-      <defaultValue>'0.00%'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>96b86d4c-ac35-4323-a92f-75ec71650a20</id>
       <masked>false</masked>
@@ -25,5 +25,12 @@
       <id>9478d7a4-90c5-44d1-bd71-4c0ea0f50e13</id>
       <masked>false</masked>
       <name>Percent_Achievment</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3d2d0ced-c48b-4466-b781-0252e2380cba</id>
+      <masked>false</masked>
+      <name>Widget3</name>
    </variable>
 </TestCaseEntity>

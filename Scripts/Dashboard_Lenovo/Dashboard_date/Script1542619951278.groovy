@@ -15,12 +15,6 @@ import internal.GlobalVariable as GlobalVariable
 import java.awt.Robot as Robot
 import java.awt.event.KeyEvent as KeyEvent
 
-WebUI.switchToWindowIndex(1)
-
-WebUI.waitForElementVisible(findTestObject('Dashboard_Date/span_Please enter at least 3 c'), 10)
-
-WebUI.click(findTestObject('Dashboard_Date/span_Please enter at least 3 c'))
-
 WebUI.delay(10)
 
 WebUI.click(findTestObject('Dashboard_Date/span_Select period'))

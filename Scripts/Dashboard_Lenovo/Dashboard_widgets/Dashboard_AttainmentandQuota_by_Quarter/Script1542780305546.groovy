@@ -16,7 +16,7 @@ import internal.GlobalVariable as GlobalVariable
 WebUI.mouseOver(findTestObject('Dashboard_Widgets/Dashboard_Attainment_and_quota_by _Quarter/Attainment and Quota by Q'))
 
 WebUI.verifyElementText(findTestObject('Dashboard_Widgets/Dashboard_Attainment_and_quota_by _Quarter/Attainment and Quota by Q'), 
-    'Attainment and Quota by Quarter')
+    widget6)
 
 WebUI.verifyEqual(WebUI.getText(findTestObject('Dashboard_Widgets/Dashboard_Attainment_and_quota_by _Quarter/YearlyPeriods')), 
     QuarterPeriods)
@@ -44,4 +44,20 @@ WebUI.verifyEqual(WebUI.getText(findTestObject('Dashboard_Widgets/Dashboard_Atta
 
 WebUI.verifyEqual(WebUI.getText(findTestObject('Dashboard_Widgets/Dashboard_Attainment_and_quota_by _Quarter/Percentage of Element1 attainment')), 
     Percentageofelementone)
+
+WebUI.getText(findTestObject(null))
+
+WebUI.verifyEqual(null, null)
+
+WebUI.getText(findTestObject(null))
+
+WebUI.verifyEqual(null, null)
+
+WebUI.getText(findTestObject(null))
+
+WebUI.verifyEqual(null, null)
+
+WebUI.getText(findTestObject(null))
+
+WebUI.verifyEqual(null, null)
 
