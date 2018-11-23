@@ -16,7 +16,7 @@ import internal.GlobalVariable as GlobalVariable
 WebUI.mouseOver(findTestObject('Dashboard_Widgets/Dashboard_Attainment_and_quota_by _Quarter/Attainment and Quota by Q'))
 
 WebUI.verifyElementText(findTestObject('Dashboard_Widgets/Dashboard_Attainment_and_quota_by _Quarter/Attainment and Quota by Q'), 
-    widget6)
+    widget7)
 
 WebUI.verifyEqual(WebUI.getText(findTestObject('Dashboard_Widgets/Dashboard_Attainment_and_quota_by _Quarter/YearlyPeriods')), 
     QuarterPeriods)
@@ -45,19 +45,15 @@ WebUI.verifyEqual(WebUI.getText(findTestObject('Dashboard_Widgets/Dashboard_Atta
 WebUI.verifyEqual(WebUI.getText(findTestObject('Dashboard_Widgets/Dashboard_Attainment_and_quota_by _Quarter/Percentage of Element1 attainment')), 
     Percentageofelementone)
 
-WebUI.getText(findTestObject(null))
+WebUI.verifyEqual(WebUI.getText(findTestObject('Dashboard_Widgets/Dashboard_Attainment_and_quota_by _Quarter/td_Element 2 Quota')), Quota2)
 
-WebUI.verifyEqual(null, null)
+WebUI.verifyEqual(WebUI.getText(findTestObject('Dashboard_Widgets/Dashboard_Attainment_and_quota_by _Quarter/td_Element 2 Attainment')), Element2attainment)
 
-WebUI.getText(findTestObject(null))
+WebUI.verifyEqual(WebUI.getText(findTestObject('Dashboard_Widgets/Dashboard_Attainment_and_quota_by _Quarter/td_Element 2 AttainmentPercentage')), PercentageofElementtwo)
 
-WebUI.verifyEqual(null, null)
+WebUI.verifyEqual(WebUI.getText(findTestObject('Dashboard_Widgets/Dashboard_Attainment_and_quota_by _Quarter/td_Element 3 Quota')), Quota3)
 
-WebUI.getText(findTestObject(null))
+WebUI.verifyEqual(WebUI.getText(findTestObject('Dashboard_Widgets/Dashboard_Attainment_and_quota_by _Quarter/td_Element 3 Attainment')), Element3attainment)
 
-WebUI.verifyEqual(null, null)
-
-WebUI.getText(findTestObject(null))
-
-WebUI.verifyEqual(null, null)
+WebUI.verifyEqual(WebUI.getText(findTestObject('Dashboard_Widgets/Dashboard_Attainment_and_quota_by _Quarter/td_Element 3 Attainmentpercentage')), PercentageofElementthree)
 

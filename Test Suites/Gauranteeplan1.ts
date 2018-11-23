@@ -310,6 +310,18 @@
          <value>widget5</value>
          <variableId>afc722e0-eed9-4806-98dc-f20a451e5c99</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e66b0558-b36a-49a6-9cb0-74d4b41cbc84</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>fbea7794-97b0-41c9-9e64-b2500b77157e</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>04efe1a3-ea85-496a-a7c0-52fa30be8b93</guid>

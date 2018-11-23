@@ -73,6 +73,20 @@
       <description></description>
       <id>afc722e0-eed9-4806-98dc-f20a451e5c99</id>
       <masked>false</masked>
-      <name>widget6</name>
+      <name>widget7</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e66b0558-b36a-49a6-9cb0-74d4b41cbc84</id>
+      <masked>false</masked>
+      <name>Quota2</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fbea7794-97b0-41c9-9e64-b2500b77157e</id>
+      <masked>false</masked>
+      <name>Quota3</name>
    </variable>
 </TestCaseEntity>
