@@ -18,25 +18,22 @@
       <testCaseId>Test Cases/Dashboard_Lenovo/Dashboard_login</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>d0df4941-4491-4db8-b4d6-753879d42a40</guid>
+      <guid>25a66d19-6ea8-48e8-b586-711c7804ff79</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Dashboard_Lenovo/Dashboard_Plans</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>9d9e10de-202f-4d7e-8d91-9a39ae43ac54</id>
-         <iterationEntity>
-            <iterationType>RANGE</iterationType>
-            <value>1-1</value>
-         </iterationEntity>
-         <testDataId>Data Files/Gauranteeplan</testDataId>
-      </testDataLink>
+      <testCaseId>Test Cases/Dashboard_Lenovo/Dashboard_Planfloder/Dashboard_Plans</testCaseId>
       <variableLink>
-         <testDataLinkId>9d9e10de-202f-4d7e-8d91-9a39ae43ac54</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Plan</value>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
          <variableId>84fe46c6-4454-45a0-830c-be3610f9b5dc</variableId>
       </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b6338267-8617-45c8-bf27-eaa3f25a9c23</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Dashboard_Lenovo/Dashboard_Planfloder/Dashboard_PlanActions</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>c7cd7a16-4dd9-4fd8-b662-6b2e54ed3a73</guid>

@@ -12,18 +12,6 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import java.awt.Robot as Robot
-import java.awt.event.KeyEvent as KeyEvent
-
-WebUI.click(findTestObject('Dashboard_Plan/a_Dashboards'))
-
-WebUI.delay(3)
-
-WebUI.click(findTestObject('Dashboard_Plan/input_Search_form-control ng-p'))
-
-WebUI.setText(findTestObject('Dashboard_Plan/input_Search_form-control ng-p'), Plans)
-
-CustomKeywords.'globalkeywords.record.RecordNotFound'()
 
 WebUI.delay(3)
 
