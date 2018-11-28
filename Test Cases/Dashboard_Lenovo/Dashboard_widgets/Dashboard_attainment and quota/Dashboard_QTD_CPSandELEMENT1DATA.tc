@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Dashboard_AttainmentandQuota_by_Quarter</name>
+   <name>Dashboard_QTD_CPSandELEMENT1DATA</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>87ff9a92-8a00-430c-b52c-bf97fe08e959</testCaseGuid>
@@ -43,50 +43,8 @@
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>b661052a-6e13-44af-8320-166b3b7c3d2f</id>
-      <masked>false</masked>
-      <name>Element2attainment</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>37203908-d045-491f-8817-8af8cabc5d71</id>
-      <masked>false</masked>
-      <name>PercentageofElementtwo</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>92272781-5ca2-4ffb-b65a-cd31e30c29e0</id>
-      <masked>false</masked>
-      <name>Element3attainment</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>e21df75c-31e6-4cf7-87b6-53e8ea53512a</id>
-      <masked>false</masked>
-      <name>PercentageofElementthree</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
       <id>afc722e0-eed9-4806-98dc-f20a451e5c99</id>
       <masked>false</masked>
       <name>widget7</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>e66b0558-b36a-49a6-9cb0-74d4b41cbc84</id>
-      <masked>false</masked>
-      <name>Quota2</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>fbea7794-97b0-41c9-9e64-b2500b77157e</id>
-      <masked>false</masked>
-      <name>Quota3</name>
    </variable>
 </TestCaseEntity>

@@ -4,7 +4,7 @@
    <name>Gauranteeplan1</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-11-22T22:05:13</lastRun>
+   <lastRun>2018-11-28T10:59:56</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -240,7 +240,7 @@
       <guid>7408dcd8-fc99-42c7-bf4a-7d8ad763b94a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Dashboard_Lenovo/Dashboard_widgets/Dashboard_AttainmentandQuota_by_Quarter</testCaseId>
+      <testCaseId>Test Cases/Dashboard_Lenovo/Dashboard_widgets/Dashboard_attainment and quota/Dashboard_QTD_CPSandELEMENT1DATA</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>9f8f4b11-8588-4730-b93e-054cd031e142</id>
@@ -281,46 +281,10 @@
          <variableId>2dc4ef96-a118-4388-ab77-7aa1e01b517f</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>b661052a-6e13-44af-8320-166b3b7c3d2f</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>37203908-d045-491f-8817-8af8cabc5d71</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>92272781-5ca2-4ffb-b65a-cd31e30c29e0</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>e21df75c-31e6-4cf7-87b6-53e8ea53512a</variableId>
-      </variableLink>
-      <variableLink>
          <testDataLinkId>9f8f4b11-8588-4730-b93e-054cd031e142</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>widget5</value>
          <variableId>afc722e0-eed9-4806-98dc-f20a451e5c99</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>e66b0558-b36a-49a6-9cb0-74d4b41cbc84</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>fbea7794-97b0-41c9-9e64-b2500b77157e</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>

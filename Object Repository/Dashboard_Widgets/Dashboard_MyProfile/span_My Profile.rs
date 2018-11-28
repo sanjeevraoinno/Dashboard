@@ -49,7 +49,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='QTD CPS Attainment'])[1]/following::span[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=':'])[1]/preceding::span[2]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
