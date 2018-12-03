@@ -13,17 +13,27 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.verifyEqual(WebUI.getText(findTestObject('Dashboard_Widgets/Dashboard_Attainment_and_quota_by _Quarter/td_Element 3 Quota')), 'Element 3 Quota')
-WebUI.verifyEqual(WebUI.getText(findTestObject('Dashboard_Widgets/Dashboard_Attainment_and_quota_by _Quarter/td_Element 3 Quota')),
-	Quota3)
+'Verify the Quota3 text'
+WebUI.verifyEqual(WebUI.getText(findTestObject('Dashboard_Widgets/Dashboard_Attainment_and_quota_by _Quarter/td_Element 3 Quota')), 
+    'Element 3 Quota')
 
-WebUI.verifyEqual(WebUI.getText(findTestObject('Dashboard_Widgets/Dashboard_Attainment_and_quota_by _Quarter/td_Element 3 Attainment')), 'Element 3 Attainment')
+'Verify the Quota3 Value'
+WebUI.verifyEqual(WebUI.getText(findTestObject('Dashboard_Widgets/Dashboard_Attainment_and_quota_by _Quarter/td_Element 3 Quota')), 
+    Quota3)
 
+'Verify the Attainment3 text'
+WebUI.verifyEqual(WebUI.getText(findTestObject('Dashboard_Widgets/Dashboard_Attainment_and_quota_by _Quarter/td_Element 3 Attainment')), 
+    'Element 3 Attainment')
+
+'Verify the Attainmnet3 Value'
 WebUI.verifyEqual(WebUI.getText(findTestObject('Dashboard_Widgets/Dashboard_Attainment_and_quota_by _Quarter/td_Element 3 Attainment')), 
     Element3attainment)
 
-WebUI.verifyEqual(WebUI.getText(findTestObject('Dashboard_Widgets/Dashboard_Attainment_and_quota_by _Quarter/td_Element 3 Attainmentpercentage')), 'Element 3 Attainment %')
+'Verify the Attainment3 percentage text'
+WebUI.verifyEqual(WebUI.getText(findTestObject('Dashboard_Widgets/Dashboard_Attainment_and_quota_by _Quarter/td_Element 3 Attainmentpercentage')), 
+    'Element 3 Attainment %')
 
+'Verify the Attainment3percentage Value'
 WebUI.verifyEqual(WebUI.getText(findTestObject('Dashboard_Widgets/Dashboard_Attainment_and_quota_by _Quarter/td_Element 3 Attainmentpercentage')), 
     PercentageofElementthree)
 

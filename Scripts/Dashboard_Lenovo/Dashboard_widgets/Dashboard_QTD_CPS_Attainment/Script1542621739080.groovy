@@ -16,10 +16,13 @@ import java.awt.Robot as Robot
 import java.awt.event.KeyEvent as KeyEvent
 import org.stringtemplate.v4.compiler.STParser.ifstat_return as ifstat_return
 
+'Mouse over on to QTD CPS'
 WebUI.mouseOver(findTestObject('Dashboard_Widgets/Dashboard_QTD_CPS_Attainment/span_QTD CPS Attainment'))
 
+'Verify the Text of QTD CPS'
 WebUI.verifyElementText(findTestObject('Dashboard_Widgets/Dashboard_QTD_CPS_Attainment/span_QTD CPS Attainment'), Widget1)
 
+'Verify the value of QTD CPS'
 WebUI.verifyEqual(WebUI.getText(findTestObject('Dashboard_Widgets/Dashboard_QTD_CPS_Attainment/QTD_CPS_attainment_value')), 
     wid_Values)
 

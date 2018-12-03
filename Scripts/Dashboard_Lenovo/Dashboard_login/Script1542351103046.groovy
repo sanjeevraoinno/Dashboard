@@ -15,19 +15,25 @@ import internal.GlobalVariable as GlobalVariable
 import java.awt.Robot as Robot
 import java.awt.event.KeyEvent as KeyEvent
 
+'Opening the Browser'
 WebUI.openBrowser('')
 
+'Navigating to Specified Url\r\n'
 WebUI.navigateToUrl('https://lnvo-muat.callidusondemand.com/SalesPortal/#!/')
 
+'Maximizing the Browser window'
 WebUI.maximizeWindow()
 
 WebUI.delay(3)
 
+'Providing the Input value in the Username Text Box'
 WebUI.setText(findTestObject('Dashboard_login/input_username'), 'sapattna')
 
 WebUI.delay(3)
 
+'Providing the Password of the User'
 WebUI.setText(findTestObject('Dashboard_login/input_password'), 'Callidus123')
 
+'Click the login button'
 WebUI.click(findTestObject('Dashboard_login/button_Login'))
 

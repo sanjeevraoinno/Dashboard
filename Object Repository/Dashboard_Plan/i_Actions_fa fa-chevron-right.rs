@@ -7,7 +7,8 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>/html[@class=&quot;ng-scope&quot;]/body[1]/div[@class=&quot;ng-scope&quot;]/payee-home[@class=&quot;ng-scope ng-isolate-scope&quot;]/div[@class=&quot;payee-content&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12 payee-main-content ng-scope&quot;]/dashboard-list[@class=&quot;ng-scope ng-isolate-scope&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;row voffset&quot;]/div[@class=&quot;col-sm-12&quot;]/div[@class=&quot;ibox&quot;]/div[@class=&quot;ibox-content&quot;]/div[@class=&quot;ng-scope&quot;]/plan-dashboard-list[@class=&quot;ng-isolate-scope&quot;]/table[@class=&quot;table table-responsive voffset&quot;]/tbody[@class=&quot;ng-scope&quot;]/tr[1]/td[@class=&quot;col-sm-3&quot;]/i[@class=&quot;fa fa-chevron-right&quot;]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='(2)'])[1]/preceding::i[8]
+</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -17,7 +18,7 @@
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -42,7 +43,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[@class=&quot;ng-scope&quot;]/body[1]/div[@class=&quot;ng-scope&quot;]/payee-home[@class=&quot;ng-scope ng-isolate-scope&quot;]/div[@class=&quot;payee-content&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12 payee-main-content ng-scope&quot;]/dashboard-list[@class=&quot;ng-scope ng-isolate-scope&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;row voffset&quot;]/div[@class=&quot;col-sm-12&quot;]/div[@class=&quot;ibox&quot;]/div[@class=&quot;ibox-content&quot;]/div[@class=&quot;ng-scope&quot;]/plan-dashboard-list[@class=&quot;ng-isolate-scope&quot;]/table[@class=&quot;table table-responsive voffset&quot;]/tbody[@class=&quot;ng-scope&quot;]/tr[1]/td[@class=&quot;col-sm-3&quot;]/i[@class=&quot;fa fa-chevron-right&quot;]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='(3)'])[1]/preceding::i[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -60,7 +61,7 @@
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Quarterly Leverage Plan-3 Elements-CPS-NA'])[1]/preceding::i[1]</value>
+      <value></value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

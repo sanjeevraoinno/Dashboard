@@ -34,6 +34,12 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Dashboard_Lenovo/Dashboard_Planfloder/Dashboard_PlanActions</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a678353e-e27e-40c9-85f5-2e061697dd73</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>c7cd7a16-4dd9-4fd8-b662-6b2e54ed3a73</guid>

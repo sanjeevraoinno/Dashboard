@@ -4,6 +4,7 @@
    <name>LeveragePlan1</name>
    <tag></tag>
    <isRerun>false</isRerun>
+   <lastRun>2018-12-03T14:33:25</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -21,10 +22,19 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Dashboard_Lenovo/Dashboard_Planfloder/Dashboard_Plans</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>1b62228b-ddeb-4f6a-91a4-08afe0c16c2f</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/Leverageplandemodat</testDataId>
+      </testDataLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>1b62228b-ddeb-4f6a-91a4-08afe0c16c2f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Plan</value>
          <variableId>84fe46c6-4454-45a0-830c-be3610f9b5dc</variableId>
       </variableLink>
    </testCaseLink>
@@ -33,6 +43,21 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Dashboard_Lenovo/Dashboard_Planfloder/Dashboard_PlanActions</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>cf921ac9-60a1-4271-9d87-fc0e7e94481e</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Leverageplandemodat</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>cf921ac9-60a1-4271-9d87-fc0e7e94481e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Plan</value>
+         <variableId>a678353e-e27e-40c9-85f5-2e061697dd73</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>285ecb06-0aa6-4ad9-b060-947e6e7c5d7b</guid>
@@ -43,8 +68,8 @@
          <combinationType>ONE</combinationType>
          <id>e147c0b1-e17c-48a7-9f8c-0800fd1e0f6e</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
          </iterationEntity>
          <testDataId>Data Files/Leverageplandemodat</testDataId>
       </testDataLink>
@@ -64,8 +89,8 @@
          <combinationType>ONE</combinationType>
          <id>72910b30-87b5-4533-8f37-dd86c046d91f</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
          </iterationEntity>
          <testDataId>Data Files/Leverageplandemodat</testDataId>
       </testDataLink>
@@ -85,8 +110,8 @@
          <combinationType>ONE</combinationType>
          <id>ee8e7afa-1aeb-48bf-83c0-8032f0600f72</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
          </iterationEntity>
          <testDataId>Data Files/Leverageplandemodat</testDataId>
       </testDataLink>
@@ -112,8 +137,8 @@
          <combinationType>ONE</combinationType>
          <id>b8b2f9d5-d551-4ed3-818e-f37e2aa525d2</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
          </iterationEntity>
          <testDataId>Data Files/Leverageplandemodat</testDataId>
       </testDataLink>
@@ -163,8 +188,8 @@
          <combinationType>ONE</combinationType>
          <id>e1d5105a-ed34-4747-b65c-db5bbdb24079</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
          </iterationEntity>
          <testDataId>Data Files/Leverageplandemodat</testDataId>
       </testDataLink>
@@ -202,8 +227,8 @@
          <combinationType>ONE</combinationType>
          <id>edc46cb2-e04b-4917-af06-78649f69c369</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
          </iterationEntity>
          <testDataId>Data Files/Leverageplandemodat</testDataId>
       </testDataLink>
@@ -241,8 +266,8 @@
          <combinationType>ONE</combinationType>
          <id>a65c6d4f-31cf-4626-8603-2f96f0e3e9da</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
          </iterationEntity>
          <testDataId>Data Files/Leverageplandemodat</testDataId>
       </testDataLink>
@@ -280,8 +305,8 @@
          <combinationType>ONE</combinationType>
          <id>2e93c059-d74e-4d79-84f6-3981b04030ed</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
          </iterationEntity>
          <testDataId>Data Files/Leverageplandemodat</testDataId>
       </testDataLink>
@@ -319,8 +344,8 @@
          <combinationType>ONE</combinationType>
          <id>75c70f7c-dc69-45f4-af41-af3d3663a427</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
          </iterationEntity>
          <testDataId>Data Files/Leverageplandemodat</testDataId>
       </testDataLink>
@@ -370,8 +395,8 @@
          <combinationType>ONE</combinationType>
          <id>437f0055-fcef-4a8a-83e2-e54865f690f0</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
          </iterationEntity>
          <testDataId>Data Files/Leverageplandemodat</testDataId>
       </testDataLink>
@@ -403,8 +428,8 @@
          <combinationType>ONE</combinationType>
          <id>f6f09be8-a1ce-4ea2-a97a-815a7c04c5ef</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
          </iterationEntity>
          <testDataId>Data Files/Leverageplandemodat</testDataId>
       </testDataLink>
@@ -436,8 +461,8 @@
          <combinationType>ONE</combinationType>
          <id>be959d5f-9098-41e6-8325-200150cfcf05</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
          </iterationEntity>
          <testDataId>Data Files/Leverageplandemodat</testDataId>
       </testDataLink>

@@ -13,35 +13,46 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+'Mouse Over to Attainment and quota by quarter'
 WebUI.mouseOver(findTestObject('Dashboard_Widgets/Dashboard_Attainment_and_quota_by _Quarter/Attainment and Quota by Q'))
 
+'Verify the Text of Attainment and quota by quarter'
 WebUI.verifyElementText(findTestObject('Dashboard_Widgets/Dashboard_Attainment_and_quota_by _Quarter/Attainment and Quota by Q'), 
     widget7)
 
+'Verify the Yearlyquarter Period'
 WebUI.verifyEqual(WebUI.getText(findTestObject('Dashboard_Widgets/Dashboard_Attainment_and_quota_by _Quarter/YearlyPeriods')), 
     QuarterPeriods)
 
+'Verify the QTD CPS Text'
 WebUI.verifyEqual(WebUI.getText(findTestObject('Dashboard_Widgets/Dashboard_Attainment_and_quota_by _Quarter/td_QTD CPS')), 
     'QTD CPS')
 
+'Verify QTD CPS Value'
 WebUI.verifyEqual(WebUI.getText(findTestObject('Dashboard_Widgets/Dashboard_Attainment_and_quota_by _Quarter/Qtd cps')), 
     QTDCPS)
 
+'Verify Quota1 Text'
 WebUI.verifyEqual(WebUI.getText(findTestObject('Dashboard_Widgets/Dashboard_Attainment_and_quota_by _Quarter/td_Element 1 Quota')), 
     'Element 1 Quota')
 
+'Verify Quota1 Value'
 WebUI.verifyEqual(WebUI.getText(findTestObject('Dashboard_Widgets/Dashboard_Attainment_and_quota_by _Quarter/Element Quota')), 
     Quota1)
 
+'Verify Attainment1 Text'
 WebUI.verifyEqual(WebUI.getText(findTestObject('Dashboard_Widgets/Dashboard_Attainment_and_quota_by _Quarter/td_Element 1 Attainment')), 
     'Element 1 Attainment')
 
+'Verify Attainment1 Value'
 WebUI.verifyEqual(WebUI.getText(findTestObject('Dashboard_Widgets/Dashboard_Attainment_and_quota_by _Quarter/Element1 Attainment')), 
     Element1attainment)
 
+'Verify Attainment1percentage Text'
 WebUI.verifyEqual(WebUI.getText(findTestObject('Dashboard_Widgets/Dashboard_Attainment_and_quota_by _Quarter/td_Element 1 AttainmentPercentage')), 
     'Element 1 Attainment %')
 
+'Verify Attainment1percentage Value'
 WebUI.verifyEqual(WebUI.getText(findTestObject('Dashboard_Widgets/Dashboard_Attainment_and_quota_by _Quarter/Percentage of Element1 attainment')), 
     Percentageofelementone)
 

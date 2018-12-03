@@ -12,18 +12,34 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.testobject.ConditionType as ConditionType
 
 WebUI.delay(3)
 
-WebUI.click(findTestObject('Dashboard_Plan/i_Actions_fa fa-chevron-right'))
+'Creating new object'
+TestObject myobj1 = new TestObject('Dynamic Boject')
 
-WebUI.delay(3)
+'Providing value for Plansearch'
+String plansearch = Plans
 
-WebUI.click(findTestObject('Dashboard_Plan/i_AP Guarantee plan-1 Element_'))
+'Providing the xpath needed for object\r\n'
+String xpath = ('(//*[normalize-space(text()) and normalize-space(.)="' + plansearch) + '"])[2]/following::i[1]'
 
+myobj1.addProperty('xpath', ConditionType.EQUALS, xpath)
+
+
+Thread.sleep(2000)
+
+'Click the Plan Rep'
+WebUI.click(myobj1)
+
+//WebUI.click(findTestObject('Dashboard_Plan/i_plansPreviewbutton'))
+'Switch to other window index'
 WebUI.switchToWindowIndex(1)
 
+'Waiting for the object to visible'
 WebUI.waitForElementVisible(findTestObject('Dashboard_Date/span_Please enter at least 3 c'), 10)
 
+'Click on the text box'
 WebUI.click(findTestObject('Dashboard_Date/span_Please enter at least 3 c'))
 

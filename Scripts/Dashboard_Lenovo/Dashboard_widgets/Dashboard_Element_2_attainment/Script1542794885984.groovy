@@ -13,13 +13,18 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+'Mouse Over Element 2 Attainment'
 WebUI.mouseOver(findTestObject('Dashboard_Widgets/Dashboard_Element2_Attainment/span_Element 2 Attainment'))
 
+'verify the text of Element 2 Attainment'
 WebUI.verifyElementText(findTestObject('Dashboard_Widgets/Dashboard_Element2_Attainment/span_Element 2 Attainment'), Widget5)
 
-WebUI.verifyEqual(WebUI.getText(findTestObject('Dashboard_Widgets/Dashboard_Element2_Attainment/Element2val')), valElement2)
-
+'Verification of Element 2 Attainment data'
 WebUI.verifyEqual(WebUI.getText(findTestObject('Dashboard_Widgets/Dashboard_Element2_Attainment/Quota2_val')), Quota2)
 
+'Verification of Element 2 Attainment data'
+WebUI.verifyEqual(WebUI.getText(findTestObject('Dashboard_Widgets/Dashboard_Element2_Attainment/Element2val')), valElement2)
+
+'Verification of Element 2 Attainment data'
 WebUI.verifyEqual(WebUI.getText(findTestObject('Dashboard_Widgets/Dashboard_Element2_Attainment/Attainment2_Val')), Attainment2)
 

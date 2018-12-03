@@ -14,14 +14,42 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import java.awt.Robot as Robot
 import java.awt.event.KeyEvent as KeyEvent
+import com.kms.katalon.core.testobject.ConditionType as ConditionType
 
+//WebUI.callTestCase(findTestCase('Dashboard_Lenovo/Dashboard_login'), [:], FailureHandling.STOP_ON_FAILURE)
+Thread.sleep(3000)
+
+'Click the Dashbord option on the screen\r\n'
 WebUI.click(findTestObject('Dashboard_Plan/a_Dashboards'))
 
 WebUI.delay(1)
 
+'Click on the Text box'
 WebUI.click(findTestObject('Dashboard_Plan/input_Search_form-control ng-p'))
 
+//span[normalize-space(text())=plans] -- dynamic xpath for the plan in table.
+'Providing the Plan Name in the Text Box'
 WebUI.setText(findTestObject('Dashboard_Plan/input_Search_form-control ng-p'), Plans)
 
+'Record not found Global Keyword\r\n '
 CustomKeywords.'globalkeywords.record.RecordNotFound'()
+
+'Creating new object '
+TestObject myobj = new TestObject('Dynamic Boject')
+
+'Providing the value for Plansearch\r\n'
+String plansearch = Plans
+
+'Specifing the Xpath\r\n'
+String xpath = ('//span[normalize-space(text())="' + plansearch) + '"]'
+
+//String xpath = '//div[@id="' + dynamicId + '"]'
+//myobj.addProperty("xpath", ConditionType.EQUALS, xpath)
+'Calling the object of myobj'
+myobj.addProperty('xpath', ConditionType.EQUALS, xpath)
+
+Thread.sleep(2000)
+
+'Click the Plan'
+WebUI.click(myobj)
 

@@ -13,7 +13,9 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+'Mouse Over to Current year payments'
 WebUI.mouseOver(findTestObject('Dashboard_Widgets/Dashbaoard_currentyearpayments/Current_YearPayments'))
 
+'Verify the text of Current year Payments'
 WebUI.verifyElementText(findTestObject('Dashboard_Widgets/Dashbaoard_currentyearpayments/Current_YearPayments'), widget8)
 

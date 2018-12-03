@@ -4,7 +4,17 @@
    <name>i_Quarterly Leverage Plan-3 El</name>
    <tag></tag>
    <elementGuidId>249c7d0a-638c-4e91-a76e-848f356e3da4</elementGuidId>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>/html[@class=&quot;ng-scope&quot;]/body[1]/div[@class=&quot;ng-scope&quot;]/payee-home[@class=&quot;ng-scope ng-isolate-scope&quot;]/div[@class=&quot;payee-content&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12 payee-main-content ng-scope&quot;]/dashboard-list[@class=&quot;ng-scope ng-isolate-scope&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;row voffset&quot;]/div[@class=&quot;col-sm-12&quot;]/div[@class=&quot;ibox&quot;]/div[@class=&quot;ibox-content&quot;]/div[@class=&quot;ng-scope&quot;]/plan-dashboard-list[@class=&quot;ng-isolate-scope&quot;]/table[@class=&quot;table table-responsive voffset&quot;]/tbody[@class=&quot;ng-scope&quot;]/tr[@class=&quot;ng-scope&quot;]/td[@class=&quot;col-sm-2 text-center&quot;]/a[1]/i[@class=&quot;padding-left icon-play4&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Quarterly Leverage Plan-3 Elements-CPS-NA'])[2]/following::i[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
