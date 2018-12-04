@@ -21,7 +21,7 @@
       <guid>01ae77d2-9d78-4f40-9262-1df5738a1469</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Dashboard_Lenovo/Dashboard_Planfloder/Dashboard_Plans</testCaseId>
+      <testCaseId>Test Cases/Dashboard_Lenovo/Dashboard_Planfloder/Dashboard_Plan</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>4a8f4764-4902-4a12-a289-0f44ab5e1bd7</id>

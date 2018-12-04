@@ -4,7 +4,7 @@
    <name>Gauranteeplan1</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-11-28T10:59:56</lastRun>
+   <lastRun>2018-12-04T17:02:21</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -21,11 +21,20 @@
       <guid>25a66d19-6ea8-48e8-b586-711c7804ff79</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Dashboard_Lenovo/Dashboard_Planfloder/Dashboard_Plans</testCaseId>
+      <testCaseId>Test Cases/Dashboard_Lenovo/Dashboard_Planfloder/Dashboard_Plan</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>8c5c66be-9743-4efc-af49-287ee45a6343</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/Gauranteeplan</testDataId>
+      </testDataLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>8c5c66be-9743-4efc-af49-287ee45a6343</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Plan</value>
          <variableId>84fe46c6-4454-45a0-830c-be3610f9b5dc</variableId>
       </variableLink>
    </testCaseLink>
@@ -34,10 +43,19 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Dashboard_Lenovo/Dashboard_Planfloder/Dashboard_PlanActions</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>5878ff54-47ef-4408-9d51-341818224942</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/Gauranteeplan</testDataId>
+      </testDataLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>5878ff54-47ef-4408-9d51-341818224942</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Plan</value>
          <variableId>a678353e-e27e-40c9-85f5-2e061697dd73</variableId>
       </variableLink>
    </testCaseLink>
@@ -87,7 +105,7 @@
       <guid>9542f814-1be3-4be5-9339-9b5d02831ed4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Dashboard_Lenovo/Dashboard_widgets/Dashboard_QTD_CPS_Attainment</testCaseId>
+      <testCaseId>Test Cases/Dashboard_Lenovo/Dashboard_widgets/Widget1_QTD_CPS_Attainment</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>10753ea4-8908-4de1-865a-593f7ea0de9b</id>
@@ -114,7 +132,7 @@
       <guid>c49ccdf5-e485-400e-8f81-f61180a8c242</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Dashboard_Lenovo/Dashboard_widgets/Dashboard_Myprofile</testCaseId>
+      <testCaseId>Test Cases/Dashboard_Lenovo/Dashboard_widgets/Widget2_Myprofile</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>ed6564db-eb89-44bb-a24c-139558f36e33</id>
@@ -165,7 +183,7 @@
       <guid>c46c578c-7b4d-4e72-ae48-8342e48dac97</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Dashboard_Lenovo/Dashboard_widgets/Dashboard_Percent_of_TI</testCaseId>
+      <testCaseId>Test Cases/Dashboard_Lenovo/Dashboard_widgets/Widget3_Percent_of_TI</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>e7cae8e6-9f55-4891-a0da-467841364c4f</id>
@@ -204,7 +222,7 @@
       <guid>392eb270-921f-49ff-8898-5f0277ea6fdc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Dashboard_Lenovo/Dashboard_widgets/Dashboard_Element_1_Attainment</testCaseId>
+      <testCaseId>Test Cases/Dashboard_Lenovo/Dashboard_widgets/Widget4_Element_1_Attainment</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>b8f8f1b1-d109-437e-818e-11aeca03fcaa</id>
@@ -243,7 +261,7 @@
       <guid>7408dcd8-fc99-42c7-bf4a-7d8ad763b94a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Dashboard_Lenovo/Dashboard_widgets/Dashboard_attainment and quota/Dashboard_QTD_CPSandELEMENT1DATA</testCaseId>
+      <testCaseId>Test Cases/Dashboard_Lenovo/Dashboard_widgets/Widget7_attainment and quota/Widget7_1_QTD_CPSandELEMENT1DATA</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>9f8f4b11-8588-4730-b93e-054cd031e142</id>
@@ -294,7 +312,7 @@
       <guid>04efe1a3-ea85-496a-a7c0-52fa30be8b93</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Dashboard_Lenovo/Dashboard_widgets/Dashobard_currentyearpayments</testCaseId>
+      <testCaseId>Test Cases/Dashboard_Lenovo/Dashboard_widgets/Widget8_currentyearpayments</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>c05c7589-61e1-4710-8382-bc5c5fb11b92</id>
