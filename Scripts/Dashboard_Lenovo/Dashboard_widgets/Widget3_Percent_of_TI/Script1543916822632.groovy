@@ -12,35 +12,19 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import java.awt.Robot as Robot
-import java.awt.event.KeyEvent as KeyEvent
 
-WebUI.delay(10)
+'Mouseover to Percent of TI'
+WebUI.mouseOver(findTestObject('Dashboard_Widgets/Dashboard_Percent_of_TI/span_Percent of TI'))
 
-'Click on the Date Option\r\n'
-WebUI.click(findTestObject('Dashboard_Date/span_Select period'))
+'Verify the text of Percent of TI'
+WebUI.verifyElementText(findTestObject('Dashboard_Widgets/Dashboard_Percent_of_TI/span_Percent of TI'), Widget3)
 
-WebUI.delay(10)
+'Verify the Value  of Percent of TI'
+WebUI.verifyEqual(WebUI.getText(findTestObject('Dashboard_Widgets/Dashboard_Percent_of_TI/Percent_of_TI_value')), Percent_Val)
 
-'Click on Date Text box'
-WebUI.click(findTestObject('Dashboard_Date/Input_of_date'))
+'Verify the Target  of Percent of TI'
+WebUI.verifyEqual(WebUI.getText(findTestObject('Dashboard_Widgets/Dashboard_Percent_of_TI/Target_value')), Percent_Target)
 
-WebUI.delay(10)
-
-'Provide the Date in the Text Box\r\n'
-WebUI.setText(findTestObject('Dashboard_Date/Input_of_date'), parDate)
-
-CustomKeywords.'globalkeywords.record.RecordNotFound'()
-
-Robot robot = new Robot()
-
-'Select and click date'
-robot.keyPress(KeyEvent.VK_ENTER)
-
-Thread.sleep(2000)
-
-'Select and click date'
-robot.keyRelease(KeyEvent.VK_ENTER)
-
-not_run: WebUI.click(findTestObject('demo/a_June 2018'))
+'Verify the Achievement  of Percent of TI'
+WebUI.verifyEqual(WebUI.getText(findTestObject('Dashboard_Widgets/Dashboard_Percent_of_TI/Achivement_val')), Percent_Achievment)
 

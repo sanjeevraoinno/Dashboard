@@ -14,33 +14,15 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import java.awt.Robot as Robot
 import java.awt.event.KeyEvent as KeyEvent
+import org.stringtemplate.v4.compiler.STParser.ifstat_return as ifstat_return
 
-WebUI.delay(10)
+'Mouseover on to QTD CPS'
+WebUI.mouseOver(findTestObject('Dashboard_Widgets/Dashboard_QTD_CPS_Attainment/span_QTD CPS Attainment'))
 
-'Click on the Date Option\r\n'
-WebUI.click(findTestObject('Dashboard_Date/span_Select period'))
+'Verify the Text of QTD CPS'
+WebUI.verifyElementText(findTestObject('Dashboard_Widgets/Dashboard_QTD_CPS_Attainment/span_QTD CPS Attainment'), Widget1)
 
-WebUI.delay(10)
-
-'Click on Date Text box'
-WebUI.click(findTestObject('Dashboard_Date/Input_of_date'))
-
-WebUI.delay(10)
-
-'Provide the Date in the Text Box\r\n'
-WebUI.setText(findTestObject('Dashboard_Date/Input_of_date'), parDate)
-
-CustomKeywords.'globalkeywords.record.RecordNotFound'()
-
-Robot robot = new Robot()
-
-'Select and click date'
-robot.keyPress(KeyEvent.VK_ENTER)
-
-Thread.sleep(2000)
-
-'Select and click date'
-robot.keyRelease(KeyEvent.VK_ENTER)
-
-not_run: WebUI.click(findTestObject('demo/a_June 2018'))
+'Verify the value of QTD CPS'
+WebUI.verifyEqual(WebUI.getText(findTestObject('Dashboard_Widgets/Dashboard_QTD_CPS_Attainment/QTD_CPS_attainment_value')), 
+    wid_Values)
 

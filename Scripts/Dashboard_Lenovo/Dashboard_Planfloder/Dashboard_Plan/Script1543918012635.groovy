@@ -14,33 +14,37 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import java.awt.Robot as Robot
 import java.awt.event.KeyEvent as KeyEvent
+import com.kms.katalon.core.testobject.ConditionType as ConditionType
 
-WebUI.delay(10)
+//WebUI.callTestCase(findTestCase('Dashboard_Lenovo/Dashboard_login'), [:], FailureHandling.STOP_ON_FAILURE)
+Thread.sleep(3000)
 
-'Click on the Date Option\r\n'
-WebUI.click(findTestObject('Dashboard_Date/span_Select period'))
+'Click the Dashbord option on the screen\r\n'
+WebUI.click(findTestObject('Dashboard_Plan/a_Dashboards'))
 
-WebUI.delay(10)
+WebUI.delay(1)
 
-'Click on Date Text box'
-WebUI.click(findTestObject('Dashboard_Date/Input_of_date'))
+'Click on the Text box'
+WebUI.click(findTestObject('Dashboard_Plan/input_Search_form-control ng-p'))
 
-WebUI.delay(10)
-
-'Provide the Date in the Text Box\r\n'
-WebUI.setText(findTestObject('Dashboard_Date/Input_of_date'), parDate)
+//span[normalize-space(text())=plans] -- dynamic xpath for the plan in table.
+'Providing the Plan Name in the Text Box'
+WebUI.setText(findTestObject('Dashboard_Plan/input_Search_form-control ng-p'), Plans)
 
 CustomKeywords.'globalkeywords.record.RecordNotFound'()
 
-Robot robot = new Robot()
+TestObject myobj = new TestObject('Dynamic Boject')
 
-'Select and click date'
-robot.keyPress(KeyEvent.VK_ENTER)
+String plansearch = Plans
+
+String xpath = ('//span[normalize-space(text())="' + plansearch) + '"]'
+
+//String xpath = '//div[@id="' + dynamicId + '"]'
+//myobj.addProperty("xpath", ConditionType.EQUALS, xpath)
+myobj.addProperty('xpath', ConditionType.EQUALS, xpath)
 
 Thread.sleep(2000)
 
-'Select and click date'
-robot.keyRelease(KeyEvent.VK_ENTER)
-
-not_run: WebUI.click(findTestObject('demo/a_June 2018'))
+'Click the Plan'
+WebUI.click(myobj)
 

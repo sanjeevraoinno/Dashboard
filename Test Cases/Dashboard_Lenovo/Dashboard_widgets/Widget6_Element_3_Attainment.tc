@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Widget6_Element_3_Attainment</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>67ebbd43-b19c-4b82-9133-8fc5bdac43ff</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a50359c9-88cf-4dcc-9236-73ba43169d7f</id>
+      <masked>false</masked>
+      <name>ValElement3</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>26abfbed-dc76-42c8-a2b6-b215e0947595</id>
+      <masked>false</masked>
+      <name>Quota3</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>64df6a04-61c7-49d2-9e48-79afb119653f</id>
+      <masked>false</masked>
+      <name>Attainment3</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>bf521681-f1de-4e17-b7f6-91ab68281857</id>
+      <masked>false</masked>
+      <name>widget6</name>
+   </variable>
+</TestCaseEntity>

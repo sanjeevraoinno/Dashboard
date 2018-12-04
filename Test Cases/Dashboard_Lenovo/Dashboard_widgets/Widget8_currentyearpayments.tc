@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Widget8_currentyearpayments</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>01c0d5cd-31e7-4619-bd52-6cf3a1b8dfb1</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7dc86ff6-0639-4a75-8148-5f6e5dbfb8ee</id>
+      <masked>false</masked>
+      <name>widget8</name>
+   </variable>
+</TestCaseEntity>

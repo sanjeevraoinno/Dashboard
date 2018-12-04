@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Widget3_Percent_of_TI</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>55238dbf-7612-4017-917d-19d8f06f189c</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>96b86d4c-ac35-4323-a92f-75ec71650a20</id>
+      <masked>false</masked>
+      <name>Percent_Val</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e84abb14-0e13-4aba-b9f6-f016650ce659</id>
+      <masked>false</masked>
+      <name>Percent_Target</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9478d7a4-90c5-44d1-bd71-4c0ea0f50e13</id>
+      <masked>false</masked>
+      <name>Percent_Achievment</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3d2d0ced-c48b-4466-b781-0252e2380cba</id>
+      <masked>false</masked>
+      <name>Widget3</name>
+   </variable>
+</TestCaseEntity>

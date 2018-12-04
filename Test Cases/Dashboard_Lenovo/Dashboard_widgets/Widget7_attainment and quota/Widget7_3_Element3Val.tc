@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Widget7_3_Element3Val</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c41a2856-15db-41e9-8669-e29e43a174b7</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e25b52af-fd3f-4f50-8776-ab074c114a9b</id>
+      <masked>false</masked>
+      <name>Element3attainment</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>5d27e65f-d04f-4aed-8362-96697adda4ba</id>
+      <masked>false</masked>
+      <name>PercentageofElementthree</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d5593e7c-5d3a-42b8-b426-57d243fbc137</id>
+      <masked>false</masked>
+      <name>Quota3</name>
+   </variable>
+</TestCaseEntity>

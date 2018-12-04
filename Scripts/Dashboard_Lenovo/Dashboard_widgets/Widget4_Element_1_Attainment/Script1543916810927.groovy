@@ -12,35 +12,19 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import java.awt.Robot as Robot
-import java.awt.event.KeyEvent as KeyEvent
 
-WebUI.delay(10)
+'Mouseover to Element1 Attainment'
+WebUI.mouseOver(findTestObject('Dashboard_Widgets/Dashboard_Element_1_Attainment/span_Element 1 Attainment'))
 
-'Click on the Date Option\r\n'
-WebUI.click(findTestObject('Dashboard_Date/span_Select period'))
+'Verify the text of Element 1 attainment'
+WebUI.verifyEqual(WebUI.getText(findTestObject('Dashboard_Widgets/Dashboard_Element_1_Attainment/Element1_val')), Element1_val)
 
-WebUI.delay(10)
+'Verify the Value  of Element 1 Attainment'
+WebUI.verifyElementText(findTestObject('Dashboard_Widgets/Dashboard_Element_1_Attainment/span_Element 1 Attainment'), Widget4)
 
-'Click on Date Text box'
-WebUI.click(findTestObject('Dashboard_Date/Input_of_date'))
+'Verify the quota  of Element 1 Attainment'
+WebUI.verifyEqual(WebUI.getText(findTestObject('Dashboard_Widgets/Dashboard_Element_1_Attainment/Quota_val')), Element_quota)
 
-WebUI.delay(10)
-
-'Provide the Date in the Text Box\r\n'
-WebUI.setText(findTestObject('Dashboard_Date/Input_of_date'), parDate)
-
-CustomKeywords.'globalkeywords.record.RecordNotFound'()
-
-Robot robot = new Robot()
-
-'Select and click date'
-robot.keyPress(KeyEvent.VK_ENTER)
-
-Thread.sleep(2000)
-
-'Select and click date'
-robot.keyRelease(KeyEvent.VK_ENTER)
-
-not_run: WebUI.click(findTestObject('demo/a_June 2018'))
+'Verify the Attainmnet  of Element 1 Attainment'
+WebUI.verifyEqual(WebUI.getText(findTestObject('Dashboard_Widgets/Dashboard_Element_1_Attainment/Attainment_val')), Element_attainment)
 

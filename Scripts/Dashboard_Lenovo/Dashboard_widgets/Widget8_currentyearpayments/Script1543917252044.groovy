@@ -12,35 +12,10 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import java.awt.Robot as Robot
-import java.awt.event.KeyEvent as KeyEvent
 
-WebUI.delay(10)
+'Mouseover to Current year payments'
+WebUI.mouseOver(findTestObject('Dashboard_Widgets/Dashbaoard_currentyearpayments/Current_YearPayments'))
 
-'Click on the Date Option\r\n'
-WebUI.click(findTestObject('Dashboard_Date/span_Select period'))
-
-WebUI.delay(10)
-
-'Click on Date Text box'
-WebUI.click(findTestObject('Dashboard_Date/Input_of_date'))
-
-WebUI.delay(10)
-
-'Provide the Date in the Text Box\r\n'
-WebUI.setText(findTestObject('Dashboard_Date/Input_of_date'), parDate)
-
-CustomKeywords.'globalkeywords.record.RecordNotFound'()
-
-Robot robot = new Robot()
-
-'Select and click date'
-robot.keyPress(KeyEvent.VK_ENTER)
-
-Thread.sleep(2000)
-
-'Select and click date'
-robot.keyRelease(KeyEvent.VK_ENTER)
-
-not_run: WebUI.click(findTestObject('demo/a_June 2018'))
+'Verify the text of Current year Payments'
+WebUI.verifyElementText(findTestObject('Dashboard_Widgets/Dashbaoard_currentyearpayments/Current_YearPayments'), widget8)
 

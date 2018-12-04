@@ -17,6 +17,7 @@ import internal.GlobalVariable as GlobalVariable
 import java.awt.Robot as Robot
 import java.awt.event.KeyEvent as KeyEvent
 
+'Click on the Text box'
 WebUI.click(findTestObject('Dashboard_Date/span_Please enter at least 3 c'))
 
 'Providing participant name'
@@ -24,22 +25,18 @@ WebUI.setText(findTestObject('Dashboard_Date/input_Please enter at least 3'), Pa
 
 WebUI.delay(15)
 
-'Select and click Participant'
 Robot robot = new Robot()
 
 'Select and click Participant'
 robot.keyPress(KeyEvent.VK_ENTER)
 
-'Select and click Participant'
 Thread.sleep(2000)
 
 'Select and click Participant'
 robot.keyRelease(KeyEvent.VK_ENTER)
 
-'Checking Participant is availble or not'
 boolean ParticipantName
 
-'Try and catch Exception'
 try {
     part = WebUI.waitForElementPresent(findTestObject('Dashboard_Widgets/Dashboard_QTD_CPS_Attainment/span_QTD CPS Attainment'), 
         5)

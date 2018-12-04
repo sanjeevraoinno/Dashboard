@@ -18,18 +18,13 @@ import com.kms.katalon.core.testobject.ConditionType as ConditionType
 
 WebUI.delay(3)
 
-
-'Creating new object'
 TestObject myobj1 = new TestObject('Dynamic object')
 
-'Providing value for Plansearch'
 String plansearch1 = Plans
 
-'Providing the xpath needed for object\r\n'
 String xpath = ('(//*[normalize-space(text()) and normalize-space(.)="' + plansearch1) + '"])[2]/following::i[1]'
 
 myobj1.addProperty('xpath', ConditionType.EQUALS, xpath)
-
 
 Thread.sleep(2000)
 
@@ -45,5 +40,4 @@ WebUI.waitForElementVisible(findTestObject('Dashboard_Date/span_Please enter at 
 
 'Click on the text box'
 WebUI.click(findTestObject('Dashboard_Date/span_Please enter at least 3 c'))
-
 
