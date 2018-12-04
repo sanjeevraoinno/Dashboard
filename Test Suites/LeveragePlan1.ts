@@ -4,7 +4,7 @@
    <name>LeveragePlan1</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-12-03T14:33:25</lastRun>
+   <lastRun>2018-12-03T17:52:27</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -47,8 +47,8 @@
          <combinationType>ONE</combinationType>
          <id>cf921ac9-60a1-4271-9d87-fc0e7e94481e</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
          </iterationEntity>
          <testDataId>Data Files/Leverageplandemodat</testDataId>
       </testDataLink>
@@ -442,7 +442,7 @@
       <variableLink>
          <testDataLinkId>f6f09be8-a1ce-4ea2-a97a-815a7c04c5ef</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>Percentageof attainment2</value>
+         <value>Percentageof attainment3</value>
          <variableId>5d27e65f-d04f-4aed-8362-96697adda4ba</variableId>
       </variableLink>
       <variableLink>

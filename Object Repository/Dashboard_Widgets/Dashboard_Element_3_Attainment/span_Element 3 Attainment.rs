@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Attainment'])[2]/following::span[1]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Element 3 Attainment'])[1]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -49,7 +49,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Attainment'])[3]/preceding::span[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Element 3 Attainment'])[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

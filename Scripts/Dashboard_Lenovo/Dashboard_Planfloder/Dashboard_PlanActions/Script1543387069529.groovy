@@ -12,18 +12,21 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import java.awt.Robot as Robot
+import java.awt.event.KeyEvent as KeyEvent
 import com.kms.katalon.core.testobject.ConditionType as ConditionType
 
 WebUI.delay(3)
 
+
 'Creating new object'
-TestObject myobj1 = new TestObject('Dynamic Boject')
+TestObject myobj1 = new TestObject('Dynamic object')
 
 'Providing value for Plansearch'
-String plansearch = Plans
+String plansearch1 = Plans
 
 'Providing the xpath needed for object\r\n'
-String xpath = ('(//*[normalize-space(text()) and normalize-space(.)="' + plansearch) + '"])[2]/following::i[1]'
+String xpath = ('(//*[normalize-space(text()) and normalize-space(.)="' + plansearch1) + '"])[2]/following::i[1]'
 
 myobj1.addProperty('xpath', ConditionType.EQUALS, xpath)
 
@@ -42,4 +45,5 @@ WebUI.waitForElementVisible(findTestObject('Dashboard_Date/span_Please enter at 
 
 'Click on the text box'
 WebUI.click(findTestObject('Dashboard_Date/span_Please enter at least 3 c'))
+
 

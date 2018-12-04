@@ -4,7 +4,25 @@
    <name>li_Attainment</name>
    <tag></tag>
    <elementGuidId>45eefdf4-e5f8-4d3b-8fe0-307d6ec2b8c2</elementGuidId>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//li[(text() = 'Attainment
+        
+          
+        
+        ' or . = 'Attainment
+        
+          
+        
+        ')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='widgetGrid']/ul/li[5]/widget/div/div/attainment-widget/widget-container/div/div/div[2]/div/div/div/div/ng-transclude/div[2]/div[2]/ul/li[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

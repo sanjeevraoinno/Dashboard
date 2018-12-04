@@ -1,0 +1,85 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Mutliple_PlansExecution,Chrome 70.0.3538.110,,2018-12-04 11:11:36,2018-12-04 11:13:49,2m - 12.614s,FAILED
+,,,,,,
+Test Cases/Dashboard_Lenovo/Dashboard_login,Chrome 70.0.3538.110,,2018-12-04 11:11:37,2018-12-04 11:11:56,19.277s,PASSED
+openBrowser,Chrome 70.0.3538.110,Opening the Browser,2018-12-04 11:11:38,2018-12-04 11:11:42,4.751s,PASSED
+navigateToUrl,Chrome 70.0.3538.110,"Navigating to Specified Url
+",2018-12-04 11:11:42,2018-12-04 11:11:48,5.343s,PASSED
+maximizeWindow,Chrome 70.0.3538.110,Maximizing the Browser window,2018-12-04 11:11:48,2018-12-04 11:11:49,1.176s,PASSED
+delay,Chrome 70.0.3538.110,,2018-12-04 11:11:49,2018-12-04 11:11:52,3.071s,PASSED
+setText,Chrome 70.0.3538.110,Providing the Input value in the Username Text Box,2018-12-04 11:11:52,2018-12-04 11:11:52,0.430s,PASSED
+delay,Chrome 70.0.3538.110,,2018-12-04 11:11:52,2018-12-04 11:11:55,3.005s,PASSED
+setText,Chrome 70.0.3538.110,Providing the Password of the User,2018-12-04 11:11:55,2018-12-04 11:11:56,0.335s,PASSED
+click,Chrome 70.0.3538.110,Click the login button,2018-12-04 11:11:56,2018-12-04 11:11:56,0.450s,PASSED
+,,,,,,
+Test Cases/Dashboard_Lenovo/Dashboard_Planfloder/Dashboard_Plans,Chrome 70.0.3538.110,,2018-12-04 11:11:56,2018-12-04 11:12:16,20.240s,PASSED
+Statement - java.lang.Thread.sleep(3000),Chrome 70.0.3538.110,,2018-12-04 11:11:57,2018-12-04 11:12:00,3.080s,PASSED
+click,Chrome 70.0.3538.110,"Click the Dashbord option on the screen
+",2018-12-04 11:12:00,2018-12-04 11:12:01,0.358s,PASSED
+delay,Chrome 70.0.3538.110,,2018-12-04 11:12:01,2018-12-04 11:12:02,1.008s,PASSED
+click,Chrome 70.0.3538.110,Click on the Text box,2018-12-04 11:12:02,2018-12-04 11:12:02,0.496s,PASSED
+setText,Chrome 70.0.3538.110,Providing the Plan Name in the Text Box,2018-12-04 11:12:02,2018-12-04 11:12:03,0.475s,PASSED
+globalkeywords.record.RecordNotFound,Chrome 70.0.3538.110,"Record not found Global Keyword
+ ",2018-12-04 11:12:03,2018-12-04 11:12:14,11.753s,PASSED
+Statement - myobj = new com.kms.katalon.core.testobject.TestObject(Dynamic Boject),Chrome 70.0.3538.110,Creating new object ,2018-12-04 11:12:14,2018-12-04 11:12:14,0.010s,PASSED
+Statement - plansearch = Plans,Chrome 70.0.3538.110,"Providing the value for Plansearch
+",2018-12-04 11:12:14,2018-12-04 11:12:14,0.001s,PASSED
+"Statement - xpath = ""//span[normalize-space(text())="""" + plansearch + """"]""",Chrome 70.0.3538.110,"Specifing the Xpath
+",2018-12-04 11:12:14,2018-12-04 11:12:14,0.001s,PASSED
+"Statement - myobj.addProperty(""xpath"", EQUALS, xpath)",Chrome 70.0.3538.110,Calling the object of myobj,2018-12-04 11:12:14,2018-12-04 11:12:14,0.013s,PASSED
+Statement - java.lang.Thread.sleep(2000),Chrome 70.0.3538.110,,2018-12-04 11:12:14,2018-12-04 11:12:16,2.002s,PASSED
+click,Chrome 70.0.3538.110,Click the Plan,2018-12-04 11:12:16,2018-12-04 11:12:16,0.152s,PASSED
+,,,,,,
+Test Cases/Dashboard_Lenovo/Dashboard_Planfloder/Dashboard_Plans,Chrome 70.0.3538.110,,2018-12-04 11:12:16,2018-12-04 11:12:36,19.973s,PASSED
+Statement - java.lang.Thread.sleep(3000),Chrome 70.0.3538.110,,2018-12-04 11:12:16,2018-12-04 11:12:19,3.002s,PASSED
+click,Chrome 70.0.3538.110,"Click the Dashbord option on the screen
+",2018-12-04 11:12:19,2018-12-04 11:12:20,0.136s,PASSED
+delay,Chrome 70.0.3538.110,,2018-12-04 11:12:20,2018-12-04 11:12:21,1.004s,PASSED
+click,Chrome 70.0.3538.110,Click on the Text box,2018-12-04 11:12:21,2018-12-04 11:12:21,0.134s,PASSED
+setText,Chrome 70.0.3538.110,Providing the Plan Name in the Text Box,2018-12-04 11:12:21,2018-12-04 11:12:21,0.533s,PASSED
+globalkeywords.record.RecordNotFound,Chrome 70.0.3538.110,"Record not found Global Keyword
+ ",2018-12-04 11:12:21,2018-12-04 11:12:34,12.988s,PASSED
+Statement - myobj = new com.kms.katalon.core.testobject.TestObject(Dynamic Boject),Chrome 70.0.3538.110,Creating new object ,2018-12-04 11:12:34,2018-12-04 11:12:34,0.001s,PASSED
+Statement - plansearch = Plans,Chrome 70.0.3538.110,"Providing the value for Plansearch
+",2018-12-04 11:12:34,2018-12-04 11:12:34,0.001s,PASSED
+"Statement - xpath = ""//span[normalize-space(text())="""" + plansearch + """"]""",Chrome 70.0.3538.110,"Specifing the Xpath
+",2018-12-04 11:12:34,2018-12-04 11:12:34,0.000s,PASSED
+"Statement - myobj.addProperty(""xpath"", EQUALS, xpath)",Chrome 70.0.3538.110,Calling the object of myobj,2018-12-04 11:12:34,2018-12-04 11:12:34,0.000s,PASSED
+Statement - java.lang.Thread.sleep(2000),Chrome 70.0.3538.110,,2018-12-04 11:12:34,2018-12-04 11:12:36,2.000s,PASSED
+click,Chrome 70.0.3538.110,Click the Plan,2018-12-04 11:12:36,2018-12-04 11:12:36,0.143s,PASSED
+,,,,,,
+Test Cases/Dashboard_Lenovo/Dashboard_Planfloder/Dashboard_Plans,Chrome 70.0.3538.110,,2018-12-04 11:12:36,2018-12-04 11:12:56,19.272s,PASSED
+Statement - java.lang.Thread.sleep(3000),Chrome 70.0.3538.110,,2018-12-04 11:12:36,2018-12-04 11:12:39,3.001s,PASSED
+click,Chrome 70.0.3538.110,"Click the Dashbord option on the screen
+",2018-12-04 11:12:39,2018-12-04 11:12:40,0.091s,PASSED
+delay,Chrome 70.0.3538.110,,2018-12-04 11:12:40,2018-12-04 11:12:41,1.004s,PASSED
+click,Chrome 70.0.3538.110,Click on the Text box,2018-12-04 11:12:41,2018-12-04 11:12:41,0.091s,PASSED
+setText,Chrome 70.0.3538.110,Providing the Plan Name in the Text Box,2018-12-04 11:12:41,2018-12-04 11:12:41,0.765s,PASSED
+globalkeywords.record.RecordNotFound,Chrome 70.0.3538.110,"Record not found Global Keyword
+ ",2018-12-04 11:12:41,2018-12-04 11:12:54,12.146s,PASSED
+Statement - myobj = new com.kms.katalon.core.testobject.TestObject(Dynamic Boject),Chrome 70.0.3538.110,Creating new object ,2018-12-04 11:12:54,2018-12-04 11:12:54,0.000s,PASSED
+Statement - plansearch = Plans,Chrome 70.0.3538.110,"Providing the value for Plansearch
+",2018-12-04 11:12:54,2018-12-04 11:12:54,0.001s,PASSED
+"Statement - xpath = ""//span[normalize-space(text())="""" + plansearch + """"]""",Chrome 70.0.3538.110,"Specifing the Xpath
+",2018-12-04 11:12:54,2018-12-04 11:12:54,0.001s,PASSED
+"Statement - myobj.addProperty(""xpath"", EQUALS, xpath)",Chrome 70.0.3538.110,Calling the object of myobj,2018-12-04 11:12:54,2018-12-04 11:12:54,0.001s,PASSED
+Statement - java.lang.Thread.sleep(2000),Chrome 70.0.3538.110,,2018-12-04 11:12:54,2018-12-04 11:12:56,2.001s,PASSED
+click,Chrome 70.0.3538.110,Click the Plan,2018-12-04 11:12:56,2018-12-04 11:12:56,0.146s,PASSED
+,,,,,,
+Test Cases/Dashboard_Lenovo/Dashboard_Planfloder/Dashboard_Plans,Chrome 70.0.3538.110,,2018-12-04 11:12:56,2018-12-04 11:13:48,52.337s,FAILED
+Statement - java.lang.Thread.sleep(3000),Chrome 70.0.3538.110,,2018-12-04 11:12:56,2018-12-04 11:12:59,3.002s,PASSED
+click,Chrome 70.0.3538.110,"Click the Dashbord option on the screen
+",2018-12-04 11:12:59,2018-12-04 11:12:59,0.166s,PASSED
+delay,Chrome 70.0.3538.110,,2018-12-04 11:12:59,2018-12-04 11:13:00,1.003s,PASSED
+click,Chrome 70.0.3538.110,Click on the Text box,2018-12-04 11:13:00,2018-12-04 11:13:00,0.101s,PASSED
+setText,Chrome 70.0.3538.110,Providing the Plan Name in the Text Box,2018-12-04 11:13:00,2018-12-04 11:13:00,0.477s,PASSED
+globalkeywords.record.RecordNotFound,Chrome 70.0.3538.110,"Record not found Global Keyword
+ ",2018-12-04 11:13:01,2018-12-04 11:13:14,13.700s,PASSED
+Statement - myobj = new com.kms.katalon.core.testobject.TestObject(Dynamic Boject),Chrome 70.0.3538.110,Creating new object ,2018-12-04 11:13:14,2018-12-04 11:13:14,0.001s,PASSED
+Statement - plansearch = Plans,Chrome 70.0.3538.110,"Providing the value for Plansearch
+",2018-12-04 11:13:14,2018-12-04 11:13:14,0.001s,PASSED
+"Statement - xpath = ""//span[normalize-space(text())="""" + plansearch + """"]""",Chrome 70.0.3538.110,"Specifing the Xpath
+",2018-12-04 11:13:14,2018-12-04 11:13:14,0.001s,PASSED
+"Statement - myobj.addProperty(""xpath"", EQUALS, xpath)",Chrome 70.0.3538.110,Calling the object of myobj,2018-12-04 11:13:14,2018-12-04 11:13:14,0.001s,PASSED
+Statement - java.lang.Thread.sleep(2000),Chrome 70.0.3538.110,,2018-12-04 11:13:14,2018-12-04 11:13:16,2.000s,PASSED
+click,Chrome 70.0.3538.110,Click the Plan,2018-12-04 11:13:16,2018-12-04 11:13:48,31.857s,FAILED
