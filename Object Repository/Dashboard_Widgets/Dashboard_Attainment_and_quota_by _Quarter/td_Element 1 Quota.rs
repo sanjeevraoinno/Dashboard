@@ -42,7 +42,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='QTD CPS'])[1]/following::td[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Element 1 Attainment'])[2]/preceding::td[2]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

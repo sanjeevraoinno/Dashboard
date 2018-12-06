@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>id(&quot;widgetGrid&quot;)/ul[1]/li[@class=&quot;gridster-item ng-scope&quot;]/widget[@class=&quot;ng-isolate-scope&quot;]/div[1]/div[@class=&quot;ng-scope&quot;]/single-kpi-mp-widget[@class=&quot;ng-isolate-scope&quot;]/widget-container[@class=&quot;ng-isolate-scope&quot;]/div[@class=&quot;widget-container chart-container&quot;]/div[@class=&quot;container-fluid chart-container&quot;]/div[@class=&quot;row chart-container&quot;]/div[@class=&quot;col-sm-12 no-padding&quot;]/div[@class=&quot;cald-widget-content auto-height-child ibox-content-no-padding wrapper-content chart-container&quot;]/div[@class=&quot;chart-container ng-scope&quot;]/div[@class=&quot;chart-container ng-scope&quot;]/ng-transclude[1]/div[@class=&quot;ng-scope&quot;]/table[@class=&quot;table table-condensed table-striped&quot;]/tbody[1]/tr[@class=&quot;ng-scope&quot;]/td[@class=&quot;ng-binding&quot;]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Attainment and Quota by Quarter'])[1]/following::td[1]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -42,7 +42,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Attainment and Quota by Quarter'])[1]/following::td[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Element 1 Quota'])[1]/preceding::td[2]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

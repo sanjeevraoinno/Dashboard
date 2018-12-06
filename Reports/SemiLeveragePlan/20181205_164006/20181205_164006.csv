@@ -1,0 +1,123 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+SemiLeveragePlan,Chrome 70.0.3538.110,,2018-12-05 16:40:10,2018-12-05 16:42:53,2m - 42.906s,FAILED
+,,,,,,
+Test Cases/Dashboard_Lenovo/Dashboard_login,Chrome 70.0.3538.110,,2018-12-05 16:40:11,2018-12-05 16:40:31,19.997s,PASSED
+openBrowser,Chrome 70.0.3538.110,Opening the Browser,2018-12-05 16:40:12,2018-12-05 16:40:17,5.055s,PASSED
+navigateToUrl,Chrome 70.0.3538.110,"Navigating to Specified Url
+",2018-12-05 16:40:17,2018-12-05 16:40:22,5.462s,PASSED
+maximizeWindow,Chrome 70.0.3538.110,Maximizing the Browser window,2018-12-05 16:40:22,2018-12-05 16:40:24,1.212s,PASSED
+delay,Chrome 70.0.3538.110,,2018-12-05 16:40:24,2018-12-05 16:40:27,3.053s,PASSED
+setText,Chrome 70.0.3538.110,Providing the Input value in the Username Text Box,2018-12-05 16:40:27,2018-12-05 16:40:27,0.414s,PASSED
+delay,Chrome 70.0.3538.110,,2018-12-05 16:40:27,2018-12-05 16:40:30,3.003s,PASSED
+setText,Chrome 70.0.3538.110,Providing the Password of the User,2018-12-05 16:40:30,2018-12-05 16:40:31,0.645s,PASSED
+click,Chrome 70.0.3538.110,Click the login button,2018-12-05 16:40:31,2018-12-05 16:40:31,0.386s,PASSED
+,,,,,,
+Test Cases/Dashboard_Lenovo/Dashboard_Planfloder/Dashboard_Plan,Chrome 70.0.3538.110,,2018-12-05 16:40:31,2018-12-05 16:40:51,20.278s,PASSED
+Statement - java.lang.Thread.sleep(3000),Chrome 70.0.3538.110,,2018-12-05 16:40:32,2018-12-05 16:40:35,3.013s,PASSED
+click,Chrome 70.0.3538.110,"Click the Dashbord option on the screen
+",2018-12-05 16:40:35,2018-12-05 16:40:35,0.599s,PASSED
+delay,Chrome 70.0.3538.110,,2018-12-05 16:40:35,2018-12-05 16:40:36,1.003s,PASSED
+click,Chrome 70.0.3538.110,Click on the Text box,2018-12-05 16:40:36,2018-12-05 16:40:37,0.423s,PASSED
+setText,Chrome 70.0.3538.110,Providing the Plan Name in the Text Box,2018-12-05 16:40:37,2018-12-05 16:40:37,0.728s,PASSED
+globalkeywords.record.RecordNotFound,Chrome 70.0.3538.110,,2018-12-05 16:40:37,2018-12-05 16:40:49,11.915s,PASSED
+Statement - myobj = new com.kms.katalon.core.testobject.TestObject(Dynamic Boject),Chrome 70.0.3538.110,,2018-12-05 16:40:49,2018-12-05 16:40:49,0.009s,PASSED
+Statement - plansearch = Plans,Chrome 70.0.3538.110,,2018-12-05 16:40:49,2018-12-05 16:40:49,0.001s,PASSED
+"Statement - xpath = ""//span[normalize-space(text())="""" + plansearch + """"]""",Chrome 70.0.3538.110,,2018-12-05 16:40:49,2018-12-05 16:40:49,0.001s,PASSED
+"Statement - myobj.addProperty(""xpath"", EQUALS, xpath)",Chrome 70.0.3538.110,,2018-12-05 16:40:49,2018-12-05 16:40:49,0.007s,PASSED
+Statement - java.lang.Thread.sleep(2000),Chrome 70.0.3538.110,,2018-12-05 16:40:49,2018-12-05 16:40:51,2.001s,PASSED
+click,Chrome 70.0.3538.110,Click the Plan,2018-12-05 16:40:51,2018-12-05 16:40:51,0.157s,PASSED
+,,,,,,
+Test Cases/Dashboard_Lenovo/Dashboard_Planfloder/Dashboard_PlanActions,Chrome 70.0.3538.110,,2018-12-05 16:40:51,2018-12-05 16:41:03,11.155s,PASSED
+delay,Chrome 70.0.3538.110,,2018-12-05 16:40:52,2018-12-05 16:40:55,3.005s,PASSED
+Statement - myobj1 = new com.kms.katalon.core.testobject.TestObject(Dynamic object),Chrome 70.0.3538.110,,2018-12-05 16:40:55,2018-12-05 16:40:55,0.002s,PASSED
+Statement - plansearch1 = Plans,Chrome 70.0.3538.110,,2018-12-05 16:40:55,2018-12-05 16:40:55,0.002s,PASSED
+"Statement - xpath = ""(//*[normalize-space(text()) and normalize-space(.)="""" + plansearch1 + """"])[2]/following::i[1]""",Chrome 70.0.3538.110,,2018-12-05 16:40:55,2018-12-05 16:40:55,0.002s,PASSED
+"Statement - myobj1.addProperty(""xpath"", EQUALS, xpath)",Chrome 70.0.3538.110,,2018-12-05 16:40:55,2018-12-05 16:40:55,0.002s,PASSED
+Statement - java.lang.Thread.sleep(2000),Chrome 70.0.3538.110,,2018-12-05 16:40:55,2018-12-05 16:40:57,2.001s,PASSED
+click,Chrome 70.0.3538.110,Click the Plan Rep,2018-12-05 16:40:57,2018-12-05 16:40:57,0.269s,PASSED
+switchToWindowIndex,Chrome 70.0.3538.110,Switch to other window index,2018-12-05 16:40:57,2018-12-05 16:40:57,0.047s,PASSED
+waitForElementVisible,Chrome 70.0.3538.110,Waiting for the object to visible,2018-12-05 16:40:57,2018-12-05 16:41:02,5.318s,PASSED
+click,Chrome 70.0.3538.110,Click on the text box,2018-12-05 16:41:02,2018-12-05 16:41:03,0.173s,PASSED
+,,,,,,
+Test Cases/Dashboard_Lenovo/Dashboard_date,Chrome 70.0.3538.110,,2018-12-05 16:41:03,2018-12-05 16:41:48,45.541s,PASSED
+delay,Chrome 70.0.3538.110,,2018-12-05 16:41:03,2018-12-05 16:41:13,10.005s,PASSED
+click,Chrome 70.0.3538.110,"Click on the Date Option
+",2018-12-05 16:41:13,2018-12-05 16:41:13,0.355s,PASSED
+delay,Chrome 70.0.3538.110,,2018-12-05 16:41:13,2018-12-05 16:41:23,10.005s,PASSED
+click,Chrome 70.0.3538.110,Click on Date Text box,2018-12-05 16:41:23,2018-12-05 16:41:23,0.163s,PASSED
+delay,Chrome 70.0.3538.110,,2018-12-05 16:41:23,2018-12-05 16:41:33,10.002s,PASSED
+setText,Chrome 70.0.3538.110,"Provide the Date in the Text Box
+",2018-12-05 16:41:33,2018-12-05 16:41:34,0.365s,PASSED
+globalkeywords.record.RecordNotFound,Chrome 70.0.3538.110,,2018-12-05 16:41:34,2018-12-05 16:41:46,12.227s,PASSED
+Statement - robot = new java.awt.Robot(),Chrome 70.0.3538.110,,2018-12-05 16:41:46,2018-12-05 16:41:46,0.005s,PASSED
+Statement - robot.keyPress(VK_ENTER),Chrome 70.0.3538.110,Select and click date,2018-12-05 16:41:46,2018-12-05 16:41:46,0.020s,PASSED
+Statement - java.lang.Thread.sleep(2000),Chrome 70.0.3538.110,,2018-12-05 16:41:46,2018-12-05 16:41:48,2.003s,PASSED
+Statement - robot.keyRelease(VK_ENTER),Chrome 70.0.3538.110,Select and click date,2018-12-05 16:41:48,2018-12-05 16:41:48,0.006s,PASSED
+click,Chrome 70.0.3538.110,,2018-12-05 16:41:48,2018-12-05 16:41:48,0.006s,NOT_RUN
+,,,,,,
+Test Cases/Dashboard_Lenovo/Dashboard_Participant,Chrome 70.0.3538.110,,2018-12-05 16:41:48,2018-12-05 16:42:06,17.817s,PASSED
+click,Chrome 70.0.3538.110,Click on the Text box,2018-12-05 16:41:48,2018-12-05 16:41:49,0.132s,PASSED
+setText,Chrome 70.0.3538.110,Providing participant name,2018-12-05 16:41:49,2018-12-05 16:41:49,0.229s,PASSED
+delay,Chrome 70.0.3538.110,,2018-12-05 16:41:49,2018-12-05 16:42:04,15.004s,PASSED
+Statement - robot = new java.awt.Robot(),Chrome 70.0.3538.110,,2018-12-05 16:42:04,2018-12-05 16:42:04,0.003s,PASSED
+Statement - robot.keyPress(VK_ENTER),Chrome 70.0.3538.110,Select and click Participant,2018-12-05 16:42:04,2018-12-05 16:42:04,0.006s,PASSED
+Statement - java.lang.Thread.sleep(2000),Chrome 70.0.3538.110,,2018-12-05 16:42:04,2018-12-05 16:42:06,2.003s,PASSED
+Statement - robot.keyRelease(VK_ENTER),Chrome 70.0.3538.110,Select and click Participant,2018-12-05 16:42:06,2018-12-05 16:42:06,0.004s,PASSED
+Statement - ParticipantName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>,Chrome 70.0.3538.110,,2018-12-05 16:42:06,2018-12-05 16:42:06,0.002s,PASSED
+Statement - Try,Chrome 70.0.3538.110,,2018-12-05 16:42:06,2018-12-05 16:42:06,0.071s,PASSED
+,,,,,,
+Test Cases/Dashboard_Lenovo/Dashboard_widgets/Widget1_QTD_CPS_Attainment,Chrome 70.0.3538.110,,2018-12-05 16:42:06,2018-12-05 16:42:08,2.373s,PASSED
+mouseOver,Chrome 70.0.3538.110,Mouseover on to QTD CPS,2018-12-05 16:42:06,2018-12-05 16:42:07,0.259s,PASSED
+verifyElementText,Chrome 70.0.3538.110,Verify the Text of QTD CPS,2018-12-05 16:42:07,2018-12-05 16:42:08,1.224s,PASSED
+verifyEqual,Chrome 70.0.3538.110,Verify the value of QTD CPS,2018-12-05 16:42:08,2018-12-05 16:42:08,0.307s,PASSED
+,,,,,,
+Test Cases/Dashboard_Lenovo/Dashboard_widgets/Widget2_Myprofile,Chrome 70.0.3538.110,,2018-12-05 16:42:08,2018-12-05 16:42:11,2.249s,PASSED
+mouseOver,Chrome 70.0.3538.110,Mouseover to My Profile ,2018-12-05 16:42:09,2018-12-05 16:42:10,0.404s,PASSED
+verifyElementText,Chrome 70.0.3538.110,"Verify the Text of My Profile
+",2018-12-05 16:42:10,2018-12-05 16:42:10,0.090s,PASSED
+verifyEqual,Chrome 70.0.3538.110,Verify the text of first name,2018-12-05 16:42:10,2018-12-05 16:42:10,0.110s,PASSED
+verifyEqual,Chrome 70.0.3538.110,Verify the Value of first name,2018-12-05 16:42:10,2018-12-05 16:42:10,0.088s,PASSED
+verifyEqual,Chrome 70.0.3538.110,Verify the text of Last name,2018-12-05 16:42:10,2018-12-05 16:42:10,0.110s,PASSED
+verifyEqual,Chrome 70.0.3538.110,Verify the Value of Last name,2018-12-05 16:42:10,2018-12-05 16:42:10,0.072s,PASSED
+verifyEqual,Chrome 70.0.3538.110,Verify the text of Job Desc,2018-12-05 16:42:10,2018-12-05 16:42:10,0.092s,PASSED
+verifyEqual,Chrome 70.0.3538.110,Verify the Value of Job Desc,2018-12-05 16:42:10,2018-12-05 16:42:10,0.079s,PASSED
+verifyEqual,Chrome 70.0.3538.110,Verify the text of Manager,2018-12-05 16:42:10,2018-12-05 16:42:10,0.085s,PASSED
+verifyEqual,Chrome 70.0.3538.110,Verify the Value of Manager,2018-12-05 16:42:10,2018-12-05 16:42:10,0.085s,PASSED
+verifyEqual,Chrome 70.0.3538.110,Verify the text of PDT,2018-12-05 16:42:10,2018-12-05 16:42:10,0.091s,PASSED
+verifyEqual,Chrome 70.0.3538.110,Verify the Value of PDT,2018-12-05 16:42:10,2018-12-05 16:42:11,0.080s,PASSED
+,,,,,,
+Test Cases/Dashboard_Lenovo/Dashboard_widgets/Widget3_Percent_of_TI,Chrome 70.0.3538.110,,2018-12-05 16:42:11,2018-12-05 16:42:12,1.007s,PASSED
+mouseOver,Chrome 70.0.3538.110,Mouseover to Percent of TI,2018-12-05 16:42:11,2018-12-05 16:42:11,0.093s,PASSED
+verifyElementText,Chrome 70.0.3538.110,Verify the text of Percent of TI,2018-12-05 16:42:11,2018-12-05 16:42:11,0.100s,PASSED
+verifyEqual,Chrome 70.0.3538.110,Verify the Value  of Percent of TI,2018-12-05 16:42:11,2018-12-05 16:42:11,0.192s,PASSED
+verifyEqual,Chrome 70.0.3538.110,Verify the Target  of Percent of TI,2018-12-05 16:42:11,2018-12-05 16:42:11,0.102s,PASSED
+verifyEqual,Chrome 70.0.3538.110,Verify the Achievement  of Percent of TI,2018-12-05 16:42:11,2018-12-05 16:42:12,0.072s,PASSED
+,,,,,,
+Test Cases/Dashboard_Lenovo/Dashboard_widgets/Widget4_Element_1_Attainment,Chrome 70.0.3538.110,,2018-12-05 16:42:12,2018-12-05 16:42:12,0.771s,PASSED
+mouseOver,Chrome 70.0.3538.110,Mouseover to Element1 Attainment,2018-12-05 16:42:12,2018-12-05 16:42:12,0.093s,PASSED
+verifyEqual,Chrome 70.0.3538.110,Verify the text of Element 1 attainment,2018-12-05 16:42:12,2018-12-05 16:42:12,0.143s,PASSED
+verifyElementText,Chrome 70.0.3538.110,Verify the Value  of Element 1 Attainment,2018-12-05 16:42:12,2018-12-05 16:42:12,0.063s,PASSED
+verifyEqual,Chrome 70.0.3538.110,Verify the quota  of Element 1 Attainment,2018-12-05 16:42:12,2018-12-05 16:42:12,0.079s,PASSED
+verifyEqual,Chrome 70.0.3538.110,Verify the Attainmnet  of Element 1 Attainment,2018-12-05 16:42:12,2018-12-05 16:42:12,0.074s,PASSED
+,,,,,,
+Test Cases/Dashboard_Lenovo/Dashboard_widgets/Widget5_Element_2_attainment,Chrome 70.0.3538.110,,2018-12-05 16:42:12,2018-12-05 16:42:13,0.837s,FAILED
+mouseOver,Chrome 70.0.3538.110,Mouseover Element 2 Attainment,2018-12-05 16:42:13,2018-12-05 16:42:13,0.090s,PASSED
+verifyElementText,Chrome 70.0.3538.110,verify the text of Element 2 Attainment,2018-12-05 16:42:13,2018-12-05 16:42:13,0.129s,PASSED
+verifyEqual,Chrome 70.0.3538.110,Verify the Value  of Element 2 Attainment,2018-12-05 16:42:13,2018-12-05 16:42:13,0.139s,PASSED
+verifyEqual,Chrome 70.0.3538.110,Verify the Quota  of Element 2 Attainment,2018-12-05 16:42:13,2018-12-05 16:42:13,0.094s,PASSED
+verifyEqual,Chrome 70.0.3538.110,Verify the Attainment  of Element 2 Attainment,2018-12-05 16:42:13,2018-12-05 16:42:13,0.093s,FAILED
+,,,,,,
+Test Cases/Dashboard_Lenovo/Dashboard_widgets/Widget7_attainment and quota/Widget7_1_QTD_CPSandELEMENT1DATA,Chrome 70.0.3538.110,,2018-12-05 16:42:13,2018-12-05 16:42:50,37.177s,FAILED
+mouseOver,Chrome 70.0.3538.110,Mouseover to Attainment and quota by quarter,2018-12-05 16:42:14,2018-12-05 16:42:50,36.769s,FAILED
+,,,,,,
+Test Cases/Dashboard_Lenovo/Dashboard_widgets/Widget7_attainment and quota/Widget7_2_Element2val,Chrome 70.0.3538.110,,2018-12-05 16:42:50,2018-12-05 16:42:52,1.260s,FAILED
+verifyEqual,Chrome 70.0.3538.110,Verify Quota2 Text,2018-12-05 16:42:51,2018-12-05 16:42:51,0.172s,PASSED
+verifyEqual,Chrome 70.0.3538.110,Verify quota2 Value,2018-12-05 16:42:51,2018-12-05 16:42:51,0.165s,PASSED
+verifyEqual,Chrome 70.0.3538.110,Verify Attainment2 Text,2018-12-05 16:42:51,2018-12-05 16:42:51,0.132s,PASSED
+verifyEqual,Chrome 70.0.3538.110,Verify Attainment2 Value,2018-12-05 16:42:51,2018-12-05 16:42:51,0.107s,PASSED
+verifyEqual,Chrome 70.0.3538.110,Verify Attainment2percentage text,2018-12-05 16:42:51,2018-12-05 16:42:51,0.104s,PASSED
+verifyEqual,Chrome 70.0.3538.110,Verify Attainment2percentage Value,2018-12-05 16:42:51,2018-12-05 16:42:52,0.162s,FAILED
+,,,,,,
+Test Cases/Dashboard_Lenovo/Dashboard_widgets/Widget8_currentyearpayments,Chrome 70.0.3538.110,,2018-12-05 16:42:52,2018-12-05 16:42:52,0.831s,PASSED
+mouseOver,Chrome 70.0.3538.110,Mouseover to Current year payments,2018-12-05 16:42:52,2018-12-05 16:42:52,0.093s,PASSED
+verifyElementText,Chrome 70.0.3538.110,Verify the text of Current year Payments,2018-12-05 16:42:52,2018-12-05 16:42:52,0.069s,PASSED

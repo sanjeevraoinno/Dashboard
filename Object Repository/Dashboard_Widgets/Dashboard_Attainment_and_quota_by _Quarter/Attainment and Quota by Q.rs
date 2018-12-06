@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='QTD CPS'])[1]/preceding::span[1]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Element 1 Quota'])[1]/preceding::span[1]</value>
       </entry>
       <entry>
          <key>XPATH</key>
@@ -49,7 +49,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='QTD CPS'])[1]/preceding::span[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Element 1 Quota'])[1]/preceding::span[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

@@ -26,7 +26,7 @@ WebUI.verifyEqual(WebUI.getText(findTestObject('Dashboard_Widgets/Dashboard_Atta
 
 'Verify the QTD CPS Text'
 WebUI.verifyEqual(WebUI.getText(findTestObject('Dashboard_Widgets/Dashboard_Attainment_and_quota_by _Quarter/td_QTD CPS')), 
-    'QTD CPS')
+    QtdCpsTxt)
 
 'Verify QTD CPS Value'
 WebUI.verifyEqual(WebUI.getText(findTestObject('Dashboard_Widgets/Dashboard_Attainment_and_quota_by _Quarter/Qtd cps')), 
