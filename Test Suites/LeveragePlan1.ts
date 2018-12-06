@@ -385,6 +385,12 @@
          <value>widget7</value>
          <variableId>afc722e0-eed9-4806-98dc-f20a451e5c99</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>99c01cb3-87c8-41d0-9135-94e5203ef764</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>3773b229-7708-42f6-aed1-c402e0f99684</guid>
