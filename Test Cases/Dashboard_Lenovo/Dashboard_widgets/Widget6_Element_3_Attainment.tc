@@ -20,7 +20,7 @@
       <name>Quota3</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'$1,921,846.00'</defaultValue>
       <description></description>
       <id>64df6a04-61c7-49d2-9e48-79afb119653f</id>
       <masked>false</masked>

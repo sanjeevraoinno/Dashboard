@@ -11,33 +11,6 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>e9ae98bc-7325-4326-aa07-86d17d2733cb</testSuiteGuid>
    <testCaseLink>
-      <guid>b0980632-682b-43ae-ae2c-c46af339b4c7</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Dashboard_Lenovo/Dashboard_login</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>f629596c-1cc6-4616-bf0b-280c10c84ba7</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Dashboard_Lenovo/Dashboard_Planfloder/Dashboard_Plan</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>2acf64e8-34f2-48db-a4f2-52df57fbf52c</id>
-         <iterationEntity>
-            <iterationType>RANGE</iterationType>
-            <value>1-1</value>
-         </iterationEntity>
-         <testDataId>Data Files/SemiLeverageplan</testDataId>
-      </testDataLink>
-      <variableLink>
-         <testDataLinkId>2acf64e8-34f2-48db-a4f2-52df57fbf52c</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Plan</value>
-         <variableId>84fe46c6-4454-45a0-830c-be3610f9b5dc</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
       <guid>a4379c27-8b59-44d2-ac48-62454518d21f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -125,57 +98,6 @@
          <type>DATA_COLUMN</type>
          <value>QTD CPS Value</value>
          <variableId>579a4207-a3dc-4904-a5e6-d3e9d042e3ad</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>982e6c77-143d-4ed4-8406-e0a88cc24c0b</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Dashboard_Lenovo/Dashboard_widgets/Widget2_Myprofile</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>cadb9101-c448-42a7-bd04-20ceccb9f094</id>
-         <iterationEntity>
-            <iterationType>RANGE</iterationType>
-            <value>1-1</value>
-         </iterationEntity>
-         <testDataId>Data Files/SemiLeverageplan</testDataId>
-      </testDataLink>
-      <variableLink>
-         <testDataLinkId>cadb9101-c448-42a7-bd04-20ceccb9f094</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Widget2</value>
-         <variableId>451e9b4b-08c7-4e0e-b8f3-6563190b3770</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>cadb9101-c448-42a7-bd04-20ceccb9f094</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>First Name</value>
-         <variableId>33c311bb-b03d-4920-86c2-847e2704525e</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>cadb9101-c448-42a7-bd04-20ceccb9f094</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Last Name</value>
-         <variableId>f6c9944a-5b89-477c-a78d-c25e2255e244</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>cadb9101-c448-42a7-bd04-20ceccb9f094</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Job Desc</value>
-         <variableId>face909f-c3e7-44d3-8ce2-fb5f70bbc537</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>cadb9101-c448-42a7-bd04-20ceccb9f094</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Manager</value>
-         <variableId>461ef3ff-3bc7-4fa9-a957-f1146080bbda</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>cadb9101-c448-42a7-bd04-20ceccb9f094</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>PDT</value>
-         <variableId>f8530339-e75f-4f13-97d8-e85bc7899604</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>

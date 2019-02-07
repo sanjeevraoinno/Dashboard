@@ -17,14 +17,15 @@ import internal.GlobalVariable as GlobalVariable
 import java.awt.Robot as Robot
 import java.awt.event.KeyEvent as KeyEvent
 
+WebUI.waitForElementNotClickable(findTestObject('Dashboard_Date/span_Please enter at least 3 c'), 10)
+
 'Click on the Text box'
 WebUI.click(findTestObject('Dashboard_Date/span_Please enter at least 3 c'))
 
 'Providing participant name'
 WebUI.setText(findTestObject('Dashboard_Date/input_Please enter at least 3'), ParticipantName)
 
-WebUI.delay(15)
-
+WebUI.delay(5)
 
 Robot robot = new Robot()
 
@@ -35,7 +36,6 @@ Thread.sleep(2000)
 
 'Select and click date'
 robot.keyRelease(KeyEvent.VK_ENTER)
-
 
 boolean ParticipantName
 

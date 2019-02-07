@@ -20,7 +20,7 @@
       <name>Element_quota</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'$20,665,034.00'</defaultValue>
       <description></description>
       <id>36dd0e26-f946-469c-97b9-e9ae0420819e</id>
       <masked>false</masked>

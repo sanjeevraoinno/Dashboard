@@ -15,17 +15,17 @@ import internal.GlobalVariable as GlobalVariable
 import java.awt.Robot as Robot
 import java.awt.event.KeyEvent as KeyEvent
 
-WebUI.delay(10)
+WebUI.waitForElementVisible(findTestObject('Dashboard_Date/span_Select period'), 5)
 
 'Click on the Date Option\r\n'
 WebUI.click(findTestObject('Dashboard_Date/span_Select period'))
 
-WebUI.delay(10)
+WebUI.waitForElementClickable(findTestObject('Dashboard_Date/Input_of_date'), 5)
 
 'Click on Date Text box'
 WebUI.click(findTestObject('Dashboard_Date/Input_of_date'))
 
-WebUI.delay(10)
+WebUI.delay(2)
 
 'Provide the Date in the Text Box\r\n'
 WebUI.setText(findTestObject('Dashboard_Date/Input_of_date'), parDate)
@@ -41,7 +41,6 @@ Thread.sleep(2000)
 
 'Select and click date'
 robot.keyRelease(KeyEvent.VK_ENTER)
-
 
 not_run: WebUI.click(findTestObject('demo/a_June 2018'))
 

@@ -11,33 +11,6 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>af101c6a-5ca4-406e-a6f4-53514b0e4c9d</testSuiteGuid>
    <testCaseLink>
-      <guid>e63dadee-686b-4af1-819d-10383e3aed08</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Dashboard_Lenovo/Dashboard_login</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>25a66d19-6ea8-48e8-b586-711c7804ff79</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Dashboard_Lenovo/Dashboard_Planfloder/Dashboard_Plan</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>8c5c66be-9743-4efc-af49-287ee45a6343</id>
-         <iterationEntity>
-            <iterationType>RANGE</iterationType>
-            <value>1-1</value>
-         </iterationEntity>
-         <testDataId>Data Files/Gauranteeplan</testDataId>
-      </testDataLink>
-      <variableLink>
-         <testDataLinkId>8c5c66be-9743-4efc-af49-287ee45a6343</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Plan</value>
-         <variableId>84fe46c6-4454-45a0-830c-be3610f9b5dc</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
       <guid>b6338267-8617-45c8-bf27-eaa3f25a9c23</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
@@ -125,57 +98,6 @@
          <type>DATA_COLUMN</type>
          <value>QTD CPS Value</value>
          <variableId>579a4207-a3dc-4904-a5e6-d3e9d042e3ad</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>c49ccdf5-e485-400e-8f81-f61180a8c242</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Dashboard_Lenovo/Dashboard_widgets/Widget2_Myprofile</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>ed6564db-eb89-44bb-a24c-139558f36e33</id>
-         <iterationEntity>
-            <iterationType>RANGE</iterationType>
-            <value>1-1</value>
-         </iterationEntity>
-         <testDataId>Data Files/Gauranteeplan</testDataId>
-      </testDataLink>
-      <variableLink>
-         <testDataLinkId>ed6564db-eb89-44bb-a24c-139558f36e33</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Widget2</value>
-         <variableId>451e9b4b-08c7-4e0e-b8f3-6563190b3770</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>ed6564db-eb89-44bb-a24c-139558f36e33</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>First Name</value>
-         <variableId>33c311bb-b03d-4920-86c2-847e2704525e</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>ed6564db-eb89-44bb-a24c-139558f36e33</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Last Name</value>
-         <variableId>f6c9944a-5b89-477c-a78d-c25e2255e244</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>ed6564db-eb89-44bb-a24c-139558f36e33</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Job Desc</value>
-         <variableId>face909f-c3e7-44d3-8ce2-fb5f70bbc537</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>ed6564db-eb89-44bb-a24c-139558f36e33</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Manager</value>
-         <variableId>461ef3ff-3bc7-4fa9-a957-f1146080bbda</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>ed6564db-eb89-44bb-a24c-139558f36e33</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>PDT</value>
-         <variableId>f8530339-e75f-4f13-97d8-e85bc7899604</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
