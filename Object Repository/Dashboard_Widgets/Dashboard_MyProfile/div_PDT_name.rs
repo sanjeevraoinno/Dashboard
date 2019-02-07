@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Agarwal</name>
+   <name>div_PDT_name</name>
    <tag></tag>
-   <elementGuidId>7df2e680-8eaa-4870-857f-f2916c2b877b</elementGuidId>
+   <elementGuidId>a9d87c24-b2e8-4e96-b5bd-9d6474ced722</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//div[@id='widgetGrid']/ul/li[2]/widget/div/div/profile-widget/widget-container/div/div/div[2]/div/div/div/div/ng-transclude/div/div[2]/div[2]/div[2]/strong/field-label/div</value>
+         <key>XPATH</key>
+         <value>//div[@id='widgetGrid']/ul/li[2]/widget/div/div/profile-widget/widget-container/div/div/div[2]/div/div/div/div/ng-transclude/div/div[2]/div[5]/div[2]/strong/field-label/div</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='widgetGrid']/ul/li[2]/widget/div/div/profile-widget/widget-container/div/div/div[2]/div/div/div/div/ng-transclude/div/div[2]/div[2]/div[2]/strong/field-label/div</value>
+         <key>BASIC</key>
+         <value>//div[@id='widgetGrid']/ul/li[2]/widget/div/div/profile-widget/widget-container/div/div/div[2]/div/div/div/div/ng-transclude/div/div[2]/div[5]/div[2]/strong/field-label/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -35,43 +35,43 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> Agarwal </value>
+      <value> APGUAR-IN </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)=':'])[2]/following::div[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=':'])[5]/following::div[2]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//div[@id='widgetGrid']/ul/li[2]/widget/div/div/profile-widget/widget-container/div/div/div[2]/div/div/div/div/ng-transclude/div/div[2]/div[2]/div[2]/strong/field-label/div</value>
+      <value>//div[@id='widgetGrid']/ul/li[2]/widget/div/div/profile-widget/widget-container/div/div/div[2]/div/div/div/div/ng-transclude/div/div[2]/div[5]/div[2]/strong/field-label/div</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)=':'])[2]/following::div[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=':'])[5]/following::div[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Last'])[1]/following::div[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PDT'])[1]/following::div[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Job Desc'])[1]/preceding::div[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Percent of TI'])[1]/preceding::div[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//div[2]/div[2]/strong/field-label/div</value>
+      <value>//div[5]/div[2]/strong/field-label/div</value>
    </webElementXpaths>
 </WebElementEntity>

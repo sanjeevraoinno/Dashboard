@@ -4,7 +4,6 @@
    <name>Gauranteeplan1</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-12-05T16:26:42</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>

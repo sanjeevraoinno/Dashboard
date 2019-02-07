@@ -6,12 +6,12 @@
    <elementGuidId>d2c9d453-bc5d-4fee-8bc9-10fe637215b4</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='My Profile'])[1]/following::div[5]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='widgetGrid']/ul/li[2]/widget/div/div/profile-widget/widget-container/div/div/div[2]/div/div/div/div</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='My Profile'])[1]/following::div[9]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -45,7 +45,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='My Profile'])[1]/following::div[10]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='First'])</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -64,7 +64,7 @@
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='My Profile'])[1]/following::div[10]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='My Profile'])[1]/following::div[9]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

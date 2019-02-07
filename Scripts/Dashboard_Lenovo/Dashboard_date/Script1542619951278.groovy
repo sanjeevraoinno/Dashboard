@@ -42,5 +42,6 @@ Thread.sleep(2000)
 'Select and click date'
 robot.keyRelease(KeyEvent.VK_ENTER)
 
+
 not_run: WebUI.click(findTestObject('demo/a_June 2018'))
 

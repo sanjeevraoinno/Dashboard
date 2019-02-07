@@ -6,12 +6,12 @@
    <elementGuidId>e7ba4e4b-e98e-47e6-81db-8babc6e276fb</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>id(&quot;widgetGrid&quot;)/ul[1]/li[@class=&quot;gridster-item ng-scope&quot;]/widget[@class=&quot;ng-isolate-scope&quot;]/div[1]/div[@class=&quot;ng-scope&quot;]/single-kpi-widget[@class=&quot;ng-isolate-scope&quot;]/widget-container[@class=&quot;ng-isolate-scope&quot;]/div[@class=&quot;widget-container chart-container&quot;]/div[@class=&quot;container-fluid chart-container&quot;]/div[@class=&quot;row chart-container&quot;]/div[@class=&quot;col-sm-12 no-padding&quot;]/div[@class=&quot;cald-widget-content auto-height-child ibox-content-no-padding wrapper-content chart-container&quot;]/div[@class=&quot;chart-container ng-scope&quot;]/div[@class=&quot;chart-container ng-scope&quot;]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='widgetGrid']/ul/li/widget/div/div/single-kpi-widget/widget-container/div/div/div[2]/div/div/div/div</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Select a Payee and Period for preview.'])[1]/following::span[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -49,7 +49,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;widgetGrid&quot;)/ul[1]/li[@class=&quot;gridster-item ng-scope&quot;]/widget[@class=&quot;ng-isolate-scope&quot;]/div[1]/div[@class=&quot;ng-scope&quot;]/single-kpi-widget[@class=&quot;ng-isolate-scope&quot;]/widget-container[@class=&quot;ng-isolate-scope&quot;]/div[@class=&quot;widget-container chart-container&quot;]/div[@class=&quot;container-fluid chart-container&quot;]/div[@class=&quot;row chart-container&quot;]/div[@class=&quot;col-sm-12 no-padding&quot;]/div[@class=&quot;cald-widget-content auto-height-child ibox-content-no-padding wrapper-content chart-container&quot;]/div[@class=&quot;chart-container ng-scope&quot;]/div[@class=&quot;chart-container ng-scope&quot;]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select a Payee and Period for preview.'])[1]/following::span[2]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

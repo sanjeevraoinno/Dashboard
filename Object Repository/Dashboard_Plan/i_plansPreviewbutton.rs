@@ -6,12 +6,12 @@
    <elementGuidId>0c207820-60c6-4d13-bd67-cfefd9e1cb24</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//tbody[@ng-repeat='plan in vm.ruleElementOwners']/tr[@ng-repeat='dashboard in plan.dashboards']//following-sibling::a[1]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='AP Guarantee plan-1 Element'])[2]/following::i[1]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>(//a[@target='_blank']/i[@class='padding-left icon-play4'])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -42,7 +42,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//tbody[@ng-repeat='plan in vm.ruleElementOwners']/tr[@ng-repeat='dashboard in plan.dashboards']//following-sibling::a[1]</value>
+      <value>(//a[@target='_blank']/i[@class='padding-left icon-play4'])[1]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

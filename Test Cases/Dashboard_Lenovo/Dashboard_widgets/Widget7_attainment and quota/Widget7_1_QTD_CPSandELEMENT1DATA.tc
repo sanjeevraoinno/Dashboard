@@ -6,49 +6,49 @@
    <comment></comment>
    <testCaseGuid>87ff9a92-8a00-430c-b52c-bf97fe08e959</testCaseGuid>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'Attainment and Quota by Quarter'</defaultValue>
       <description></description>
       <id>afc722e0-eed9-4806-98dc-f20a451e5c99</id>
       <masked>false</masked>
       <name>widget7</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'1Q19'</defaultValue>
       <description></description>
       <id>8a5f33db-dfb0-4a4d-a01a-ed2926fd182a</id>
       <masked>false</masked>
       <name>QuarterPeriods</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'163.49%'</defaultValue>
       <description></description>
       <id>2dc4ef96-a118-4388-ab77-7aa1e01b517f</id>
       <masked>false</masked>
       <name>QTDCPS</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'QTD CPS'</defaultValue>
       <description></description>
       <id>99c01cb3-87c8-41d0-9135-94e5203ef764</id>
       <masked>false</masked>
       <name>QtdCpsTxt</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'12,178,000.00'</defaultValue>
       <description></description>
       <id>7a35b2ca-04dd-43f6-8309-01148bf94c06</id>
       <masked>false</masked>
       <name>Quota1</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'20,665,034.00'</defaultValue>
       <description></description>
       <id>dd91e6e4-93b5-4062-9029-1d6c68df4e34</id>
       <masked>false</masked>
       <name>Element1attainment</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'169.69%'</defaultValue>
       <description></description>
       <id>befa4ab1-0398-4982-b678-0f4e9601377c</id>
       <masked>false</masked>

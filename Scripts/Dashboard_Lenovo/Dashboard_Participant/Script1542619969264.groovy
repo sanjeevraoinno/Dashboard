@@ -25,15 +25,17 @@ WebUI.setText(findTestObject('Dashboard_Date/input_Please enter at least 3'), Pa
 
 WebUI.delay(15)
 
+
 Robot robot = new Robot()
 
-'Select and click Participant'
+'Select and click date'
 robot.keyPress(KeyEvent.VK_ENTER)
 
 Thread.sleep(2000)
 
-'Select and click Participant'
+'Select and click date'
 robot.keyRelease(KeyEvent.VK_ENTER)
+
 
 boolean ParticipantName
 

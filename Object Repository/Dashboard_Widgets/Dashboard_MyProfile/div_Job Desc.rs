@@ -6,12 +6,12 @@
    <elementGuidId>2bc72c13-d4be-4b42-99e5-30a8f4c8c180</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)=':'])[2]/following::div[4]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='widgetGrid']/ul/li[2]/widget/div/div/profile-widget/widget-container/div/div/div[2]/div/div/div/div/ng-transclude/div/div[2]/div[3]/div</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Job Desc'])</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -45,7 +45,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)=':'])[2]/following::div[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Job Desc'])</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

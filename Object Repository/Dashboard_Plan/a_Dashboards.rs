@@ -6,12 +6,12 @@
    <elementGuidId>61924eef-c79c-4427-a7d5-fb02509e53b9</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Administration'])[1]/following::a[1]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//ul[@id='side-menu']/li[2]/a</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[@class='sap-icon-bbyd-dashboard cald-ui-menu-icon svelte-1vu4ly0']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -58,7 +58,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Administration'])[1]/following::a[1]</value>
+      <value>//span[@class='sap-icon-bbyd-dashboard cald-ui-menu-icon svelte-1vu4ly0']</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

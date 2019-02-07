@@ -4,7 +4,7 @@
    <name>Dashboard</name>
    <tag></tag>
    <UUID>19f8a0ed-bbb3-4d29-9e20-17bf27cff3d5</UUID>
-   <migratedVersion>5.7.0</migratedVersion>
+   <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
    <sourceContent>
       <sourceFolderList>
@@ -19,6 +19,10 @@
          <systemFolderConfiguration>
             <url>Include/features</url>
          </systemFolderConfiguration>
+         <systemFolderConfiguration>
+            <url>Include/config</url>
+         </systemFolderConfiguration>
       </systemFolderList>
    </sourceContent>
+   <type>GENERIC</type>
 </Project>

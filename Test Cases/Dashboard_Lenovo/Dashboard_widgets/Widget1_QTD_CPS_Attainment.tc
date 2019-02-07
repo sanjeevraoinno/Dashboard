@@ -6,14 +6,14 @@
    <comment></comment>
    <testCaseGuid>b4f69c73-5ec5-4218-8f2d-1bfe017fae5b</testCaseGuid>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'QTD CPS Attainment'</defaultValue>
       <description></description>
       <id>d0aa7861-5fd7-4c4c-91aa-6b9f568addfc</id>
       <masked>false</masked>
       <name>Widget1</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'163.49%'</defaultValue>
       <description></description>
       <id>579a4207-a3dc-4904-a5e6-d3e9d042e3ad</id>
       <masked>false</masked>

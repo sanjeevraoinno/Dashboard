@@ -18,18 +18,20 @@ import com.kms.katalon.core.testobject.ConditionType as ConditionType
 
 WebUI.delay(3)
 
-TestObject myobj1 = new TestObject('Dynamic object')
+not_run: TestObject myobj1 = new TestObject('Dynamic object')
 
-String plansearch1 = Plans
+not_run: String plansearch1 = Plans
 
-String xpath = ('(//*[normalize-space(text()) and normalize-space(.)="' + plansearch1) + '"])[2]/following::i[1]'
+not_run: String xpath = '(//a[@target="_blank"]/i[@class=padding-left icon-play4])[1])'
 
-myobj1.addProperty('xpath', ConditionType.EQUALS, xpath)
+not_run: myobj1.addProperty('xpath', ConditionType.EQUALS, xpath)
 
-Thread.sleep(2000)
+not_run: Thread.sleep(2000)
 
 'Click the Plan Rep'
-WebUI.click(myobj1)
+not_run: WebUI.click(myobj1)
+
+WebUI.click(findTestObject('Dashboard_Plan/i_plansPreviewbutton'))
 
 //WebUI.click(findTestObject('Dashboard_Plan/i_plansPreviewbutton'))
 'Switch to other window index'

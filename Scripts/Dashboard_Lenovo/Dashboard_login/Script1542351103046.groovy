@@ -24,12 +24,12 @@ WebUI.navigateToUrl('https://lnvo-muat.callidusondemand.com/SalesPortal/#!/')
 'Maximizing the Browser window'
 WebUI.maximizeWindow()
 
-WebUI.delay(3)
+WebUI.delay(5)
 
 'Providing the Input value in the Username Text Box'
 WebUI.setText(findTestObject('Dashboard_login/input_username'), 'sapattna')
 
-WebUI.delay(3)
+WebUI.delay(5)
 
 'Providing the Password of the User'
 WebUI.setText(findTestObject('Dashboard_login/input_password'), 'Callidus123')

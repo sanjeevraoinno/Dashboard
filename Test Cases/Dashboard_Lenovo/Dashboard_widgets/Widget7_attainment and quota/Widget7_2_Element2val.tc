@@ -6,21 +6,21 @@
    <comment></comment>
    <testCaseGuid>9078295e-0e06-4bd3-b83b-a08f5881fdb3</testCaseGuid>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'4,289,048.00'</defaultValue>
       <description></description>
       <id>0d57cf39-7b4f-4568-b934-1738408475bc</id>
       <masked>false</masked>
       <name>Element2attainment</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'177.60%'</defaultValue>
       <description></description>
       <id>e9620a8e-ef49-4d93-bdc9-88fe5a5b7057</id>
       <masked>false</masked>
       <name>PercentageofElementtwo</name>
    </variable>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>'2,415,000.00'</defaultValue>
       <description></description>
       <id>e3b9aead-f2af-48f0-a7c6-c232d4127842</id>
       <masked>false</masked>

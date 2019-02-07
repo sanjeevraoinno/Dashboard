@@ -13,6 +13,25 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.callTestCase(findTestCase('Dashboard_Lenovo/Dashboard_login'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Dashboard_Lenovo/Dashboard_Planfloder/Dashboard_Plan'), [('Plans') : 'Quarterly Leverage Plan-3 Elements-CPS-NA'], 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Dashboard_Lenovo/Dashboard_Planfloder/Dashboard_PlanActions'), [('Plans') : 'Quarterly Leverage Plan-3 Elements-CPS-NA'], 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Dashboard_Lenovo/Dashboard_date'), [('parDate') : 'June 2018'], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Dashboard_Lenovo/Dashboard_Participant'), [('ParticipantName') : 'Bailey'], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Dashboard_Lenovo/Dashboard_widgets/Widget1_QTD_CPS_Attainment'), [('Widget1') : 'QTD CPS Attainment'
+        , ('wid_Values') : '163.49%'], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.callTestCase(findTestCase('Dashboard_Lenovo/Dashboard_widgets/Widget2_Myprofile'), [('Widget2') : 'My Profile', ('firstname') : 'Bailey'
+        , ('Lastname') : 'Wilson', ('JobDesc') : 'Inside Sales Representative', ('Manager') : 'Andrew Lent', ('PDT') : 'NEP115-US'], 
+    FailureHandling.STOP_ON_FAILURE)
+
 'Mouseover to Percent of TI'
 WebUI.mouseOver(findTestObject('Dashboard_Widgets/Dashboard_Percent_of_TI/span_Percent of TI'))
 
