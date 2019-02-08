@@ -101,8 +101,22 @@ String manager_text = WebUI.getText(obj4)
 
 WebUI.verifyEqual(WebUI.getText(obj4), Manager)
 
-'Verify the text of PDT'
-WebUI.verifyEqual(WebUI.getText(findTestObject('Dashboard_Widgets/Dashboard_MyProfile/div_PDT')), 'PDT')
+//'Verify the text of PDT'
+//WebUI.verifyEqual(WebUI.getText(findTestObject('Dashboard_Widgets/Dashboard_MyProfile/div_Pdt')), 'PDT')
+TestObject pdtobj = new TestObject('Dynamic object')
+
+String pdtobject = PDTtxt
+
+String pdttxt_xapth = ('//*[normalize-space(text()) and normalize-space(.)="'+ pdtobject) +'"]'
+
+pdtobj.addProperty('xpath', ConditionType.EQUALS, pdttxt_xapth)
+
+Thread.sleep(2000)
+
+String pdt1_text = WebUI.getText(pdtobj)
+
+WebUI.verifyEqual(WebUI.getText(pdtobj), PDTtxt)
+
 
 'Verify the Value of PDT'
 TestObject obj5 = new TestObject('Dynamic object')

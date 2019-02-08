@@ -6,45 +6,52 @@
    <comment></comment>
    <testCaseGuid>f780b734-4b81-4355-9568-6d2434a6f606</testCaseGuid>
    <variable>
-      <defaultValue>'My Profile'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>957994c4-9ba1-4d07-88d7-d37b5cfe63de</id>
       <masked>false</masked>
       <name>Widget2</name>
    </variable>
    <variable>
-      <defaultValue>'Bailey'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>e01b6ce1-5e75-4a0d-a57e-7a32e433be38</id>
       <masked>false</masked>
       <name>firstname</name>
    </variable>
    <variable>
-      <defaultValue>'Wilson'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>e40c14be-4afe-4489-aeb2-0587b3929d11</id>
       <masked>false</masked>
       <name>Lastname</name>
    </variable>
    <variable>
-      <defaultValue>'Inside Sales Representative'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>108ae585-3de8-4309-aa4c-a49796b22b9d</id>
       <masked>false</masked>
       <name>JobDesc</name>
    </variable>
    <variable>
-      <defaultValue>'Andrew Lent'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>99b4681f-6002-4e64-ac66-a816ae38a106</id>
       <masked>false</masked>
       <name>Manager</name>
    </variable>
    <variable>
-      <defaultValue>'NEP115-US'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>95d64a2e-bf7a-4919-88b9-f77dbb79080c</id>
       <masked>false</masked>
       <name>PDT</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d018d239-d05b-4023-b133-1b2e3efce7cb</id>
+      <masked>false</masked>
+      <name>PDTtxt</name>
    </variable>
 </TestCaseEntity>

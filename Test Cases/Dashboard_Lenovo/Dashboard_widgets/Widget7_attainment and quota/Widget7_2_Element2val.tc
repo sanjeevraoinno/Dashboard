@@ -6,14 +6,14 @@
    <comment></comment>
    <testCaseGuid>9078295e-0e06-4bd3-b83b-a08f5881fdb3</testCaseGuid>
    <variable>
-      <defaultValue>'4,289,048.00'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>0d57cf39-7b4f-4568-b934-1738408475bc</id>
       <masked>false</masked>
       <name>Element2attainment</name>
    </variable>
    <variable>
-      <defaultValue>'177.60%'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>e9620a8e-ef49-4d93-bdc9-88fe5a5b7057</id>
       <masked>false</masked>

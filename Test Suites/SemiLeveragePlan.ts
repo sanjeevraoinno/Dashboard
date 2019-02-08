@@ -24,12 +24,6 @@
          </iterationEntity>
          <testDataId>Data Files/SemiLeverageplan</testDataId>
       </testDataLink>
-      <variableLink>
-         <testDataLinkId>9f5ab784-aeff-4e0a-92dc-499fa1d70f12</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Plan</value>
-         <variableId>a678353e-e27e-40c9-85f5-2e061697dd73</variableId>
-      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>64f8e4cc-bc25-423e-862d-2a414a84ad16</guid>

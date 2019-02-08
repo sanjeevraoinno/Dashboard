@@ -24,12 +24,6 @@
          </iterationEntity>
          <testDataId>Data Files/Gauranteeplan</testDataId>
       </testDataLink>
-      <variableLink>
-         <testDataLinkId>5878ff54-47ef-4408-9d51-341818224942</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Plan</value>
-         <variableId>a678353e-e27e-40c9-85f5-2e061697dd73</variableId>
-      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>c7cd7a16-4dd9-4fd8-b662-6b2e54ed3a73</guid>

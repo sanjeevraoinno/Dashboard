@@ -33,12 +33,6 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Dashboard_Lenovo/Dashboard_Planfloder/Dashboard_PlanActions</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>a678353e-e27e-40c9-85f5-2e061697dd73</variableId>
-      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>73c001ca-ee26-483b-8302-432adcbc59e2</guid>
@@ -122,6 +116,12 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>95d64a2e-bf7a-4919-88b9-f77dbb79080c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d018d239-d05b-4023-b133-1b2e3efce7cb</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>

@@ -24,12 +24,6 @@
          </iterationEntity>
          <testDataId>Data Files/Leverageplandemodat</testDataId>
       </testDataLink>
-      <variableLink>
-         <testDataLinkId>cf921ac9-60a1-4271-9d87-fc0e7e94481e</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>Plan</value>
-         <variableId>a678353e-e27e-40c9-85f5-2e061697dd73</variableId>
-      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>285ecb06-0aa6-4ad9-b060-947e6e7c5d7b</guid>

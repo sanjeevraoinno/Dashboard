@@ -6,28 +6,28 @@
    <comment></comment>
    <testCaseGuid>955c6f2d-525c-486a-88f4-74237a36cac4</testCaseGuid>
    <variable>
-      <defaultValue>'177.60%'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>6ae00954-43d9-47aa-841b-96d31d685e33</id>
       <masked>false</masked>
       <name>valElement2</name>
    </variable>
    <variable>
-      <defaultValue>'$2,415,000.00'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>23f03d92-bb60-451b-972a-8846cc0edf4b</id>
       <masked>false</masked>
       <name>Quota2</name>
    </variable>
    <variable>
-      <defaultValue>'$4,289,048.00'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>85a9daed-a0d5-43db-8659-55567e39425a</id>
       <masked>false</masked>
       <name>Attainment2</name>
    </variable>
    <variable>
-      <defaultValue>'Element 2 Attainment'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>667dc862-8a71-42f9-8eb0-7d23f013de67</id>
       <masked>false</masked>

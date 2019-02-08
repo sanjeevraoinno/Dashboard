@@ -6,7 +6,7 @@
    <comment></comment>
    <testCaseGuid>b4f69c73-5ec5-4218-8f2d-1bfe017fae5b</testCaseGuid>
    <variable>
-      <defaultValue>'QTD CPS Attainment'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>d0aa7861-5fd7-4c4c-91aa-6b9f568addfc</id>
       <masked>false</masked>

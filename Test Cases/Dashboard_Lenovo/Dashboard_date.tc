@@ -6,7 +6,7 @@
    <comment></comment>
    <testCaseGuid>5c8030f3-f7d6-4f6d-8d17-8e321e8df3be</testCaseGuid>
    <variable>
-      <defaultValue>'June 2018'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>49d30139-4115-4ef8-91f5-3f926c4d5a5d</id>
       <masked>false</masked>
