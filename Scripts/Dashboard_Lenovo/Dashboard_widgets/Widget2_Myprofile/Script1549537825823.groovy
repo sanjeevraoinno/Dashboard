@@ -31,30 +31,31 @@ TestObject obj1 = new TestObject('Dynamic object')
 String fname_search1 = firstname
 
 //String xpath_first_name = ('//*[normalize-space(text()) and normalize-space(.)= "' + search1) + '" ]'
-
-
 Thread.sleep(6000)
 
-String xpath_firstname_test =' //div/span[contains(text(),"'+ fname_search1 +'")]'
+String xpath_firstname_test = (' //div/span[contains(text(),"' + fname_search1) + '")]'
 
 obj1.addProperty('xpath', ConditionType.EQUALS, xpath_firstname_test)
 
 Thread.sleep(2000)
 
 String text = WebUI.getText(obj1)
+
 System.out.println(text)
 
 //Verify first name
 'Click the Plan Rep'
-WebUI.verifyEqual(WebUI.getText(obj1),firstname )
+WebUI.verifyEqual(WebUI.getText(obj1), firstname)
 
 'Verify the text of Last name'
 WebUI.verifyEqual(WebUI.getText(findTestObject('Dashboard_Widgets/Dashboard_MyProfile/div_Last')), 'Last')
+
 'Verify the Value of Last name'
 TestObject obj2 = new TestObject('Dynamic object')
+
 String lname_search1 = Lastname
 
-String xpath_lastname_test = ' //div/span[contains(text(),"'+ lname_search1 +'")]'
+String xpath_lastname_test = (' //div/span[contains(text(),"' + lname_search1) + '")]'
 
 obj2.addProperty('xpath', ConditionType.EQUALS, xpath_lastname_test)
 
@@ -62,7 +63,7 @@ Thread.sleep(2000)
 
 String Last_text = WebUI.getText(obj2)
 
-WebUI.verifyEqual(WebUI.getText(obj2),Lastname )
+WebUI.verifyEqual(WebUI.getText(obj2), Lastname)
 
 'Verify the text of Job Desc'
 WebUI.verifyEqual(WebUI.getText(findTestObject('Dashboard_Widgets/Dashboard_MyProfile/div_Job Desc')), 'Job Desc')
@@ -72,14 +73,15 @@ TestObject obj3 = new TestObject('Dynamic object')
 
 String job_search3 = JobDesc
 
-String job_desc_xpath3 = ' //div/span[contains(text(),"'+ job_search3 +'")]'
+String job_desc_xpath3 = (' //div/span[contains(text(),"' + job_search3) + '")]'
 
 obj3.addProperty('xpath', ConditionType.EQUALS, job_desc_xpath3)
+
 Thread.sleep(2000)
+
 String job_text = WebUI.getText(obj3)
 
 WebUI.verifyEqual(WebUI.getText(obj3), JobDesc)
-
 
 'Verify the text of Manager'
 WebUI.verifyEqual(WebUI.getText(findTestObject('Dashboard_Widgets/Dashboard_MyProfile/div_Manager')), 'Manager')
@@ -89,12 +91,14 @@ TestObject obj4 = new TestObject('Dynamic object')
 
 String manager_search4 = Manager
 
-String manager_xpath4 = ' //div/span[contains(text(),"'+ manager_search4 +'")]'
+String manager_xpath4 = (' //div/span[contains(text(),"' + manager_search4) + '")]'
 
 obj4.addProperty('xpath', ConditionType.EQUALS, manager_xpath4)
 
 Thread.sleep(2000)
+
 String manager_text = WebUI.getText(obj4)
+
 WebUI.verifyEqual(WebUI.getText(obj4), Manager)
 
 'Verify the text of PDT'
@@ -105,11 +109,13 @@ TestObject obj5 = new TestObject('Dynamic object')
 
 String pdt_search5 = PDT
 
-String pdt_xpath5 = ' //div/span[contains(text(),"'+ pdt_search5 +'")]'
+String pdt_xpath5 = (' //div/span[contains(text(),"' + pdt_search5) + '")]'
 
-obj5.addProperty('xpath', ConditionType.EQUALS, pdt_xpath5 )
+obj5.addProperty('xpath', ConditionType.EQUALS, pdt_xpath5)
+
 Thread.sleep(2000)
-String pdt_text = WebUI.getText(obj5)
-WebUI.verifyEqual(WebUI.getText(obj5), PDT)
 
+String pdt_text = WebUI.getText(obj5)
+
+WebUI.verifyEqual(WebUI.getText(obj5), PDT)
 

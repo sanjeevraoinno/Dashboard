@@ -42,11 +42,10 @@ CustomKeywords.'globalkeywords.record.RecordNotFound'()
 TestObject myobj = new TestObject('Dynamic Boject')
 
 String plansearch = Plans
+
 String xpath = ('//span[normalize-space(text())="' + plansearch) + '"]'
 
-
 //String xpath = ('//span[normalize-space(text()="' + plansearch) + '")]'
-
 //String xpath = '//div[@id="' + dynamicId + '"]'
 //myobj.addProperty("xpath", ConditionType.EQUALS, xpath)
 myobj.addProperty('xpath', ConditionType.EQUALS, xpath)
