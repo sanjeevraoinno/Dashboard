@@ -6,7 +6,7 @@
    <comment></comment>
    <testCaseGuid>cb3fc9e3-0d37-4c48-a6f5-d203b908a13f</testCaseGuid>
    <variable>
-      <defaultValue>'Quarterly EMEA Leverage Plan - 2 Elements+2 Gate plus new gate logic'</defaultValue>
+      <defaultValue>''</defaultValue>
       <description></description>
       <id>259b3608-4f2b-45a0-ae1d-99878612b8af</id>
       <masked>false</masked>

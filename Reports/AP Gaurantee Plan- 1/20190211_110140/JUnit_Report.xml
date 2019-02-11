@@ -1,0 +1,589 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="AP Gaurantee Plan- 1" time="121" tests="11" failures="0" errors="0">
+   <testsuite name="AP Gaurantee Plan- 1" tests="11" failures="0" errors="0" time="121" timestamp="2019-02-11 11:01:46" hostname="rkulkarn - 41XHMV1-E6330.callidussoftware.com" id="Test Suites/AP Gaurantee Plan- 1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\rkulkarn\\git\\Dashboard\\Reports\\AP Gaurantee Plan- 1\\20190211_110140"/>
+         <property name="logFiles" value="C:\\Users\\rkulkarn\\git\\Dashboard\\Reports\\AP Gaurantee Plan- 1\\20190211_110140\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="rkulkarn - 41XHMV1-E6330.callidussoftware.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+         <property name="browser" value="Chrome 71.0.3578.98"/>
+         <property name="hostAddress" value="192.168.241.8"/>
+         <property name="sessionId" value="65c72b5a19ec071ee44a8b6988c8e851"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Dashboard_Lenovo/Dashboard_Login" classname="Test Cases/Dashboard_Lenovo/Dashboard_Login" status="PASSED">
+         <system-out><![CDATA[2019-02-11 11:01:47 - [TEST_CASE][PASSED] - Test Cases/Dashboard_Lenovo/Dashboard_Login: Test Cases/Dashboard_Lenovo/Dashboard_Login
+
+2019-02-11 11:01:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-02-11 11:01:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-02-11 11:01:48 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-02-11 11:01:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-02-11 11:01:55 - [TEST_STEP][PASSED] - navigateToUrl("https://lnvo-muat.callidusondemand.com/SalesPortal/#!/"): Navigate to 'https://lnvo-muat.callidusondemand.com/SalesPortal/#!/' successfully
+
+2019-02-11 11:01:59 - [MESSAGE][PASSED] - Navigate to 'https://lnvo-muat.callidusondemand.com/SalesPortal/#!/' successfully
+
+2019-02-11 11:01:59 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-02-11 11:02:01 - [MESSAGE][PASSED] - Current window maximized
+
+2019-02-11 11:02:01 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-02-11 11:02:06 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-02-11 11:02:06 - [TEST_STEP][PASSED] - setText(findTestObject("Dashboard_login/input_username"), "sapattna"): Text 'sapattna' is set on object 'Object Repository/Dashboard_login/input_username'
+
+2019-02-11 11:02:06 - [MESSAGE][PASSED] - Text 'sapattna' is set on object 'Object Repository/Dashboard_login/input_username'
+
+2019-02-11 11:02:06 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2019-02-11 11:02:11 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2019-02-11 11:02:11 - [TEST_STEP][PASSED] - setText(findTestObject("Dashboard_login/input_password"), "Callidus123"): Text 'Callidus123' is set on object 'Object Repository/Dashboard_login/input_password'
+
+2019-02-11 11:02:12 - [MESSAGE][PASSED] - Text 'Callidus123' is set on object 'Object Repository/Dashboard_login/input_password'
+
+2019-02-11 11:02:12 - [TEST_STEP][PASSED] - click(findTestObject("Dashboard_login/button_Login")): Object: 'Object Repository/Dashboard_login/button_Login' is clicked on
+
+2019-02-11 11:02:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard_login/button_Login' is clicked on
+
+2019-02-11 11:02:12 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Dashboard_Plan/a_Dashboards"), 10): Object 'Object Repository/Dashboard_Plan/a_Dashboards' is visible
+
+2019-02-11 11:02:16 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard_Plan/a_Dashboards' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dashboard_Lenovo/Dashboard_Planfloder/Dashboard_1Plans" classname="Test Cases/Dashboard_Lenovo/Dashboard_Planfloder/Dashboard_1Plans" status="PASSED">
+         <system-out><![CDATA[2019-02-11 11:02:16 - [TEST_CASE][PASSED] - Test Cases/Dashboard_Lenovo/Dashboard_Planfloder/Dashboard_1Plans: Test Cases/Dashboard_Lenovo/Dashboard_Planfloder/Dashboard_1Plans
+
+2019-02-11 11:02:16 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Dashboard_Plan/a_Dashboards"), 5): Object 'Object Repository/Dashboard_Plan/a_Dashboards' is clickable
+
+2019-02-11 11:02:16 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard_Plan/a_Dashboards' is clickable
+
+2019-02-11 11:02:16 - [TEST_STEP][PASSED] - click(findTestObject("Dashboard_Plan/a_Dashboards")): Object: 'Object Repository/Dashboard_Plan/a_Dashboards' is clicked on
+
+2019-02-11 11:02:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard_Plan/a_Dashboards' is clicked on
+
+2019-02-11 11:02:16 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Dashboard_Plan/add_dashboard"), 5): Object 'Object Repository/Dashboard_Plan/add_dashboard' is present
+
+2019-02-11 11:02:19 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard_Plan/add_dashboard' is present
+
+2019-02-11 11:02:19 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Dashboard_Plan/Showmore_button"), 5): Object 'Object Repository/Dashboard_Plan/Showmore_button' is present
+
+2019-02-11 11:02:19 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard_Plan/Showmore_button' is present
+
+2019-02-11 11:02:19 - [TEST_STEP][PASSED] - click(findTestObject("Dashboard_Plan/input_Search_form-control ng-p")): Object: 'Object Repository/Dashboard_Plan/input_Search_form-control ng-p' is clicked on
+
+2019-02-11 11:02:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard_Plan/input_Search_form-control ng-p' is clicked on
+
+2019-02-11 11:02:19 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+2019-02-11 11:02:19 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-02-11 11:02:19 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-02-11 11:02:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-11 11:02:22 - [TEST_STEP][PASSED] - setText(findTestObject("Dashboard_Plan/input_Search_form-control ng-p"), Plans): Text 'AP Guarantee plan-1 Element' is set on object 'Object Repository/Dashboard_Plan/input_Search_form-control ng-p'
+
+2019-02-11 11:02:23 - [MESSAGE][PASSED] - Text 'AP Guarantee plan-1 Element' is set on object 'Object Repository/Dashboard_Plan/input_Search_form-control ng-p'
+
+2019-02-11 11:02:23 - [TEST_STEP][PASSED] - globalkeywords.record.RecordNotFound(): globalkeywords.record.RecordNotFound is PASSED
+
+2019-02-11 11:02:33 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //span[(text() = '
+  
+  No results found.
+' or . = '
+  
+  No results found.
+')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-02-11 11:02:33 - [MESSAGE][WARNING] - Object 'Object Repository/No_Results_Found/span_No results found.' is not present after 10 second(s)
+
+2019-02-11 11:02:33 - [MESSAGE][PASSED] - globalkeywords.record.RecordNotFound is PASSED
+
+2019-02-11 11:02:33 - [TEST_STEP][PASSED] - myobj = new com.kms.katalon.core.testobject.TestObject(Dynamic Boject): null
+
+2019-02-11 11:02:33 - [TEST_STEP][PASSED] - plansearch = Plans: null
+
+2019-02-11 11:02:33 - [TEST_STEP][PASSED] - xpath = "//span[normalize-space(text())="" + plansearch + ""]": null
+
+2019-02-11 11:02:33 - [TEST_STEP][PASSED] - myobj.addProperty("xpath", EQUALS, xpath): null
+
+2019-02-11 11:02:33 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+2019-02-11 11:02:33 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-02-11 11:02:33 - [TEST_STEP][PASSED] - click(myobj): Object: 'Dynamic Boject' is clicked on
+
+2019-02-11 11:02:34 - [MESSAGE][PASSED] - Object: 'Dynamic Boject' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dashboard_Lenovo/Dashboard_Planfloder/Dashboard_PlanActions" classname="Test Cases/Dashboard_Lenovo/Dashboard_Planfloder/Dashboard_PlanActions" status="PASSED">
+         <system-out><![CDATA[2019-02-11 11:02:34 - [TEST_CASE][PASSED] - Test Cases/Dashboard_Lenovo/Dashboard_Planfloder/Dashboard_PlanActions: Test Cases/Dashboard_Lenovo/Dashboard_Planfloder/Dashboard_PlanActions
+
+2019-02-11 11:02:34 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2019-02-11 11:02:37 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2019-02-11 11:02:37 - [TEST_STEP][NOT_RUN] - myobj1 = new com.kms.katalon.core.testobject.TestObject(Dynamic object): NOT_RUN: myobj1 = new com.kms.katalon.core.testobject.TestObject(Dynamic object)
+
+2019-02-11 11:02:37 - [MESSAGE][NOT_RUN] - NOT_RUN: myobj1 = new com.kms.katalon.core.testobject.TestObject(Dynamic object)
+
+2019-02-11 11:02:37 - [TEST_STEP][NOT_RUN] - plansearch1 = Plans: NOT_RUN: plansearch1 = Plans
+
+2019-02-11 11:02:37 - [MESSAGE][NOT_RUN] - NOT_RUN: plansearch1 = Plans
+
+2019-02-11 11:02:37 - [TEST_STEP][NOT_RUN] - xpath = "(//a[@target="_blank"]/i[@class=padding-left icon-play4])[1])": NOT_RUN: xpath = "(//a[@target="_blank"]/i[@class=padding-left icon-play4])[1])"
+
+2019-02-11 11:02:37 - [MESSAGE][NOT_RUN] - NOT_RUN: xpath = "(//a[@target="_blank"]/i[@class=padding-left icon-play4])[1])"
+
+2019-02-11 11:02:37 - [TEST_STEP][NOT_RUN] - myobj1.addProperty("xpath", EQUALS, xpath): NOT_RUN: myobj1.addProperty("xpath", EQUALS, xpath)
+
+2019-02-11 11:02:37 - [MESSAGE][NOT_RUN] - NOT_RUN: myobj1.addProperty("xpath", EQUALS, xpath)
+
+2019-02-11 11:02:37 - [TEST_STEP][NOT_RUN] - Thread.sleep(2000): NOT_RUN: Thread.sleep(2000)
+
+2019-02-11 11:02:37 - [MESSAGE][NOT_RUN] - NOT_RUN: Thread.sleep(2000)
+
+2019-02-11 11:02:37 - [TEST_STEP][NOT_RUN] - click(myobj1): NOT_RUN: click(myobj1)
+
+2019-02-11 11:02:37 - [MESSAGE][NOT_RUN] - NOT_RUN: click(myobj1)
+
+2019-02-11 11:02:37 - [TEST_STEP][PASSED] - click(findTestObject("Dashboard_Plan/i_plansPreviewbutton")): Object: 'Object Repository/Dashboard_Plan/i_plansPreviewbutton' is clicked on
+
+2019-02-11 11:02:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard_Plan/i_plansPreviewbutton' is clicked on
+
+2019-02-11 11:02:37 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+2019-02-11 11:02:37 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+2019-02-11 11:02:37 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Dashboard_Date/span_Please enter at least 3 c"), 10): Object 'Object Repository/Dashboard_Date/span_Please enter at least 3 c' is visible
+
+2019-02-11 11:02:41 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard_Date/span_Please enter at least 3 c' is visible
+
+2019-02-11 11:02:41 - [TEST_STEP][PASSED] - click(findTestObject("Dashboard_Date/span_Please enter at least 3 c")): Object: 'Object Repository/Dashboard_Date/span_Please enter at least 3 c' is clicked on
+
+2019-02-11 11:02:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard_Date/span_Please enter at least 3 c' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dashboard_Lenovo/Dashboard_date" classname="Test Cases/Dashboard_Lenovo/Dashboard_date" status="PASSED">
+         <system-out><![CDATA[2019-02-11 11:02:41 - [TEST_CASE][PASSED] - Test Cases/Dashboard_Lenovo/Dashboard_date: Test Cases/Dashboard_Lenovo/Dashboard_date
+
+2019-02-11 11:02:42 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Dashboard_Date/span_Select period"), 5): Object 'Object Repository/Dashboard_Date/span_Select period' is visible
+
+2019-02-11 11:02:42 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard_Date/span_Select period' is visible
+
+2019-02-11 11:02:42 - [TEST_STEP][PASSED] - click(findTestObject("Dashboard_Date/span_Select period")): Object: 'Object Repository/Dashboard_Date/span_Select period' is clicked on
+
+2019-02-11 11:02:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard_Date/span_Select period' is clicked on
+
+2019-02-11 11:02:43 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Dashboard_Date/Input_of_date"), 5): Object 'Object Repository/Dashboard_Date/Input_of_date' is clickable
+
+2019-02-11 11:02:43 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard_Date/Input_of_date' is clickable
+
+2019-02-11 11:02:43 - [TEST_STEP][PASSED] - click(findTestObject("Dashboard_Date/Input_of_date")): Object: 'Object Repository/Dashboard_Date/Input_of_date' is clicked on
+
+2019-02-11 11:02:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard_Date/Input_of_date' is clicked on
+
+2019-02-11 11:02:43 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-02-11 11:02:45 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-02-11 11:02:45 - [TEST_STEP][PASSED] - setText(findTestObject("Dashboard_Date/Input_of_date"), parDate): Text 'June 2018' is set on object 'Object Repository/Dashboard_Date/Input_of_date'
+
+2019-02-11 11:02:45 - [MESSAGE][PASSED] - Text 'June 2018' is set on object 'Object Repository/Dashboard_Date/Input_of_date'
+
+2019-02-11 11:02:45 - [TEST_STEP][PASSED] - globalkeywords.record.RecordNotFound(): globalkeywords.record.RecordNotFound is PASSED
+
+2019-02-11 11:02:56 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //span[(text() = '
+  
+  No results found.
+' or . = '
+  
+  No results found.
+')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-02-11 11:02:56 - [MESSAGE][WARNING] - Object 'Object Repository/No_Results_Found/span_No results found.' is not present after 10 second(s)
+
+2019-02-11 11:02:56 - [MESSAGE][PASSED] - globalkeywords.record.RecordNotFound is PASSED
+
+2019-02-11 11:02:56 - [TEST_STEP][PASSED] - robot = new java.awt.Robot(): null
+
+2019-02-11 11:02:56 - [TEST_STEP][PASSED] - robot.keyPress(VK_ENTER): null
+
+2019-02-11 11:02:56 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2019-02-11 11:02:58 - [TEST_STEP][PASSED] - robot.keyRelease(VK_ENTER): null
+
+2019-02-11 11:02:58 - [TEST_STEP][NOT_RUN] - click(findTestObject("demo/a_June 2018")): NOT_RUN: click(findTestObject("demo/a_June 2018"))
+
+2019-02-11 11:02:58 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("demo/a_June 2018"))]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dashboard_Lenovo/Dashboard_Participant" classname="Test Cases/Dashboard_Lenovo/Dashboard_Participant" status="PASSED">
+         <system-out><![CDATA[2019-02-11 11:02:58 - [TEST_CASE][PASSED] - Test Cases/Dashboard_Lenovo/Dashboard_Participant: Test Cases/Dashboard_Lenovo/Dashboard_Participant
+
+2019-02-11 11:02:58 - [TEST_STEP][PASSED] - waitForElementNotClickable(findTestObject("Dashboard_Date/span_Please enter at least 3 c"), 10): Object 'Object Repository/Dashboard_Date/span_Please enter at least 3 c' is not clickable after 10 second(s)
+
+2019-02-11 11:03:09 - [MESSAGE][WARNING] - Object 'Object Repository/Dashboard_Date/span_Please enter at least 3 c' is not clickable after 10 second(s)
+
+2019-02-11 11:03:09 - [TEST_STEP][PASSED] - click(findTestObject("Dashboard_Date/span_Please enter at least 3 c")): Object: 'Object Repository/Dashboard_Date/span_Please enter at least 3 c' is clicked on
+
+2019-02-11 11:03:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard_Date/span_Please enter at least 3 c' is clicked on
+
+2019-02-11 11:03:09 - [TEST_STEP][PASSED] - setText(findTestObject("Dashboard_Date/input_Please enter at least 3"), ParticipantName): Text 'Ayush' is set on object 'Object Repository/Dashboard_Date/input_Please enter at least 3'
+
+2019-02-11 11:03:09 - [MESSAGE][PASSED] - Text 'Ayush' is set on object 'Object Repository/Dashboard_Date/input_Please enter at least 3'
+
+2019-02-11 11:03:09 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+2019-02-11 11:03:19 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+2019-02-11 11:03:19 - [TEST_STEP][PASSED] - robot = new java.awt.Robot(): null
+
+2019-02-11 11:03:19 - [TEST_STEP][PASSED] - robot.keyPress(VK_ENTER): null
+
+2019-02-11 11:03:19 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2019-02-11 11:03:21 - [TEST_STEP][PASSED] - robot.keyRelease(VK_ENTER): null
+
+2019-02-11 11:03:21 - [TEST_STEP][PASSED] - ParticipantName = <not implemented yet for class: org.codehaus.groovy.ast.expr.EmptyExpression>: null
+
+2019-02-11 11:03:21 - [TEST_STEP][PASSED] - try: null
+
+2019-02-11 11:03:21 - [TEST_STEP][PASSED] - part = waitForElementPresent(findTestObject("Dashboard_Widgets/Dashboard_QTD_CPS_Attainment/span_QTD CPS Attainment"), 5): Object 'Object Repository/Dashboard_Widgets/Dashboard_QTD_CPS_Attainment/span_QTD CPS Attainment' is present
+
+2019-02-11 11:03:21 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard_Widgets/Dashboard_QTD_CPS_Attainment/span_QTD CPS Attainment' is present
+
+2019-02-11 11:03:21 - [TEST_STEP][PASSED] - if (part == false): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dashboard_Lenovo/Dashboard_widgets/Widget1_QTD_CPS_Attainment" classname="Test Cases/Dashboard_Lenovo/Dashboard_widgets/Widget1_QTD_CPS_Attainment" status="PASSED">
+         <system-out><![CDATA[2019-02-11 11:03:21 - [TEST_CASE][PASSED] - Test Cases/Dashboard_Lenovo/Dashboard_widgets/Widget1_QTD_CPS_Attainment: Test Cases/Dashboard_Lenovo/Dashboard_widgets/Widget1_QTD_CPS_Attainment
+
+2019-02-11 11:03:22 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Dashboard_Widgets/Dashboard_QTD_CPS_Attainment/span_QTD CPS Attainment")): Object: 'Object Repository/Dashboard_Widgets/Dashboard_QTD_CPS_Attainment/span_QTD CPS Attainment' is hovered
+
+2019-02-11 11:03:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard_Widgets/Dashboard_QTD_CPS_Attainment/span_QTD CPS Attainment' is hovered
+
+2019-02-11 11:03:23 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Dashboard_Widgets/Dashboard_QTD_CPS_Attainment/span_QTD CPS Attainment"), Widget1): Actual text and expected text of test object 'Object Repository/Dashboard_Widgets/Dashboard_QTD_CPS_Attainment/span_QTD CPS Attainment' are matched.
+
+2019-02-11 11:03:23 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Dashboard_Widgets/Dashboard_QTD_CPS_Attainment/span_QTD CPS Attainment' are matched.
+
+2019-02-11 11:03:23 - [TEST_STEP][PASSED] - verifyEqual(getText(findTestObject("Dashboard_Widgets/Dashboard_QTD_CPS_Attainment/QTD_CPS_attainment_value")), wid_Values): Actual object '0.00%' and expected object '0.00%' are equal
+
+2019-02-11 11:03:23 - [MESSAGE][PASSED] - Text of object 'Object Repository/Dashboard_Widgets/Dashboard_QTD_CPS_Attainment/QTD_CPS_attainment_value' is: '0.00%'
+
+2019-02-11 11:03:23 - [MESSAGE][PASSED] - Actual object '0.00%' and expected object '0.00%' are equal]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dashboard_Lenovo/Dashboard_widgets/Widget2_Myprofile" classname="Test Cases/Dashboard_Lenovo/Dashboard_widgets/Widget2_Myprofile" status="PASSED">
+         <system-out><![CDATA[2019-02-11 11:03:23 - [TEST_CASE][PASSED] - Test Cases/Dashboard_Lenovo/Dashboard_widgets/Widget2_Myprofile: Test Cases/Dashboard_Lenovo/Dashboard_widgets/Widget2_Myprofile
+
+2019-02-11 11:03:24 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Dashboard_Widgets/Dashboard_MyProfile/span_My Profile")): Object: 'Object Repository/Dashboard_Widgets/Dashboard_MyProfile/span_My Profile' is hovered
+
+2019-02-11 11:03:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard_Widgets/Dashboard_MyProfile/span_My Profile' is hovered
+
+2019-02-11 11:03:24 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Dashboard_Widgets/Dashboard_MyProfile/span_My Profile"), Widget2): Actual text and expected text of test object 'Object Repository/Dashboard_Widgets/Dashboard_MyProfile/span_My Profile' are matched.
+
+2019-02-11 11:03:24 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Dashboard_Widgets/Dashboard_MyProfile/span_My Profile' are matched.
+
+2019-02-11 11:03:24 - [TEST_STEP][PASSED] - verifyEqual(getText(findTestObject("Dashboard_Widgets/Dashboard_Myprofile/div_First")), "First"): Actual object 'First' and expected object 'First' are equal
+
+2019-02-11 11:03:24 - [MESSAGE][PASSED] - Text of object 'Object Repository/Dashboard_Widgets/Dashboard_Myprofile/div_First' is: 'First'
+
+2019-02-11 11:03:24 - [MESSAGE][PASSED] - Actual object 'First' and expected object 'First' are equal
+
+2019-02-11 11:03:24 - [TEST_STEP][PASSED] - obj1 = new com.kms.katalon.core.testobject.TestObject(Dynamic object): null
+
+2019-02-11 11:03:24 - [TEST_STEP][PASSED] - fname_search1 = firstname: null
+
+2019-02-11 11:03:24 - [TEST_STEP][PASSED] - Thread.sleep(6000): null
+
+2019-02-11 11:03:30 - [TEST_STEP][PASSED] - xpath_firstname_test = " //div/span[contains(text(),"" + fname_search1 + "")]": null
+
+2019-02-11 11:03:30 - [TEST_STEP][PASSED] - obj1.addProperty("xpath", EQUALS, xpath_firstname_test): null
+
+2019-02-11 11:03:30 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2019-02-11 11:03:32 - [TEST_STEP][PASSED] - text = getText(obj1): Text of object 'Dynamic object' is: 'Ayushmaan'
+
+2019-02-11 11:03:32 - [MESSAGE][PASSED] - Text of object 'Dynamic object' is: 'Ayushmaan'
+
+2019-02-11 11:03:32 - [TEST_STEP][PASSED] - out.println(text): null
+
+2019-02-11 11:03:32 - [TEST_STEP][PASSED] - verifyEqual(getText(obj1), firstname): Actual object 'Ayushmaan' and expected object 'Ayushmaan' are equal
+
+2019-02-11 11:03:32 - [MESSAGE][PASSED] - Text of object 'Dynamic object' is: 'Ayushmaan'
+
+2019-02-11 11:03:32 - [MESSAGE][PASSED] - Actual object 'Ayushmaan' and expected object 'Ayushmaan' are equal
+
+2019-02-11 11:03:32 - [TEST_STEP][PASSED] - verifyEqual(getText(findTestObject("Dashboard_Widgets/Dashboard_MyProfile/div_Last")), "Last"): Actual object 'Last' and expected object 'Last' are equal
+
+2019-02-11 11:03:32 - [MESSAGE][PASSED] - Text of object 'Object Repository/Dashboard_Widgets/Dashboard_MyProfile/div_Last' is: 'Last'
+
+2019-02-11 11:03:32 - [MESSAGE][PASSED] - Actual object 'Last' and expected object 'Last' are equal
+
+2019-02-11 11:03:32 - [TEST_STEP][PASSED] - obj2 = new com.kms.katalon.core.testobject.TestObject(Dynamic object): null
+
+2019-02-11 11:03:32 - [TEST_STEP][PASSED] - lname_search1 = Lastname: null
+
+2019-02-11 11:03:32 - [TEST_STEP][PASSED] - xpath_lastname_test = " //div/span[contains(text(),"" + lname_search1 + "")]": null
+
+2019-02-11 11:03:32 - [TEST_STEP][PASSED] - obj2.addProperty("xpath", EQUALS, xpath_lastname_test): null
+
+2019-02-11 11:03:32 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2019-02-11 11:03:34 - [TEST_STEP][PASSED] - Last_text = getText(obj2): Text of object 'Dynamic object' is: 'Agarwal'
+
+2019-02-11 11:03:34 - [MESSAGE][PASSED] - Text of object 'Dynamic object' is: 'Agarwal'
+
+2019-02-11 11:03:34 - [TEST_STEP][PASSED] - verifyEqual(getText(obj2), Lastname): Actual object 'Agarwal' and expected object 'Agarwal' are equal
+
+2019-02-11 11:03:34 - [MESSAGE][PASSED] - Text of object 'Dynamic object' is: 'Agarwal'
+
+2019-02-11 11:03:34 - [MESSAGE][PASSED] - Actual object 'Agarwal' and expected object 'Agarwal' are equal
+
+2019-02-11 11:03:34 - [TEST_STEP][PASSED] - verifyEqual(getText(findTestObject("Dashboard_Widgets/Dashboard_MyProfile/div_Job Desc")), "Job Desc"): Actual object 'Job Desc' and expected object 'Job Desc' are equal
+
+2019-02-11 11:03:35 - [MESSAGE][PASSED] - Text of object 'Object Repository/Dashboard_Widgets/Dashboard_MyProfile/div_Job Desc' is: 'Job Desc'
+
+2019-02-11 11:03:35 - [MESSAGE][PASSED] - Actual object 'Job Desc' and expected object 'Job Desc' are equal
+
+2019-02-11 11:03:35 - [TEST_STEP][PASSED] - obj3 = new com.kms.katalon.core.testobject.TestObject(Dynamic object): null
+
+2019-02-11 11:03:35 - [TEST_STEP][PASSED] - job_search3 = JobDesc: null
+
+2019-02-11 11:03:35 - [TEST_STEP][PASSED] - job_desc_xpath3 = " //div/span[contains(text(),"" + job_search3 + "")]": null
+
+2019-02-11 11:03:35 - [TEST_STEP][PASSED] - obj3.addProperty("xpath", EQUALS, job_desc_xpath3): null
+
+2019-02-11 11:03:35 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2019-02-11 11:03:37 - [TEST_STEP][PASSED] - job_text = getText(obj3): Text of object 'Dynamic object' is: 'Associate Manager - Sales'
+
+2019-02-11 11:03:37 - [MESSAGE][PASSED] - Text of object 'Dynamic object' is: 'Associate Manager - Sales'
+
+2019-02-11 11:03:37 - [TEST_STEP][PASSED] - verifyEqual(getText(obj3), JobDesc): Actual object 'Associate Manager - Sales' and expected object 'Associate Manager - Sales' are equal
+
+2019-02-11 11:03:37 - [MESSAGE][PASSED] - Text of object 'Dynamic object' is: 'Associate Manager - Sales'
+
+2019-02-11 11:03:37 - [MESSAGE][PASSED] - Actual object 'Associate Manager - Sales' and expected object 'Associate Manager - Sales' are equal
+
+2019-02-11 11:03:37 - [TEST_STEP][PASSED] - verifyEqual(getText(findTestObject("Dashboard_Widgets/Dashboard_MyProfile/div_Manager")), "Manager"): Actual object 'Manager' and expected object 'Manager' are equal
+
+2019-02-11 11:03:37 - [MESSAGE][PASSED] - Text of object 'Object Repository/Dashboard_Widgets/Dashboard_MyProfile/div_Manager' is: 'Manager'
+
+2019-02-11 11:03:37 - [MESSAGE][PASSED] - Actual object 'Manager' and expected object 'Manager' are equal
+
+2019-02-11 11:03:37 - [TEST_STEP][PASSED] - obj4 = new com.kms.katalon.core.testobject.TestObject(Dynamic object): null
+
+2019-02-11 11:03:37 - [TEST_STEP][PASSED] - manager_search4 = Manager: null
+
+2019-02-11 11:03:37 - [TEST_STEP][PASSED] - manager_xpath4 = " //div/span[contains(text(),"" + manager_search4 + "")]": null
+
+2019-02-11 11:03:37 - [TEST_STEP][PASSED] - obj4.addProperty("xpath", EQUALS, manager_xpath4): null
+
+2019-02-11 11:03:37 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2019-02-11 11:03:39 - [TEST_STEP][PASSED] - manager_text = getText(obj4): Text of object 'Dynamic object' is: 'Hiral Somaiya'
+
+2019-02-11 11:03:39 - [MESSAGE][PASSED] - Text of object 'Dynamic object' is: 'Hiral Somaiya'
+
+2019-02-11 11:03:39 - [TEST_STEP][PASSED] - verifyEqual(getText(obj4), Manager): Actual object 'Hiral Somaiya' and expected object 'Hiral Somaiya' are equal
+
+2019-02-11 11:03:39 - [MESSAGE][PASSED] - Text of object 'Dynamic object' is: 'Hiral Somaiya'
+
+2019-02-11 11:03:39 - [MESSAGE][PASSED] - Actual object 'Hiral Somaiya' and expected object 'Hiral Somaiya' are equal
+
+2019-02-11 11:03:39 - [TEST_STEP][PASSED] - pdtobj = new com.kms.katalon.core.testobject.TestObject(Dynamic object): null
+
+2019-02-11 11:03:39 - [TEST_STEP][PASSED] - pdtobject = PDTtxt: null
+
+2019-02-11 11:03:39 - [TEST_STEP][PASSED] - pdttxt_xapth = "//*[normalize-space(text()) and normalize-space(.)="" + pdtobject + ""]": null
+
+2019-02-11 11:03:39 - [TEST_STEP][PASSED] - pdtobj.addProperty("xpath", EQUALS, pdttxt_xapth): null
+
+2019-02-11 11:03:39 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2019-02-11 11:03:41 - [TEST_STEP][PASSED] - pdt1_text = getText(pdtobj): Text of object 'Dynamic object' is: 'PDT'
+
+2019-02-11 11:03:41 - [MESSAGE][PASSED] - Text of object 'Dynamic object' is: 'PDT'
+
+2019-02-11 11:03:41 - [TEST_STEP][PASSED] - verifyEqual(getText(pdtobj), PDTtxt): Actual object 'PDT' and expected object 'PDT' are equal
+
+2019-02-11 11:03:41 - [MESSAGE][PASSED] - Text of object 'Dynamic object' is: 'PDT'
+
+2019-02-11 11:03:41 - [MESSAGE][PASSED] - Actual object 'PDT' and expected object 'PDT' are equal
+
+2019-02-11 11:03:41 - [TEST_STEP][PASSED] - obj5 = new com.kms.katalon.core.testobject.TestObject(Dynamic object): null
+
+2019-02-11 11:03:41 - [TEST_STEP][PASSED] - pdt_search5 = PDT: null
+
+2019-02-11 11:03:41 - [TEST_STEP][PASSED] - pdt_xpath5 = " //div/span[contains(text(),"" + pdt_search5 + "")]": null
+
+2019-02-11 11:03:41 - [TEST_STEP][PASSED] - obj5.addProperty("xpath", EQUALS, pdt_xpath5): null
+
+2019-02-11 11:03:41 - [TEST_STEP][PASSED] - Thread.sleep(2000): null
+
+2019-02-11 11:03:43 - [TEST_STEP][PASSED] - pdt_text = getText(obj5): Text of object 'Dynamic object' is: 'APGUAR-IN'
+
+2019-02-11 11:03:43 - [MESSAGE][PASSED] - Text of object 'Dynamic object' is: 'APGUAR-IN'
+
+2019-02-11 11:03:43 - [TEST_STEP][PASSED] - verifyEqual(getText(obj5), PDT): Actual object 'APGUAR-IN' and expected object 'APGUAR-IN' are equal
+
+2019-02-11 11:03:43 - [MESSAGE][PASSED] - Text of object 'Dynamic object' is: 'APGUAR-IN'
+
+2019-02-11 11:03:43 - [MESSAGE][PASSED] - Actual object 'APGUAR-IN' and expected object 'APGUAR-IN' are equal]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dashboard_Lenovo/Dashboard_widgets/Widget3_Percent_of_TI" classname="Test Cases/Dashboard_Lenovo/Dashboard_widgets/Widget3_Percent_of_TI" status="PASSED">
+         <system-out><![CDATA[2019-02-11 11:03:43 - [TEST_CASE][PASSED] - Test Cases/Dashboard_Lenovo/Dashboard_widgets/Widget3_Percent_of_TI: Test Cases/Dashboard_Lenovo/Dashboard_widgets/Widget3_Percent_of_TI
+
+2019-02-11 11:03:44 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Dashboard_Widgets/Dashboard_Percent_of_TI/span_Percent of TI")): Object: 'Object Repository/Dashboard_Widgets/Dashboard_Percent_of_TI/span_Percent of TI' is hovered
+
+2019-02-11 11:03:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard_Widgets/Dashboard_Percent_of_TI/span_Percent of TI' is hovered
+
+2019-02-11 11:03:44 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Dashboard_Widgets/Dashboard_Percent_of_TI/span_Percent of TI"), Widget3): Actual text and expected text of test object 'Object Repository/Dashboard_Widgets/Dashboard_Percent_of_TI/span_Percent of TI' are matched.
+
+2019-02-11 11:03:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Dashboard_Widgets/Dashboard_Percent_of_TI/span_Percent of TI' are matched.
+
+2019-02-11 11:03:44 - [TEST_STEP][PASSED] - verifyEqual(getText(findTestObject("Dashboard_Widgets/Dashboard_Percent_of_TI/Percent_of_TI_value")), Percent_Val): Actual object '0.00%' and expected object '0.00%' are equal
+
+2019-02-11 11:03:44 - [MESSAGE][PASSED] - Text of object 'Object Repository/Dashboard_Widgets/Dashboard_Percent_of_TI/Percent_of_TI_value' is: '0.00%'
+
+2019-02-11 11:03:44 - [MESSAGE][PASSED] - Actual object '0.00%' and expected object '0.00%' are equal
+
+2019-02-11 11:03:44 - [TEST_STEP][PASSED] - verifyEqual(getText(findTestObject("Dashboard_Widgets/Dashboard_Percent_of_TI/Target_value")), Percent_Target): Actual object '117,472.75' and expected object '117,472.75' are equal
+
+2019-02-11 11:03:44 - [MESSAGE][PASSED] - Text of object 'Object Repository/Dashboard_Widgets/Dashboard_Percent_of_TI/Target_value' is: '117,472.75'
+
+2019-02-11 11:03:44 - [MESSAGE][PASSED] - Actual object '117,472.75' and expected object '117,472.75' are equal
+
+2019-02-11 11:03:44 - [TEST_STEP][PASSED] - verifyEqual(getText(findTestObject("Dashboard_Widgets/Dashboard_Percent_of_TI/Achivement_val")), Percent_Achievment): Actual object '0.00' and expected object '0' are equal
+
+2019-02-11 11:03:44 - [MESSAGE][PASSED] - Text of object 'Object Repository/Dashboard_Widgets/Dashboard_Percent_of_TI/Achivement_val' is: '0.00'
+
+2019-02-11 11:03:44 - [MESSAGE][PASSED] - Actual object '0.00' and expected object '0' are equal]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dashboard_Lenovo/Dashboard_widgets/Widget4_Element_1_Attainment" classname="Test Cases/Dashboard_Lenovo/Dashboard_widgets/Widget4_Element_1_Attainment" status="PASSED">
+         <system-out><![CDATA[2019-02-11 11:03:44 - [TEST_CASE][PASSED] - Test Cases/Dashboard_Lenovo/Dashboard_widgets/Widget4_Element_1_Attainment: Test Cases/Dashboard_Lenovo/Dashboard_widgets/Widget4_Element_1_Attainment
+
+2019-02-11 11:03:44 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Dashboard_Widgets/Dashboard_Element_1_Attainment/span_Element 1 Attainment")): Object: 'Object Repository/Dashboard_Widgets/Dashboard_Element_1_Attainment/span_Element 1 Attainment' is hovered
+
+2019-02-11 11:03:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard_Widgets/Dashboard_Element_1_Attainment/span_Element 1 Attainment' is hovered
+
+2019-02-11 11:03:45 - [TEST_STEP][PASSED] - verifyEqual(getText(findTestObject("Dashboard_Widgets/Dashboard_Element_1_Attainment/Element1_val")), Element1_val): Actual object '0.00%' and expected object '0.00%' are equal
+
+2019-02-11 11:03:45 - [MESSAGE][PASSED] - Text of object 'Object Repository/Dashboard_Widgets/Dashboard_Element_1_Attainment/Element1_val' is: '0.00%'
+
+2019-02-11 11:03:45 - [MESSAGE][PASSED] - Actual object '0.00%' and expected object '0.00%' are equal
+
+2019-02-11 11:03:45 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Dashboard_Widgets/Dashboard_Element_1_Attainment/span_Element 1 Attainment"), Widget4): Actual text and expected text of test object 'Object Repository/Dashboard_Widgets/Dashboard_Element_1_Attainment/span_Element 1 Attainment' are matched.
+
+2019-02-11 11:03:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Dashboard_Widgets/Dashboard_Element_1_Attainment/span_Element 1 Attainment' are matched.
+
+2019-02-11 11:03:45 - [TEST_STEP][PASSED] - verifyEqual(getText(findTestObject("Dashboard_Widgets/Dashboard_Element_1_Attainment/Quota_val")), Element_quota): Actual object '' and expected object '' are equal
+
+2019-02-11 11:03:45 - [MESSAGE][PASSED] - Text of object 'Object Repository/Dashboard_Widgets/Dashboard_Element_1_Attainment/Quota_val' is: ''
+
+2019-02-11 11:03:45 - [MESSAGE][PASSED] - Actual object '' and expected object '' are equal
+
+2019-02-11 11:03:45 - [TEST_STEP][PASSED] - verifyEqual(getText(findTestObject("Dashboard_Widgets/Dashboard_Element_1_Attainment/Attainment_val")), Element_attainment): Actual object '' and expected object '' are equal
+
+2019-02-11 11:03:45 - [MESSAGE][PASSED] - Text of object 'Object Repository/Dashboard_Widgets/Dashboard_Element_1_Attainment/Attainment_val' is: ''
+
+2019-02-11 11:03:45 - [MESSAGE][PASSED] - Actual object '' and expected object '' are equal]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dashboard_Lenovo/Dashboard_widgets/Widget7_attainment and quota/Widget7_1_QTD_CPSandELEMENT1DATA" classname="Test Cases/Dashboard_Lenovo/Dashboard_widgets/Widget7_attainment and quota/Widget7_1_QTD_CPSandELEMENT1DATA" status="PASSED">
+         <system-out><![CDATA[2019-02-11 11:03:45 - [TEST_CASE][PASSED] - Test Cases/Dashboard_Lenovo/Dashboard_widgets/Widget7_attainment and quota/Widget7_1_QTD_CPSandELEMENT1DATA: Test Cases/Dashboard_Lenovo/Dashboard_widgets/Widget7_attainment and quota/Widget7_1_QTD_CPSandELEMENT1DATA
+
+2019-02-11 11:03:45 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Dashboard_Widgets/Dashboard_Attainment_and_quota_by _Quarter/Attainment and Quota by Q")): Object: 'Object Repository/Dashboard_Widgets/Dashboard_Attainment_and_quota_by _Quarter/Attainment and Quota by Q' is hovered
+
+2019-02-11 11:03:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard_Widgets/Dashboard_Attainment_and_quota_by _Quarter/Attainment and Quota by Q' is hovered
+
+2019-02-11 11:03:45 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Dashboard_Widgets/Dashboard_Attainment_and_quota_by _Quarter/Attainment and Quota by Q"), widget7): Actual text and expected text of test object 'Object Repository/Dashboard_Widgets/Dashboard_Attainment_and_quota_by _Quarter/Attainment and Quota by Q' are matched.
+
+2019-02-11 11:03:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Dashboard_Widgets/Dashboard_Attainment_and_quota_by _Quarter/Attainment and Quota by Q' are matched.
+
+2019-02-11 11:03:45 - [TEST_STEP][PASSED] - verifyEqual(getText(findTestObject("Dashboard_Widgets/Dashboard_Attainment_and_quota_by _Quarter/YearlyPeriods")), QuarterPeriods): Actual object '1Q19' and expected object '1Q19' are equal
+
+2019-02-11 11:03:45 - [MESSAGE][PASSED] - Text of object 'Object Repository/Dashboard_Widgets/Dashboard_Attainment_and_quota_by _Quarter/YearlyPeriods' is: '1Q19'
+
+2019-02-11 11:03:45 - [MESSAGE][PASSED] - Actual object '1Q19' and expected object '1Q19' are equal
+
+2019-02-11 11:03:45 - [TEST_STEP][PASSED] - verifyEqual(getText(findTestObject("Dashboard_Widgets/Dashboard_Attainment_and_quota_by _Quarter/td_QTD CPS")), QtdCpsTxt): Actual object 'QTD CPS' and expected object 'QTD CPS' are equal
+
+2019-02-11 11:03:46 - [MESSAGE][PASSED] - Text of object 'Object Repository/Dashboard_Widgets/Dashboard_Attainment_and_quota_by _Quarter/td_QTD CPS' is: 'QTD CPS'
+
+2019-02-11 11:03:46 - [MESSAGE][PASSED] - Actual object 'QTD CPS' and expected object 'QTD CPS' are equal
+
+2019-02-11 11:03:46 - [TEST_STEP][PASSED] - verifyEqual(getText(findTestObject("Dashboard_Widgets/Dashboard_Attainment_and_quota_by _Quarter/Qtd cps")), QTDCPS): Actual object '0.00%' and expected object '0.00%' are equal
+
+2019-02-11 11:03:46 - [MESSAGE][PASSED] - Text of object 'Object Repository/Dashboard_Widgets/Dashboard_Attainment_and_quota_by _Quarter/Qtd cps' is: '0.00%'
+
+2019-02-11 11:03:46 - [MESSAGE][PASSED] - Actual object '0.00%' and expected object '0.00%' are equal
+
+2019-02-11 11:03:46 - [TEST_STEP][PASSED] - verifyEqual(getText(findTestObject("Dashboard_Widgets/Dashboard_Attainment_and_quota_by _Quarter/td_Element 1 Quota")), "Element 1 Quota"): Actual object 'Element 1 Quota' and expected object 'Element 1 Quota' are equal
+
+2019-02-11 11:03:46 - [MESSAGE][PASSED] - Text of object 'Object Repository/Dashboard_Widgets/Dashboard_Attainment_and_quota_by _Quarter/td_Element 1 Quota' is: 'Element 1 Quota'
+
+2019-02-11 11:03:46 - [MESSAGE][PASSED] - Actual object 'Element 1 Quota' and expected object 'Element 1 Quota' are equal
+
+2019-02-11 11:03:46 - [TEST_STEP][PASSED] - verifyEqual(getText(findTestObject("Dashboard_Widgets/Dashboard_Attainment_and_quota_by _Quarter/Element Quota")), Quota1): Actual object '0.00' and expected object '0' are equal
+
+2019-02-11 11:03:46 - [MESSAGE][PASSED] - Text of object 'Object Repository/Dashboard_Widgets/Dashboard_Attainment_and_quota_by _Quarter/Element Quota' is: '0.00'
+
+2019-02-11 11:03:46 - [MESSAGE][PASSED] - Actual object '0.00' and expected object '0' are equal
+
+2019-02-11 11:03:46 - [TEST_STEP][PASSED] - verifyEqual(getText(findTestObject("Dashboard_Widgets/Dashboard_Attainment_and_quota_by _Quarter/td_Element 1 Attainment")), "Element 1 Attainment"): Actual object 'Element 1 Attainment' and expected object 'Element 1 Attainment' are equal
+
+2019-02-11 11:03:46 - [MESSAGE][PASSED] - Text of object 'Object Repository/Dashboard_Widgets/Dashboard_Attainment_and_quota_by _Quarter/td_Element 1 Attainment' is: 'Element 1 Attainment'
+
+2019-02-11 11:03:46 - [MESSAGE][PASSED] - Actual object 'Element 1 Attainment' and expected object 'Element 1 Attainment' are equal
+
+2019-02-11 11:03:46 - [TEST_STEP][PASSED] - verifyEqual(getText(findTestObject("Dashboard_Widgets/Dashboard_Attainment_and_quota_by _Quarter/Element1 Attainment")), Element1attainment): Actual object '0.00' and expected object '0' are equal
+
+2019-02-11 11:03:46 - [MESSAGE][PASSED] - Text of object 'Object Repository/Dashboard_Widgets/Dashboard_Attainment_and_quota_by _Quarter/Element1 Attainment' is: '0.00'
+
+2019-02-11 11:03:46 - [MESSAGE][PASSED] - Actual object '0.00' and expected object '0' are equal
+
+2019-02-11 11:03:46 - [TEST_STEP][PASSED] - verifyEqual(getText(findTestObject("Dashboard_Widgets/Dashboard_Attainment_and_quota_by _Quarter/td_Element 1 AttainmentPercentage")), "Element 1 Attainment %"): Actual object 'Element 1 Attainment %' and expected object 'Element 1 Attainment %' are equal
+
+2019-02-11 11:03:46 - [MESSAGE][PASSED] - Text of object 'Object Repository/Dashboard_Widgets/Dashboard_Attainment_and_quota_by _Quarter/td_Element 1 AttainmentPercentage' is: 'Element 1 Attainment %'
+
+2019-02-11 11:03:46 - [MESSAGE][PASSED] - Actual object 'Element 1 Attainment %' and expected object 'Element 1 Attainment %' are equal
+
+2019-02-11 11:03:46 - [TEST_STEP][PASSED] - verifyEqual(getText(findTestObject("Dashboard_Widgets/Dashboard_Attainment_and_quota_by _Quarter/Percentage of Element1 attainment")), Percentageofelementone): Actual object '0.00%' and expected object '0.00%' are equal
+
+2019-02-11 11:03:46 - [MESSAGE][PASSED] - Text of object 'Object Repository/Dashboard_Widgets/Dashboard_Attainment_and_quota_by _Quarter/Percentage of Element1 attainment' is: '0.00%'
+
+2019-02-11 11:03:46 - [MESSAGE][PASSED] - Actual object '0.00%' and expected object '0.00%' are equal]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Dashboard_Lenovo/Dashboard_widgets/Widget8_currentyearpayments" classname="Test Cases/Dashboard_Lenovo/Dashboard_widgets/Widget8_currentyearpayments" status="PASSED">
+         <system-out><![CDATA[2019-02-11 11:03:46 - [TEST_CASE][PASSED] - Test Cases/Dashboard_Lenovo/Dashboard_widgets/Widget8_currentyearpayments: Test Cases/Dashboard_Lenovo/Dashboard_widgets/Widget8_currentyearpayments
+
+2019-02-11 11:03:46 - [TEST_STEP][PASSED] - mouseOver(findTestObject("Dashboard_Widgets/Dashbaoard_currentyearpayments/Current_YearPayments")): Object: 'Object Repository/Dashboard_Widgets/Dashbaoard_currentyearpayments/Current_YearPayments' is hovered
+
+2019-02-11 11:03:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard_Widgets/Dashbaoard_currentyearpayments/Current_YearPayments' is hovered
+
+2019-02-11 11:03:46 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Dashboard_Widgets/Dashbaoard_currentyearpayments/Current_YearPayments"), widget8): Actual text and expected text of test object 'Object Repository/Dashboard_Widgets/Dashbaoard_currentyearpayments/Current_YearPayments' are matched.
+
+2019-02-11 11:03:47 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Dashboard_Widgets/Dashbaoard_currentyearpayments/Current_YearPayments' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-02-11 11:01:46 - [TEST_SUITE][PASSED] - AP Gaurantee Plan- 1: Test Cases/Dashboard_Lenovo/Dashboard_widgets/Widget8_currentyearpayments]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -25,7 +25,7 @@ WebUI.click(findTestObject('Dashboard_Date/span_Please enter at least 3 c'))
 'Providing participant name'
 WebUI.setText(findTestObject('Dashboard_Date/input_Please enter at least 3'), ParticipantName)
 
-WebUI.delay(5)
+WebUI.delay(10)
 
 Robot robot = new Robot()
 
