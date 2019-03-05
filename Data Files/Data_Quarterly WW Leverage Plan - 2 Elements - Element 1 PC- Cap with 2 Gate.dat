@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Data_Quarterly WW Leverage Plan - 2 Elements - Element 1 PC- Cap with 2 Gate</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>e00903bb-7f1b-4e4e-9ff5-367882b441c7</dataFileGUID>
+   <dataSourceUrl>C:\Users\ksingh\Desktop\LNVO_Reps-Dashboard Plan-Sheets\Quarterly WW Leverage Plan - 2 Elements - Element 1 PC+ Cap with 2 Gate.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>Quarterly WW Leverage Plan - 2</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

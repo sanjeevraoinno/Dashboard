@@ -12,7 +12,7 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import sun.util.logging.resources.logging_ja
+import sun.util.logging.resources.logging_ja as logging_ja
 import java.awt.Robot as Robot
 import java.awt.event.KeyEvent as KeyEvent
 import com.kms.katalon.core.testobject.ConditionType as ConditionType
@@ -43,18 +43,19 @@ WebUI.click(findTestObject('Dashboard_login/button_Login'))
 
 WebUI.waitForElementVisible(findTestObject('Dashboard_Plan/a_Dashboards'), 10)
 
-String aftersearch1 = WebUI.getText(findTestObject('Dashboard_login/Aftersearch1_planname'))
+not_run: String aftersearch1 = WebUI.getText(findTestObject('Dashboard_login/Aftersearch1_planname'))
 
 /*println("the text value is:" + WebUI.getText(findTestObject('Dashboard_Plan/Aftersearch_planname')))
 
-log.logInfo("GOT THE TEXT")*/
-if (aftersearch1.equalsIgnoreCase('Processing Logs')) {
+log.logInfo("GOT THE TEXT")
+not_run: if (aftersearch1.equalsIgnoreCase('Processing Logs')) {
     Assert.assertTrue(true, 'Test case1 has passed')
 
-        log.logPassed('Test case one passed')
-    } else {
-        Assert.assertTrue(false, 'Test case1 has failed')
-         log.logFailed('Test case one failed')
-        
-    }
-    
+    log.logPassed('Test case one passed')
+} else {
+    not_run: Assert.assertTrue(false, 'Test case1 has failed')
+
+    not_run: log.logFailed('Test case one failed')
+}
+
+*/

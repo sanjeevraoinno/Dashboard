@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Data_AP Guarantee plan-1 Element</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>339d6a2b-01a2-4909-b244-2e745d4dcb90</dataFileGUID>
+   <dataSourceUrl>C:\Users\ksingh\Desktop\LNVO_Reps-Dashboard Plan-Sheets\AP Guarantee plan-1 Element.xls</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>AP Guarantee plan-1 Element</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

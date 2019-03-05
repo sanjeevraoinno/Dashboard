@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Verify_Quarterly WW Leverage Plan - 2 Elements - Element 1 PC- Cap with 2 Gate</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2019-02-22T17:10:25</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>6f7f0cb5-ef29-45c6-92a5-82e3e5851ff4</testSuiteGuid>
+   <testCaseLink>
+      <guid>7d047d10-f4b1-4ea0-bcce-bc3eddecc312</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Dashboard_Lenovo/Dashboard_Login</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>40f69793-e98e-406f-a37b-8ad11a00e446</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Dashboard_Lenovo/Dashboard_Planfloder/Dashboard_1Plans</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>4fc69276-57b8-4a04-9729-c7871e977ded</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/Data_Quarterly WW Leverage Plan - 2 Elements - Element 1 PC- Cap with 2 Gate</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>4fc69276-57b8-4a04-9729-c7871e977ded</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Plan</value>
+         <variableId>259b3608-4f2b-45a0-ae1d-99878612b8af</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>08697996-5742-4474-a9d9-88b5e0438e5d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Dashboard_Lenovo/Dashboard_Planfloder/Dashboard_PlanActions</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>15fc0313-43f6-4f50-9d17-cd9414279e5c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Dashboard_Lenovo/Dashboard_date</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>b23a96b8-0412-4137-8497-d0dc429b3659</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/Data_Quarterly WW Leverage Plan - 2 Elements - Element 1 PC- Cap with 2 Gate</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>b23a96b8-0412-4137-8497-d0dc429b3659</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Date</value>
+         <variableId>49d30139-4115-4ef8-91f5-3f926c4d5a5d</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b2f83fc5-85c1-4852-b6d7-7a595fe27dce</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Dashboard_Lenovo/Dashboard_Participant</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>06a9228d-78b1-4187-8967-4b4e04ac1ebf</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/Data_Quarterly WW Leverage Plan - 2 Elements - Element 1 PC- Cap with 2 Gate</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>06a9228d-78b1-4187-8967-4b4e04ac1ebf</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Participant</value>
+         <variableId>7e941333-c891-43f4-a18d-d08f7acbf3f1</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e4e99c25-9351-4940-8bae-68e4e5eb5469</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Dashboard_Lenovo/Dashboard_widgets/Widget1_QTD_CPS_Attainment</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>ebb33ce4-3331-4060-b052-fa3830667047</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/Data_Quarterly WW Leverage Plan - 2 Elements - Element 1 PC- Cap with 2 Gate</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>ebb33ce4-3331-4060-b052-fa3830667047</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Widget1</value>
+         <variableId>d0aa7861-5fd7-4c4c-91aa-6b9f568addfc</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>ebb33ce4-3331-4060-b052-fa3830667047</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>QTD CPS Value</value>
+         <variableId>579a4207-a3dc-4904-a5e6-d3e9d042e3ad</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b6cdcbf9-14a4-45eb-8557-7e26cff79b94</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Dashboard_Lenovo/Dashboard_widgets/Widget2_Myprofile</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>fda0dc00-50f8-444e-ad93-24c4e65492f2</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/Data_Quarterly WW Leverage Plan - 2 Elements - Element 1 PC- Cap with 2 Gate</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>fda0dc00-50f8-444e-ad93-24c4e65492f2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Widget2</value>
+         <variableId>957994c4-9ba1-4d07-88d7-d37b5cfe63de</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>fda0dc00-50f8-444e-ad93-24c4e65492f2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>First Name</value>
+         <variableId>e01b6ce1-5e75-4a0d-a57e-7a32e433be38</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>fda0dc00-50f8-444e-ad93-24c4e65492f2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Last Name</value>
+         <variableId>e40c14be-4afe-4489-aeb2-0587b3929d11</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>fda0dc00-50f8-444e-ad93-24c4e65492f2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Job Desc</value>
+         <variableId>108ae585-3de8-4309-aa4c-a49796b22b9d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>fda0dc00-50f8-444e-ad93-24c4e65492f2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Manager</value>
+         <variableId>99b4681f-6002-4e64-ac66-a816ae38a106</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>fda0dc00-50f8-444e-ad93-24c4e65492f2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>PDT</value>
+         <variableId>95d64a2e-bf7a-4919-88b9-f77dbb79080c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>fda0dc00-50f8-444e-ad93-24c4e65492f2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>PDTtxt</value>
+         <variableId>d018d239-d05b-4023-b133-1b2e3efce7cb</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>875f6d0d-900b-4ac3-8eae-ea48e89022f0</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Dashboard_Lenovo/Dashboard_widgets/Widget3_Percent_of_TI</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>4cee1527-63dc-4d18-82a9-8133ebb1408f</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/Data_Quarterly WW Leverage Plan - 2 Elements - Element 1 PC- Cap with 2 Gate</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>4cee1527-63dc-4d18-82a9-8133ebb1408f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Percentvalue</value>
+         <variableId>96b86d4c-ac35-4323-a92f-75ec71650a20</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>4cee1527-63dc-4d18-82a9-8133ebb1408f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Target</value>
+         <variableId>e84abb14-0e13-4aba-b9f6-f016650ce659</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>4cee1527-63dc-4d18-82a9-8133ebb1408f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Achivement</value>
+         <variableId>9478d7a4-90c5-44d1-bd71-4c0ea0f50e13</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>4cee1527-63dc-4d18-82a9-8133ebb1408f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Widget3</value>
+         <variableId>3d2d0ced-c48b-4466-b781-0252e2380cba</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1d428be1-34b6-4cac-926f-ede7bec02bb9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Dashboard_Lenovo/Dashboard_widgets/Widget4_Element_1_Attainment</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>fd6ffff3-3053-4431-b45f-fa3f91f245e6</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/Data_Quarterly WW Leverage Plan - 2 Elements - Element 1 PC- Cap with 2 Gate</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>fd6ffff3-3053-4431-b45f-fa3f91f245e6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Element1val</value>
+         <variableId>c8d945f2-6f2d-4682-abcd-cbc2142f9373</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>fd6ffff3-3053-4431-b45f-fa3f91f245e6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Quota1</value>
+         <variableId>01271e99-2932-4b31-8ae7-78890018b283</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>fd6ffff3-3053-4431-b45f-fa3f91f245e6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Attainment1</value>
+         <variableId>36dd0e26-f946-469c-97b9-e9ae0420819e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>fd6ffff3-3053-4431-b45f-fa3f91f245e6</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Widget4</value>
+         <variableId>d733f406-8047-425f-a167-8ea22822b52e</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0b1f3c37-3160-4496-a252-2aba43a33fd3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Dashboard_Lenovo/Dashboard_widgets/Widget5_Element_2_attainment</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>347f9243-a7c9-4549-9d0d-37eaa519223d</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/Data_Quarterly WW Leverage Plan - 2 Elements - Element 1 PC- Cap with 2 Gate</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>347f9243-a7c9-4549-9d0d-37eaa519223d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Element2val</value>
+         <variableId>6ae00954-43d9-47aa-841b-96d31d685e33</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>347f9243-a7c9-4549-9d0d-37eaa519223d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Quota2</value>
+         <variableId>23f03d92-bb60-451b-972a-8846cc0edf4b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>347f9243-a7c9-4549-9d0d-37eaa519223d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Attainment2</value>
+         <variableId>85a9daed-a0d5-43db-8659-55567e39425a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>347f9243-a7c9-4549-9d0d-37eaa519223d</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>widget5</value>
+         <variableId>667dc862-8a71-42f9-8eb0-7d23f013de67</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>46c71ed6-f6e3-4b8b-b611-8a12252bf384</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Dashboard_Lenovo/Dashboard_widgets/Widget7_attainment and quota/Widget7_1_QTD_CPSandELEMENT1DATA</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>f0ed7fc4-8f46-4630-aaf3-8b88a695d8fd</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/Data_Quarterly WW Leverage Plan - 2 Elements - Element 1 PC- Cap with 2 Gate</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>f0ed7fc4-8f46-4630-aaf3-8b88a695d8fd</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>widget7</value>
+         <variableId>afc722e0-eed9-4806-98dc-f20a451e5c99</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>f0ed7fc4-8f46-4630-aaf3-8b88a695d8fd</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Yearlyperiod</value>
+         <variableId>8a5f33db-dfb0-4a4d-a01a-ed2926fd182a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>f0ed7fc4-8f46-4630-aaf3-8b88a695d8fd</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Qtd value</value>
+         <variableId>2dc4ef96-a118-4388-ab77-7aa1e01b517f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>f0ed7fc4-8f46-4630-aaf3-8b88a695d8fd</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>QtdCpsTxt</value>
+         <variableId>99c01cb3-87c8-41d0-9135-94e5203ef764</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>f0ed7fc4-8f46-4630-aaf3-8b88a695d8fd</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Element 1 Quota</value>
+         <variableId>7a35b2ca-04dd-43f6-8309-01148bf94c06</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>f0ed7fc4-8f46-4630-aaf3-8b88a695d8fd</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Element 1 attainment</value>
+         <variableId>dd91e6e4-93b5-4062-9029-1d6c68df4e34</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>f0ed7fc4-8f46-4630-aaf3-8b88a695d8fd</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Percentageof attainment1</value>
+         <variableId>befa4ab1-0398-4982-b678-0f4e9601377c</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c29243d0-c7f2-4fa6-803c-a69bba53cb62</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Dashboard_Lenovo/Dashboard_widgets/Widget7_attainment and quota/Widget7_2_Element2val</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>01e0651a-4d63-4791-8dfb-4f20170c4cd2</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/Data_Quarterly WW Leverage Plan - 2 Elements - Element 1 PC- Cap with 2 Gate</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>01e0651a-4d63-4791-8dfb-4f20170c4cd2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Element 2 attainment</value>
+         <variableId>0d57cf39-7b4f-4568-b934-1738408475bc</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>01e0651a-4d63-4791-8dfb-4f20170c4cd2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Percentageof attainment2</value>
+         <variableId>e9620a8e-ef49-4d93-bdc9-88fe5a5b7057</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>01e0651a-4d63-4791-8dfb-4f20170c4cd2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Element 2 Quota</value>
+         <variableId>e3b9aead-f2af-48f0-a7c6-c232d4127842</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>92ff49d8-d649-4015-81b7-364284612e4e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Dashboard_Lenovo/Dashboard_widgets/Widget8_currentyearpayments</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>7b2db3a8-3972-4d75-9f70-8a06512febd3</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/Data_Quarterly WW Leverage Plan - 2 Elements - Element 1 PC- Cap with 2 Gate</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>7b2db3a8-3972-4d75-9f70-8a06512febd3</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>widget8</value>
+         <variableId>7dc86ff6-0639-4a75-8148-5f6e5dbfb8ee</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

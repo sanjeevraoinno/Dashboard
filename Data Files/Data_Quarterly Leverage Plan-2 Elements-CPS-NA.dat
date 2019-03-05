@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Data_Quarterly Leverage Plan-2 Elements-CPS-NA</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>572defc4-31c5-49d1-8fce-7a3a245b8881</dataFileGUID>
+   <dataSourceUrl>C:\Users\ksingh\Desktop\LNVO_Reps-Dashboard Plan-Sheets\Quarterly Leverage Plan-2 Elements-CPS-NA.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>Quarterly Leverage Plan-2 El NA</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

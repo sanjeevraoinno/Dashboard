@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description>Executed test cases from TC_1 to TC_23</description>
+   <name>Verify_AP Guarantee plan-1 Element</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2019-03-05T14:42:09</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>582d6200-487a-4d16-b760-6d3996d9466a</testSuiteGuid>
+   <testCaseLink>
+      <guid>3a7c9cff-7012-4c81-a3a8-91d93cde4b33</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Dashboard_Lenovo/Dashboard_Login</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>450f8cd4-7a27-4844-aee8-7e397ce52b83</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Dashboard_Lenovo/Dashboard_Planfloder/Dashboard_1Plans</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>904e1074-fde0-42d9-8d63-5639fffaa585</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/Data_AP Guarantee plan-1 Element</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>904e1074-fde0-42d9-8d63-5639fffaa585</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Plan</value>
+         <variableId>259b3608-4f2b-45a0-ae1d-99878612b8af</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>cee85aff-a78e-40fc-ac7a-abfb9ad82eda</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Dashboard_Lenovo/Dashboard_Planfloder/Dashboard_PlanActions</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>2314e70e-718f-42de-b6c8-9b12aff73e3e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Dashboard_Lenovo/Dashboard_date</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>33116ca8-0ba1-4661-8b2c-9dbed99a70ae</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/Data_AP Guarantee plan-1 Element</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>33116ca8-0ba1-4661-8b2c-9dbed99a70ae</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Date</value>
+         <variableId>49d30139-4115-4ef8-91f5-3f926c4d5a5d</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>d74bbdc8-757f-43b3-9e61-caa3af094f31</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Dashboard_Lenovo/Dashboard_Participant</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>94514047-dfe9-41df-af3e-7177631fba46</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/Data_AP Guarantee plan-1 Element</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>94514047-dfe9-41df-af3e-7177631fba46</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Participant</value>
+         <variableId>7e941333-c891-43f4-a18d-d08f7acbf3f1</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9806fb50-e55e-4213-b6bb-30f14feddbdd</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Dashboard_Lenovo/Dashboard_widgets/Widget1_QTD_CPS_Attainment</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>845e691d-fe14-42e2-90e7-468a4ce48150</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/Data_AP Guarantee plan-1 Element</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>845e691d-fe14-42e2-90e7-468a4ce48150</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Widget1</value>
+         <variableId>d0aa7861-5fd7-4c4c-91aa-6b9f568addfc</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>845e691d-fe14-42e2-90e7-468a4ce48150</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>QTD CPS Value</value>
+         <variableId>579a4207-a3dc-4904-a5e6-d3e9d042e3ad</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>94d0daa2-aeb9-4ae7-bb25-f68cfb4d7f35</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Dashboard_Lenovo/Dashboard_widgets/Widget2_Myprofile</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>71f6ec51-dccb-48e5-9135-7909be714615</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/Data_AP Guarantee plan-1 Element</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>71f6ec51-dccb-48e5-9135-7909be714615</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Widget2</value>
+         <variableId>957994c4-9ba1-4d07-88d7-d37b5cfe63de</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>71f6ec51-dccb-48e5-9135-7909be714615</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>First Name</value>
+         <variableId>e01b6ce1-5e75-4a0d-a57e-7a32e433be38</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>71f6ec51-dccb-48e5-9135-7909be714615</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Last Name</value>
+         <variableId>e40c14be-4afe-4489-aeb2-0587b3929d11</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>71f6ec51-dccb-48e5-9135-7909be714615</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Job Desc</value>
+         <variableId>108ae585-3de8-4309-aa4c-a49796b22b9d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>71f6ec51-dccb-48e5-9135-7909be714615</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Manager</value>
+         <variableId>99b4681f-6002-4e64-ac66-a816ae38a106</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>71f6ec51-dccb-48e5-9135-7909be714615</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>PDT</value>
+         <variableId>95d64a2e-bf7a-4919-88b9-f77dbb79080c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>71f6ec51-dccb-48e5-9135-7909be714615</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>PDTtxt</value>
+         <variableId>d018d239-d05b-4023-b133-1b2e3efce7cb</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8d2a3abd-2c97-4ac3-9838-52b2d061ade9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Dashboard_Lenovo/Dashboard_widgets/Widget3_Percent_of_TI</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>e9ab02fb-e101-4c08-aa51-aa9f9be06a88</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/Data_AP Guarantee plan-1 Element</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>e9ab02fb-e101-4c08-aa51-aa9f9be06a88</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Percentvalue</value>
+         <variableId>96b86d4c-ac35-4323-a92f-75ec71650a20</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e9ab02fb-e101-4c08-aa51-aa9f9be06a88</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Target</value>
+         <variableId>e84abb14-0e13-4aba-b9f6-f016650ce659</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e9ab02fb-e101-4c08-aa51-aa9f9be06a88</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Achivement</value>
+         <variableId>9478d7a4-90c5-44d1-bd71-4c0ea0f50e13</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e9ab02fb-e101-4c08-aa51-aa9f9be06a88</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Widget3</value>
+         <variableId>3d2d0ced-c48b-4466-b781-0252e2380cba</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a3ab5b97-e181-4fb0-803f-5aecdfb61570</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Dashboard_Lenovo/Dashboard_widgets/Widget4_Element_1_Attainment</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>af9d027d-0432-4f05-a81e-d7a7afe7067c</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/Data_AP Guarantee plan-1 Element</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>af9d027d-0432-4f05-a81e-d7a7afe7067c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Element1val</value>
+         <variableId>c8d945f2-6f2d-4682-abcd-cbc2142f9373</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>af9d027d-0432-4f05-a81e-d7a7afe7067c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Quota1</value>
+         <variableId>01271e99-2932-4b31-8ae7-78890018b283</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>af9d027d-0432-4f05-a81e-d7a7afe7067c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Attainment</value>
+         <variableId>36dd0e26-f946-469c-97b9-e9ae0420819e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>af9d027d-0432-4f05-a81e-d7a7afe7067c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Widget4</value>
+         <variableId>d733f406-8047-425f-a167-8ea22822b52e</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>617abf96-7ea9-419b-bf5b-be366efe0326</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Dashboard_Lenovo/Dashboard_widgets/Widget7_attainment and quota/Widget7_1_QTD_CPSandELEMENT1DATA</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>d7c69f41-3590-4193-9cdd-3d99440578b2</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/Data_AP Guarantee plan-1 Element</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>d7c69f41-3590-4193-9cdd-3d99440578b2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>widget7</value>
+         <variableId>afc722e0-eed9-4806-98dc-f20a451e5c99</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d7c69f41-3590-4193-9cdd-3d99440578b2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Yearlyperiod</value>
+         <variableId>8a5f33db-dfb0-4a4d-a01a-ed2926fd182a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d7c69f41-3590-4193-9cdd-3d99440578b2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Qtd value</value>
+         <variableId>2dc4ef96-a118-4388-ab77-7aa1e01b517f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d7c69f41-3590-4193-9cdd-3d99440578b2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>QtdCpsTxt</value>
+         <variableId>99c01cb3-87c8-41d0-9135-94e5203ef764</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d7c69f41-3590-4193-9cdd-3d99440578b2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Element 1 Quota</value>
+         <variableId>7a35b2ca-04dd-43f6-8309-01148bf94c06</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d7c69f41-3590-4193-9cdd-3d99440578b2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Element 1 attainment</value>
+         <variableId>dd91e6e4-93b5-4062-9029-1d6c68df4e34</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d7c69f41-3590-4193-9cdd-3d99440578b2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Percentageof attainment</value>
+         <variableId>befa4ab1-0398-4982-b678-0f4e9601377c</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c0ee1503-5a60-4dad-90eb-7ae441375a76</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Dashboard_Lenovo/Dashboard_widgets/Widget8_currentyearpayments</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>2337e08a-4919-407c-9f8d-73b7b2bbd12e</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/Data_AP Guarantee plan-1 Element</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>2337e08a-4919-407c-9f8d-73b7b2bbd12e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Widget8</value>
+         <variableId>7dc86ff6-0639-4a75-8148-5f6e5dbfb8ee</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

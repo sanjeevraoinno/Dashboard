@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>Data_Quarterly NA Inbound Plan Sales Rep - 2 Elements - Element 1 Payout Trigger</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>870ee548-c764-488b-9371-d2814617fbe2</dataFileGUID>
+   <dataSourceUrl>C:\Users\ksingh\Desktop\LNVO_Reps-Dashboard Plan-Sheets\Quarterly NA Inbound Plan Sales Rep - 2 Elements - Element 1 Payout Trigger.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>Quarterly NA Inbound Plan Sales</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

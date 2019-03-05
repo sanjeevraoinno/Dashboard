@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Verify_Semiannual Leverage Plan-3 Elements-CPS</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2019-02-22T17:10:25</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>3bfa5af2-95d8-41ea-b243-37e5f10e3196</testSuiteGuid>
+   <testCaseLink>
+      <guid>80c8cd42-bd99-49be-837d-30e51cde79f7</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Dashboard_Lenovo/Dashboard_Login</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4f9c3669-ea8f-42af-a134-714c69812932</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Dashboard_Lenovo/Dashboard_Planfloder/Dashboard_1Plans</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>32838869-d93f-422e-8cd9-47a7a1a3971f</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/Data_Semiannual Leverage Plan-3 Elements-CPS</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>32838869-d93f-422e-8cd9-47a7a1a3971f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Plan</value>
+         <variableId>259b3608-4f2b-45a0-ae1d-99878612b8af</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4cb41a8b-3108-48b6-928f-1162b002cf7f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Dashboard_Lenovo/Dashboard_Planfloder/Dashboard_PlanActions</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>52e8d9b3-a193-4233-a2d0-79484ad45fbb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Dashboard_Lenovo/Dashboard_date</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>8422a7ac-e410-4ab7-b79d-774487d542f5</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/Data_Semiannual Leverage Plan-3 Elements-CPS</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>8422a7ac-e410-4ab7-b79d-774487d542f5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Date</value>
+         <variableId>49d30139-4115-4ef8-91f5-3f926c4d5a5d</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>3aa6b61f-d795-459c-b8bf-f95bd231ac66</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Dashboard_Lenovo/Dashboard_Participant</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>557b9aa2-0944-4f92-b058-2a42785010b8</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/Data_Semiannual Leverage Plan-3 Elements-CPS</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>557b9aa2-0944-4f92-b058-2a42785010b8</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Participant</value>
+         <variableId>7e941333-c891-43f4-a18d-d08f7acbf3f1</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>35556240-5ff6-40c3-b93a-352a43e95874</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Dashboard_Lenovo/Dashboard_widgets/Widget1_QTD_CPS_Attainment</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>217c833b-91d2-4024-9a76-542241757e30</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/Data_Semiannual Leverage Plan-3 Elements-CPS</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>217c833b-91d2-4024-9a76-542241757e30</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Widget1</value>
+         <variableId>d0aa7861-5fd7-4c4c-91aa-6b9f568addfc</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>217c833b-91d2-4024-9a76-542241757e30</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>QTD CPS Value</value>
+         <variableId>579a4207-a3dc-4904-a5e6-d3e9d042e3ad</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6a880313-8e4a-4880-876d-a89be18bfd00</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Dashboard_Lenovo/Dashboard_widgets/Widget2_Myprofile</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>45910063-72c3-476c-945c-50dff0c14c7e</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/Data_Semiannual Leverage Plan-3 Elements-CPS</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>45910063-72c3-476c-945c-50dff0c14c7e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Widget2</value>
+         <variableId>957994c4-9ba1-4d07-88d7-d37b5cfe63de</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>45910063-72c3-476c-945c-50dff0c14c7e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>First Name</value>
+         <variableId>e01b6ce1-5e75-4a0d-a57e-7a32e433be38</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>45910063-72c3-476c-945c-50dff0c14c7e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Last Name</value>
+         <variableId>e40c14be-4afe-4489-aeb2-0587b3929d11</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>45910063-72c3-476c-945c-50dff0c14c7e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Job Desc</value>
+         <variableId>108ae585-3de8-4309-aa4c-a49796b22b9d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>45910063-72c3-476c-945c-50dff0c14c7e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Manager</value>
+         <variableId>99b4681f-6002-4e64-ac66-a816ae38a106</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>45910063-72c3-476c-945c-50dff0c14c7e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>PDT</value>
+         <variableId>95d64a2e-bf7a-4919-88b9-f77dbb79080c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>45910063-72c3-476c-945c-50dff0c14c7e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>PDTtxt</value>
+         <variableId>d018d239-d05b-4023-b133-1b2e3efce7cb</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>543b3fdc-ba96-457c-9864-c95200279462</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Dashboard_Lenovo/Dashboard_widgets/Widget3_Percent_of_TI</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>04778968-0364-45dc-bdf6-0e1d02fc10ae</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/Data_Semiannual Leverage Plan-3 Elements-CPS</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>04778968-0364-45dc-bdf6-0e1d02fc10ae</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Percentvalue</value>
+         <variableId>96b86d4c-ac35-4323-a92f-75ec71650a20</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>04778968-0364-45dc-bdf6-0e1d02fc10ae</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Target</value>
+         <variableId>e84abb14-0e13-4aba-b9f6-f016650ce659</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>04778968-0364-45dc-bdf6-0e1d02fc10ae</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Achivement</value>
+         <variableId>9478d7a4-90c5-44d1-bd71-4c0ea0f50e13</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>04778968-0364-45dc-bdf6-0e1d02fc10ae</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Widget3</value>
+         <variableId>3d2d0ced-c48b-4466-b781-0252e2380cba</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>91d4b0b1-eda1-4c03-a686-9eaa43df3ac9</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Dashboard_Lenovo/Dashboard_widgets/Widget4_Element_1_Attainment</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>0704840f-635e-4f10-9c87-2b26e0417977</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/Data_Semiannual Leverage Plan-3 Elements-CPS</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>0704840f-635e-4f10-9c87-2b26e0417977</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Element1val</value>
+         <variableId>c8d945f2-6f2d-4682-abcd-cbc2142f9373</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>0704840f-635e-4f10-9c87-2b26e0417977</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Quota1</value>
+         <variableId>01271e99-2932-4b31-8ae7-78890018b283</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>0704840f-635e-4f10-9c87-2b26e0417977</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Attainment1</value>
+         <variableId>36dd0e26-f946-469c-97b9-e9ae0420819e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>0704840f-635e-4f10-9c87-2b26e0417977</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Widget4</value>
+         <variableId>d733f406-8047-425f-a167-8ea22822b52e</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>29a7b833-8772-4c49-8b01-b2c58e8b7545</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Dashboard_Lenovo/Dashboard_widgets/Widget5_Element_2_attainment</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>2408a97e-1e65-4dac-8462-e641a2972a8b</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/Data_Semiannual Leverage Plan-3 Elements-CPS</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>2408a97e-1e65-4dac-8462-e641a2972a8b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Element2val</value>
+         <variableId>6ae00954-43d9-47aa-841b-96d31d685e33</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>2408a97e-1e65-4dac-8462-e641a2972a8b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Quota2</value>
+         <variableId>23f03d92-bb60-451b-972a-8846cc0edf4b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>2408a97e-1e65-4dac-8462-e641a2972a8b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Attainment2</value>
+         <variableId>85a9daed-a0d5-43db-8659-55567e39425a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>2408a97e-1e65-4dac-8462-e641a2972a8b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>widget5</value>
+         <variableId>667dc862-8a71-42f9-8eb0-7d23f013de67</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>381cc764-b912-45d9-9777-b51395022908</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Dashboard_Lenovo/Dashboard_widgets/Widget6_Element_3_Attainment</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>1369f38d-6808-4a0c-9b79-5abaf9e429e7</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/Data_Semiannual Leverage Plan-3 Elements-CPS</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>1369f38d-6808-4a0c-9b79-5abaf9e429e7</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Element3val</value>
+         <variableId>a50359c9-88cf-4dcc-9236-73ba43169d7f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>1369f38d-6808-4a0c-9b79-5abaf9e429e7</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Quota3</value>
+         <variableId>26abfbed-dc76-42c8-a2b6-b215e0947595</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>1369f38d-6808-4a0c-9b79-5abaf9e429e7</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Attainment3</value>
+         <variableId>64df6a04-61c7-49d2-9e48-79afb119653f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>1369f38d-6808-4a0c-9b79-5abaf9e429e7</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>widget6</value>
+         <variableId>bf521681-f1de-4e17-b7f6-91ab68281857</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>810a4b45-0ef5-47f4-bd6c-8fd982877b76</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Dashboard_Lenovo/Dashboard_widgets/Widget7_attainment and quota/Widget7_1_QTD_CPSandELEMENT1DATA</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>a2ba698f-df26-4ddf-ac7a-0794fdcfedbb</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/Data_Semiannual Leverage Plan-3 Elements-CPS</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>a2ba698f-df26-4ddf-ac7a-0794fdcfedbb</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>widget7</value>
+         <variableId>afc722e0-eed9-4806-98dc-f20a451e5c99</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>a2ba698f-df26-4ddf-ac7a-0794fdcfedbb</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Yearlyperiod</value>
+         <variableId>8a5f33db-dfb0-4a4d-a01a-ed2926fd182a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>a2ba698f-df26-4ddf-ac7a-0794fdcfedbb</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Semiannual value</value>
+         <variableId>2dc4ef96-a118-4388-ab77-7aa1e01b517f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>a2ba698f-df26-4ddf-ac7a-0794fdcfedbb</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>QtdCpsTxt</value>
+         <variableId>99c01cb3-87c8-41d0-9135-94e5203ef764</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>a2ba698f-df26-4ddf-ac7a-0794fdcfedbb</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Element 1 Quota</value>
+         <variableId>7a35b2ca-04dd-43f6-8309-01148bf94c06</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>a2ba698f-df26-4ddf-ac7a-0794fdcfedbb</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Element 1 attainment</value>
+         <variableId>dd91e6e4-93b5-4062-9029-1d6c68df4e34</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>a2ba698f-df26-4ddf-ac7a-0794fdcfedbb</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Percentageof attainment1</value>
+         <variableId>befa4ab1-0398-4982-b678-0f4e9601377c</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>dfc708ad-0fbf-4523-861f-eca8bd5fde85</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Dashboard_Lenovo/Dashboard_widgets/Widget7_attainment and quota/Widget7_2_Element2val</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>01f07d54-68af-4e9f-ac38-be8fbaa69ca1</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/Data_Semiannual Leverage Plan-3 Elements-CPS</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>01f07d54-68af-4e9f-ac38-be8fbaa69ca1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Element 2 attainment</value>
+         <variableId>0d57cf39-7b4f-4568-b934-1738408475bc</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>01f07d54-68af-4e9f-ac38-be8fbaa69ca1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Percentageof attainment2</value>
+         <variableId>e9620a8e-ef49-4d93-bdc9-88fe5a5b7057</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>01f07d54-68af-4e9f-ac38-be8fbaa69ca1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Element 2 Quota</value>
+         <variableId>e3b9aead-f2af-48f0-a7c6-c232d4127842</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a8b27f73-40c6-49b2-9db8-fb9ff5ce5944</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Dashboard_Lenovo/Dashboard_widgets/Widget7_attainment and quota/Widget7_3_Element3Val</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>b7cae658-24ee-40b5-9079-38f1184b9bc1</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/Data_Semiannual Leverage Plan-3 Elements-CPS</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>b7cae658-24ee-40b5-9079-38f1184b9bc1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Element 3 attainment</value>
+         <variableId>e25b52af-fd3f-4f50-8776-ab074c114a9b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b7cae658-24ee-40b5-9079-38f1184b9bc1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Percentageof attainment3</value>
+         <variableId>5d27e65f-d04f-4aed-8362-96697adda4ba</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>b7cae658-24ee-40b5-9079-38f1184b9bc1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Element 3 Quota</value>
+         <variableId>d5593e7c-5d3a-42b8-b426-57d243fbc137</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>02eced62-40d5-4e47-926c-4190e1439d6b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Dashboard_Lenovo/Dashboard_widgets/Widget8_currentyearpayments</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>e698fa26-af4d-42b8-babf-912e97386abc</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/Data_Semiannual Leverage Plan-3 Elements-CPS</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>e698fa26-af4d-42b8-babf-912e97386abc</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>widget8</value>
+         <variableId>7dc86ff6-0639-4a75-8148-5f6e5dbfb8ee</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

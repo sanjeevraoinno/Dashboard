@@ -19,11 +19,9 @@ import com.kms.katalon.core.logging.KeywordLogger as KeywordLogger
 import org.testng.Assert as Assert
 
 //WebUI.callTestCase(findTestCase('Dashboard_Lenovo/Dashboard_login'), [:], FailureHandling.STOP_ON_FAILURE)
-WebUI.callTestCase(findTestCase('Dashboard_Lenovo/Dashboard_Login'), [:], FailureHandling.STOP_ON_FAILURE)
-
 WebUI.waitForElementClickable(findTestObject('Dashboard_Plan/a_Dashboards'), 5)
 
-KeywordLogger log = new KeywordLogger()
+//KeywordLogger log = new KeywordLogger()
 
 'Click the Dashbord option on the screen\r\n'
 WebUI.click(findTestObject('Dashboard_Plan/a_Dashboards'))
@@ -61,11 +59,11 @@ WebUI.waitForPageLoad(10)
 println('waited for 10 minutes')
 
 //CHANGES ......
-String aftersearch = WebUI.getText(findTestObject('Dashboard_Plan/Aftersearch_planname'))
+/*String aftersearch = WebUI.getText(findTestObject('Dashboard_Plan/Aftersearch_planname'))
 
-/*println("the text value is:" + WebUI.getText(findTestObject('Dashboard_Plan/Aftersearch_planname')))
+println("the text value is:" + WebUI.getText(findTestObject('Dashboard_Plan/Aftersearch_planname')))
 
-log.logInfo("GOT THE TEXT")*/
+log.logInfo("GOT THE TEXT")
 if (aftersearch.equalsIgnoreCase('Quarterly EMEA Leverage Plan - 2 Elements+2 Gate plus new gate logic')) {
     Assert.assertTrue(true, 'Test cases from 10 to 25 has passed')
 
@@ -75,6 +73,7 @@ if (aftersearch.equalsIgnoreCase('Quarterly EMEA Leverage Plan - 2 Elements+2 Ga
 
     log.logFailed('10 to 25 test cases failed')
 }
+*/
 
 'Click the Plan'
 WebUI.click(myobj)
