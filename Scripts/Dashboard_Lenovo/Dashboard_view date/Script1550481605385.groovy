@@ -12,34 +12,19 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import java.awt.Robot as Robot
-import java.awt.event.KeyEvent as KeyEvent
-import com.kms.katalon.core.testobject.ConditionType as ConditionType
 
-WebUI.delay(3)
+WebUI.waitForElementClickable(findTestObject('Dashboard_Plan/a_Dashboards'), 5)
 
-not_run: TestObject myobj1 = new TestObject('Dynamic object')
+'Click the Dashbord option on the screen\r\n'
+WebUI.click(findTestObject('Dashboard_Plan/a_Dashboards'))
 
-not_run: String planpreview = Plans
+WebUI.click(findTestObject('Dashboard_view plan/input_View date_form-control n'))
 
-not_run: String xpath =('//*[normalize-space(text()) and normalize-space(.)="'+ planpreview) + '])[2]/following::i[2]'
+WebUI.clearText(findTestObject('Dashboard_view plan/input_View date_form-control n'))
 
-not_run: myobj1.addProperty('xpath', ConditionType.EQUALS, xpath)
+WebUI.setText(findTestObject('Dashboard_view plan/input_View date_form-control n'), 'Jun 1, 2018')
 
-not_run: Thread.sleep(2000)
+WebUI.mouseOver(findTestObject('Dashboard_view plan/button_Done'))
 
-'Click the Plan Rep'
-not_run: WebUI.click(myobj1)
-
-WebUI.click(findTestObject('Dashboard_Plan/i_plansPreviewbutton'))
-
-//WebUI.click(findTestObject('Dashboard_Plan/i_plansPreviewbutton'))
-'Switch to other window index'
-WebUI.switchToWindowIndex(1)
-
-'Waiting for the object to visible'
-WebUI.waitForElementVisible(findTestObject('Dashboard_Date/span_Please enter at least 3 c'), 10)
-
-'Click on the text box'
-WebUI.click(findTestObject('Dashboard_Date/span_Please enter at least 3 c'))
+WebUI.click(findTestObject('Dashboard_view plan/button_Done'))
 

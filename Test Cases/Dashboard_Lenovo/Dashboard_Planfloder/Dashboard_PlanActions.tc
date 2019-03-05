@@ -5,4 +5,11 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>63573287-3f06-4bce-8a30-931caf469c1d</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0e832d52-5d4e-4c1f-b1cf-47ff837648aa</id>
+      <masked>false</masked>
+      <name>Plans</name>
+   </variable>
 </TestCaseEntity>

@@ -1,4 +1,3 @@
-import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
@@ -12,13 +11,36 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-
+import java.awt.Robot as Robot
+import java.awt.event.KeyEvent as KeyEvent
+import com.kms.katalon.core.testobject.ConditionType as ConditionType
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+/*
 'Mouseover to Attainment and quota by quarter'
 WebUI.mouseOver(findTestObject('Dashboard_Widgets/Dashboard_Attainment_and_quota_by _Quarter/Attainment and Quota by Q'))
 
 'Verify the Text of Attainment and quota by quarter'
 WebUI.verifyElementText(findTestObject('Dashboard_Widgets/Dashboard_Attainment_and_quota_by _Quarter/Attainment and Quota by Q'), 
     widget7)
+*/
+
+TestObject Attainmentobj = new TestObject('Dynamic object')
+
+String attainmentobj1 = widget7
+
+String attainment_xpath = ('//*[normalize-space(text()) and normalize-space(.)="'+ attainmentobj1) +'"]'
+
+Attainmentobj.addProperty('xpath', ConditionType.EQUALS, attainment_xpath)
+
+Thread.sleep(2000)
+
+String attainment_text = WebUI.getText(Attainmentobj)
+'Mouseover on to Attainment and quota by quarter'
+WebUI.mouseOver(Attainmentobj)
+'Verify the Text of Attainment and quota by quarter'
+WebUI.verifyEqual(WebUI.getText(Attainmentobj), widget7)
+
+
 
 'Verify the Yearlyquarter Period'
 WebUI.verifyEqual(WebUI.getText(findTestObject('Dashboard_Widgets/Dashboard_Attainment_and_quota_by _Quarter/YearlyPeriods')), 

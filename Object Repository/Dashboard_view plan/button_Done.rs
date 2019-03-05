@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>i_plansPreviewbutton</name>
+   <name>button_Done</name>
    <tag></tag>
-   <elementGuidId>27b60f2a-c301-4e0d-8127-64c0f9d660dd</elementGuidId>
+   <elementGuidId>02ff6376-595d-4cbb-b19a-b1e67107f849</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>(//a[@target='_blank']/i[@class='padding-left icon-play4'])[1]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Plan'])[1]/preceding::button[2]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='AP Guarantee plan-1 Element'])[2]/following::i[1]</value>
+         <value>(//button[@type='button'])[48]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -21,57 +21,77 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>i</value>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>padding-left icon-play4</value>
+      <value>btn btn-sm btn-success pull-right uib-close ng-binding</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>uib-tooltip</name>
+      <name>ng-click</name>
       <type>Main</type>
-      <value>Preview</value>
+      <value>close($event)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Done</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>(//a[@target='_blank']/i[@class='padding-left icon-play4'])[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Plan'])[1]/preceding::button[2]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='AP Guarantee plan-1 Element'])[2]/following::i[1]</value>
+      <name>xpath:attributes</name>
+      <value>(//button[@type='button'])[48]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='(2)'])[3]/following::i[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Clear'])[1]/following::button[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Preview'])[1]/preceding::i[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Today'])[1]/following::button[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='AP Guarantee plan-1 Element_Mgr'])[1]/preceding::i[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search'])[1]/preceding::button[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Plan'])[1]/preceding::button[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//tbody[14]/tr[2]/td[4]/a/i</value>
+      <value>//li[2]/button</value>
    </webElementXpaths>
 </WebElementEntity>

@@ -16,11 +16,30 @@ import java.awt.event.KeyEvent as KeyEvent
 import com.kms.katalon.core.testobject.ConditionType as ConditionType
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 
-'Mouseover to My Profile '
+/*'Mouseover to My Profile '
 WebUI.mouseOver(findTestObject('Dashboard_Widgets/Dashboard_MyProfile/span_My Profile'))
 
 'Verify the Text of My Profile\r\n'
 WebUI.verifyElementText(findTestObject('Dashboard_Widgets/Dashboard_MyProfile/span_My Profile'), Widget2)
+*/
+TestObject Myprofileobj = new TestObject('Dynamic object')
+
+String Myprofileobj1 = Widget2
+
+String Myprofile_xpath = ('//*[normalize-space(text()) and normalize-space(.)="'+ Myprofileobj1) +'"]'
+
+Myprofileobj.addProperty('xpath', ConditionType.EQUALS, Myprofile_xpath)
+
+Thread.sleep(2000)
+
+String Myprofile_text = WebUI.getText(Myprofileobj)
+'Mouseover on to My Profile'
+WebUI.mouseOver(Myprofileobj)
+'Verify the Text of My Profile'
+WebUI.verifyEqual(WebUI.getText(Myprofileobj), Widget2)
+
+
+
 
 'Verify the text of first name'
 WebUI.verifyEqual(WebUI.getText(findTestObject('Dashboard_Widgets/Dashboard_Myprofile/div_First')), 'First')
